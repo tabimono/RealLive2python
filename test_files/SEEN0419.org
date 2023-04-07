@@ -1,0 +1,2512 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN0419.TXT'
+#resource 'SEEN0419.utf'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+intF[1108] = 0
+intF[1109] = 4
+intF[1110] = 19
+intF[1111] = 6
+intF[1112] = 1
+strS[1004] = 'SDTA0419'
+intA[1000] = strcmp(strS[1004], 'NONE')
+goto_unless(!intA[1000]) @1
+strclear(strS[1004])
+
+  @1
+title(#res<0000>)
+Savepoint
+farcall(9053, 0)
+goto_unless(!0) @2
+strS[1000] = 'KURO'
+goto @4
+
+  @2
+goto_unless(0 == 1) @3
+strS[1000] = 'SIRO'
+goto @4
+
+  @3
+strS[1000] = 'KURO'
+
+  @4
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strclear(strS[1001])
+intF[1104] = 0
+strclear(strS[1002])
+intF[1105] = 0
+strclear(strS[1003])
+intF[1106] = 0
+intF[1113] = 0
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+bgmLoop('BGM01')
+intZ[303] = 1
+goto_unless(intF[9] == 1) @5
+farcall(6419, 0)
+goto @7
+
+  @5
+goto_unless(!intF[9]) @7
+strS[1000] = 'BG033C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @6
+strclear(strS[1000])
+
+  @6
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0001>
+pause
+#res<0002>
+pause
+
+  @7
+strS[1000] = 'KURO'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @8
+strclear(strS[1000])
+
+  @8
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+strS[1000] = 'BG021BC'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @9
+strclear(strS[1000])
+
+  @9
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0003>
+pause
+goto_unless(!intF[9]) @12
+goto_unless(!intF[302]) @10
+#res<0004>
+pause
+goto @11
+
+  @10
+goto_unless(intF[302] == 1) @11
+#res<0005>
+pause
+
+  @11
+goto @13
+
+  @12
+goto_unless(intF[9] == 1) @13
+#res<0006>
+pause
+
+  @13
+strS[1000] = 'BG021AC'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @14
+strclear(strS[1000])
+
+  @14
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0007>
+pause
+bgmFadeOut(2000)
+strS[1000] = 'BG021BC'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @15
+strclear(strS[1000])
+
+  @15
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+goto_unless(intF[208] == 1) @16
+farcall(2419, 0)
+goto @21
+
+  @16
+bgmLoop('BGM08C')
+intZ[312] = 1
+#res<0008>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900000, 7)
+#res<0009>
+pause
+goto_unless(!intF[9]) @19
+goto_unless(!intF[302]) @17
+#res<0010>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH25'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900020, 7)
+#res<0011>
+pause
+farcall_with(9600, 0, 41900040, 7)
+#res<0012>
+pause
+#res<0013>
+pause
+goto @18
+
+  @17
+goto_unless(intF[302] == 1) @18
+#res<0014>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900060, 7)
+#res<0015>
+pause
+#res<0016>
+pause
+
+  @18
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900080, 7)
+#res<0017>
+pause
+goto @20
+
+  @19
+goto_unless(intF[9] == 1) @20
+farcall_with(9600, 0, 41900100, 7)
+#res<0018>
+pause
+
+  @20
+#res<0019>
+pause
+farcall_with(9600, 0, 41900120, 7)
+#res<0020>
+pause
+#res<0021>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH10'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900140, 7)
+#res<0022>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900160, 7)
+#res<0023>
+pause
+#res<0024>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH27'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900180, 7)
+#res<0025>
+pause
+#res<0026>
+pause
+#res<0027>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900200, 7)
+#res<0028>
+pause
+#res<0029>
+pause
+intF[811] = 1
+
+  @21
+farcall(3419)
+strS[1000] = 'KURO'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @22
+strclear(strS[1000])
+
+  @22
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+strS[1000] = 'BG021DC'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @23
+strclear(strS[1000])
+
+  @23
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+bgmLoop('BGM08B')
+intZ[313] = 1
+#res<0030>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH13'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900220, 7)
+#res<0031>
+pause
+#res<0032>
+pause
+farcall_with(9600, 0, 41900240, 7)
+#res<0033>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH10'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900260, 7)
+#res<0034>
+pause
+#res<0035>
+pause
+#res<0036>
+pause
+farcall_with(9600, 0, 41900280, 7)
+#res<0037>
+pause
+#res<0038>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH13'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900300, 7)
+#res<0039>
+pause
+goto_unless(intF[811] == 1) @24
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900320, 7)
+#res<0040>
+pause
+#res<0041>
+pause
+goto @25
+
+  @24
+goto_unless(!intF[811]) @25
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900340, 7)
+#res<0042>
+pause
+farcall_with(9600, 0, 41900360, 7)
+#res<0043>
+pause
+#res<0044>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH27'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900380, 7)
+#res<0045>
+pause
+#res<0046>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900400, 7)
+#res<0047>
+pause
+#res<0048>
+pause
+
+  @25
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900420, 25)
+#res<0049>
+pause
+#res<0050>
+pause
+farcall_with(9600, 0, 41900440, 25)
+#res<0051>
+pause
+#res<0052>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH27'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900460, 7)
+#res<0053>
+pause
+#res<0054>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH14'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900480, 7)
+#res<0055>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH23'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900500, 7)
+#res<0056>
+pause
+#res<0057>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH14'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900520, 7)
+#res<0058>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH23'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900540, 7)
+#res<0059>
+pause
+farcall_with(9600, 0, 41900560, 25)
+#res<0060>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0061>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900580, 7)
+#res<0062>
+pause
+farcall_with(9600, 0, 41900600, 25)
+#res<0063>
+pause
+strS[1000] = 'BG018C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @26
+strclear(strS[1000])
+
+  @26
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0064>
+pause
+#res<0065>
+pause
+#res<0066>
+pause
+goto_unless(intF[9] == 1) @27
+farcall(6419, 1)
+goto @72
+
+  @27
+strS[1000] = 'KURO'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @28
+strclear(strS[1000])
+
+  @28
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+strS[1000] = 'BG018C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @29
+strclear(strS[1000])
+
+  @29
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0067>
+pause
+#res<0068>
+pause
+intF[1089] = select(#res<0069>, #res<0070>)
+goto_unless(!intF[1089]) @30
+goto @31
+
+  @30
+goto_unless(intF[1089] == 1) @31
+#res<0071>
+pause
+goto @49
+
+  @31
+strS[1000] = 'BG020C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @32
+strclear(strS[1000])
+
+  @32
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+goto_unless(!intF[400]) @33
+#res<0072>
+pause
+
+  @33
+goto_unless(!intF[500] || intF[501] == 1) @38
+#res<0073>
+pause
+intF[1089] = select(#res<0074>, #res<0075>, #res<0076>)
+goto_unless(!intF[1089]) @34
+goto @39
+goto @37
+
+  @34
+goto_unless(intF[1089] == 1) @35
+goto @42
+goto @37
+
+  @35
+goto_unless(intF[1089] == 2) @37
+goto_unless(!intF[500]) @36
+farcall(5418)
+goto @37
+
+  @36
+goto_unless(intF[500] == 1) @37
+farcall(5419)
+
+  @37
+goto @49
+
+  @38
+goto_unless(intF[500] == 1 && !intF[501]) @49
+#res<0077>
+pause
+intF[1089] = select(#res<0078>, #res<0079>, #res<0080>)
+goto_unless(!intF[1089]) @41
+
+  @39
+#res<0081>
+pause
+#res<0082>
+pause
+#res<0083>
+pause
+#res<0084>
+pause
+#res<0085>
+pause
+#res<0086>
+pause
+#res<0087>
+pause
+#res<0088>
+pause
+#res<0089>
+pause
+#res<0090>
+pause
+#res<0091>
+pause
+goto_unless(intF[400] == 1) @40
+#res<0092>
+pause
+
+  @40
+#res<0093>
+pause
+#res<0094>
+pause
+#res<0095>
+pause
+goto @49
+
+  @41
+goto_unless(intF[1089] == 1) @48
+
+  @42
+farcall(6419, 2)
+goto_unless(intF[3] == 1) @43
+goto @49
+
+  @43
+goto_unless(intF[128] == 1) @46
+goto_unless(intF[2] == 1 || intF[1] == 1) @44
+#res<0096>
+pause
+#res<0097>
+pause
+goto @45
+
+  @44
+goto_unless(!intF[2] && !intF[1]) @45
+#res<0098>
+pause
+
+  @45
+#res<0099>
+pause
+#res<0100>
+pause
+#res<0101>
+pause
+#res<0102>
+pause
+#res<0103>
+pause
+#res<0104>
+pause
+#res<0105>
+pause
+#res<0106>
+pause
+#res<0107>
+pause
+#res<0108>
+pause
+
+  @46
+goto_unless(!intF[128] && !intF[2] && !intF[1]) @47
+#res<0109>
+pause
+#res<0110>
+pause
+#res<0111>
+pause
+#res<0112>
+pause
+#res<0113>
+pause
+
+  @47
+#res<0114>
+pause
+goto @49
+
+  @48
+goto_unless(intF[1089] == 2) @49
+#res<0115>
+pause
+#res<0116>
+pause
+#res<0117>
+pause
+#res<0118>
+pause
+#res<0119>
+pause
+#res<0120>
+pause
+#res<0121>
+pause
+#res<0122>
+pause
+#res<0123>
+pause
+
+  @49
+goto_unless(intF[211] == 1) @52
+strS[1000] = 'KURO'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @50
+strclear(strS[1000])
+
+  @50
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+strS[1000] = 'BG016C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @51
+strclear(strS[1000])
+
+  @51
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall(2419, 1)
+
+  @52
+goto_unless(intF[405] == 1) @53
+farcall(4419)
+goto @62
+
+  @53
+goto_unless(!intF[405]) @62
+bgmFadeOut(3000)
+strS[1000] = 'KURO'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @54
+strclear(strS[1000])
+
+  @54
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+strS[1000] = 'BG034C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @55
+strclear(strS[1000])
+
+  @55
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+bgmLoop('BGM08D')
+intZ[315] = 1
+#res<0124>
+pause
+strS[1000] = 'BG046C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @56
+strclear(strS[1000])
+
+  @56
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0125>
+pause
+#res<0126>
+pause
+#res<0127>
+pause
+#res<0128>
+pause
+bgmFadeOut(3000)
+goto_unless(!0) @57
+strS[1000] = 'KURO'
+goto @59
+
+  @57
+goto_unless(0 == 1) @58
+strS[1000] = 'SIRO'
+goto @59
+
+  @58
+strS[1000] = 'KURO'
+
+  @59
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strclear(strS[1001])
+intF[1104] = 0
+strclear(strS[1002])
+intF[1105] = 0
+strclear(strS[1003])
+intF[1106] = 0
+intF[1113] = 0
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0129>
+pause
+strS[1000] = 'BG046C'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @60
+strclear(strS[1000])
+
+  @60
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+bgmLoop('BGM08A')
+intZ[314] = 1
+#res<0130>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900620, 7)
+#res<0131>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH27'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900640, 7)
+#res<0132>
+pause
+#res<0133>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900660, 7)
+#res<0134>
+pause
+farcall_with(9600, 0, 41900680, 7)
+#res<0135>
+pause
+#res<0136>
+farcall_with(9820, 3, 'kotatsu')
+#res<0137>
+farcall_with(9820, 4, 46)
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH23'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900700, 7)
+#res<0138>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0139>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH18B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900720, 7)
+#res<0140>
+pause
+farcall_with(9600, 0, 41900740, 7)
+#res<0141>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH15B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900760, 7)
+#res<0142>
+pause
+#res<0143>
+pause
+farcall_with(9600, 0, 41900780, 7)
+#res<0144>
+pause
+#res<0145>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH23B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900800, 7)
+#res<0146>
+pause
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1102] = 3
+farcall(9051, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH20B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900820, 7)
+#res<0147>
+pause
+#res<0148>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH18B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900840, 7)
+#res<0149>
+pause
+farcall_with(9600, 0, 41900860, 7)
+#res<0150>
+pause
+#res<0151>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH23B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900880, 7)
+#res<0152>
+pause
+#res<0153>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900900, 7)
+#res<0154>
+pause
+goto_unless(intF[302] == 1) @61
+#res<0155>
+pause
+#res<0156>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH27B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900920, 7)
+#res<0157>
+pause
+#res<0158>
+pause
+farcall_with(9600, 0, 41900940, 7)
+#res<0159>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0160>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH25B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900960, 7)
+#res<0161>
+pause
+#res<0162>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0163>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH25B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41900980, 7)
+#res<0164>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0165>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH27B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901000, 7)
+#res<0166>
+pause
+#res<0167>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH26B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901020, 7)
+#res<0168>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH23B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901040, 7)
+#res<0169>
+pause
+farcall_with(9600, 0, 41901060, 7)
+#res<0170>
+pause
+#res<0171>
+pause
+farcall_with(9600, 0, 41901080, 7)
+#res<0172>
+pause
+goto @62
+
+  @61
+goto_unless(!intF[302]) @62
+#res<0173>
+pause
+#res<0174>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH27B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901100, 7)
+#res<0175>
+pause
+#res<0176>
+pause
+farcall_with(9600, 0, 41901120, 7)
+#res<0177>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0178>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH25B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901140, 7)
+#res<0179>
+pause
+#res<0180>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0181>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH25B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901160, 7)
+#res<0182>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0183>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH25B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901180, 7)
+#res<0184>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH23B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901200, 7)
+#res<0185>
+pause
+#res<0186>
+pause
+farcall_with(9600, 0, 41901220, 7)
+#res<0187>
+pause
+
+  @62
+goto_unless(intF[632] == 1) @68
+bgmFadeOut(3000)
+goto_unless(!0) @63
+strS[1000] = 'KURO'
+goto @65
+
+  @63
+goto_unless(0 == 1) @64
+strS[1000] = 'SIRO'
+goto @65
+
+  @64
+strS[1000] = 'KURO'
+
+  @65
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strclear(strS[1001])
+intF[1104] = 0
+strclear(strS[1002])
+intF[1105] = 0
+strclear(strS[1003])
+intF[1106] = 0
+intF[1113] = 0
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0188>
+pause
+strS[1000] = 'BG046N'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @66
+strclear(strS[1000])
+
+  @66
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0189>
+pause
+farcall_with(9600, 0, 41901240, 7)
+#res<0190>
+pause
+#res<0191>
+pause
+bgmLoop('BGM15')
+intZ[320] = 1
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS10'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901260, 8)
+#res<0192>
+pause
+#res<0193>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901280, 7)
+#res<0194>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS19'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901300, 8)
+#res<0195>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH18B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901320, 7)
+#res<0196>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS20'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901340, 8)
+#res<0197>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH13B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901360, 7)
+#res<0198>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS19H'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901380, 8)
+#res<0199>
+pause
+farcall_with(9600, 0, 41901400, 7)
+#res<0200>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS13H'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901420, 8)
+#res<0201>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH10B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901440, 7)
+#res<0202>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS10H'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901460, 8)
+#res<0203>
+pause
+#res<0204>
+pause
+#res<0205>
+pause
+farcall_with(9600, 0, 41901480, 8)
+#res<0206>
+pause
+#res<0207>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS20H'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901500, 8)
+#res<0208>
+pause
+#res<0209>
+pause
+farcall_with(9600, 0, 41901520, 8)
+#res<0210>
+pause
+#res<0211>
+pause
+farcall_with(9600, 0, 41901540, 8)
+#res<0212>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS19'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901560, 8)
+#res<0213>
+pause
+#res<0214>
+pause
+#res<0215>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS15H'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901580, 8)
+#res<0216>
+pause
+#res<0217>
+pause
+farcall_with(9600, 0, 41901600, 8)
+#res<0218>
+pause
+#res<0219>
+pause
+farcall_with(9600, 0, 41901620, 8)
+#res<0220>
+pause
+farcall_with(9600, 0, 41901640, 8)
+#res<0221>
+pause
+#res<0222>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGMS10'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901660, 8)
+#res<0223>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0224>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901680, 7)
+#res<0225>
+pause
+#res<0226>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH13B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901700, 7)
+#res<0227>
+pause
+farcall_with(9600, 0, 41901720, 7)
+#res<0228>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901740, 7)
+#res<0229>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0230>
+pause
+#res<0231>
+pause
+#res<0232>
+pause
+#res<0233>
+pause
+bgmFadeOut(3000)
+#res<0234>
+pause
+#res<0235>
+pause
+#res<0236>
+pause
+bgmLoop('BGM09A')
+intZ[317] = 1
+farcall_with(9600, 0, 41901760, 25)
+#res<0237>
+pause
+#res<0238>
+pause
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'CGSH23B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901780, 7)
+#res<0239>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901800, 25)
+#res<0240>
+pause
+#res<0241>
+pause
+#res<0242>
+pause
+farcall_with(9600, 0, 41901820, 25)
+#res<0243>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH27B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901840, 7)
+#res<0244>
+pause
+#res<0245>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH16B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901860, 7)
+#res<0246>
+pause
+#res<0247>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901880, 25)
+#res<0248>
+pause
+#res<0249>
+pause
+#res<0250>
+pause
+strS[1000] = 'BG045N'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @67
+strclear(strS[1000])
+
+  @67
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 2
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 41901900, 25)
+#res<0251>
+pause
+farcall_with(9600, 0, 41901920, 25)
+#res<0252>
+pause
+#res<0253>
+pause
+farcall_with(9600, 0, 41901940, 25)
+#res<0254>
+pause
+#res<0255>
+pause
+farcall_with(9600, 0, 41901960, 25)
+#res<0256>
+pause
+farcall_with(9600, 0, 41901980, 25)
+#res<0257>
+pause
+farcall_with(9600, 0, 41902000, 25)
+#res<0258>
+pause
+#res<0259>
+pause
+#res<0260>
+pause
+farcall_with(9600, 0, 41902020, 25)
+#res<0261>
+pause
+#res<0262>
+pause
+farcall_with(9600, 0, 41902040, 25)
+#res<0263>
+pause
+farcall_with(9600, 0, 41902060, 25)
+#res<0264>
+pause
+#res<0265>
+pause
+#res<0266>
+pause
+farcall_with(9600, 0, 41902080, 25)
+#res<0267>
+pause
+#res<0268>
+pause
+#res<0269>
+pause
+#res<0270>
+pause
+#res<0271>
+pause
+farcall_with(9600, 0, 41902100, 25)
+#res<0272>
+pause
+farcall_with(9600, 0, 41902120, 25)
+#res<0273>
+pause
+#res<0274>
+pause
+farcall_with(9600, 0, 41902140, 25)
+#res<0275>
+pause
+#res<0276>
+pause
+#res<0277>
+pause
+farcall_with(9600, 0, 41902160, 25)
+#res<0278>
+pause
+#res<0279>
+pause
+#res<0280>
+pause
+intF[633] = 1
+goto @72
+
+  @68
+goto_unless(!intF[632]) @72
+bgmFadeOut(3000)
+goto_unless(!0) @69
+strS[1000] = 'KURO'
+goto @71
+
+  @69
+goto_unless(0 == 1) @70
+strS[1000] = 'SIRO'
+goto @71
+
+  @70
+strS[1000] = 'KURO'
+
+  @71
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strclear(strS[1001])
+intF[1104] = 0
+strclear(strS[1002])
+intF[1105] = 0
+strclear(strS[1003])
+intF[1106] = 0
+intF[1113] = 0
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0281>
+pause
+
+  @72
+bgmFadeOut(3000)
+strS[1000] = 'KURO'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @73
+strclear(strS[1000])
+
+  @73
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 4
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+jump(420)
+eof
+halt

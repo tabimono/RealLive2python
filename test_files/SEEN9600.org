@@ -1,0 +1,237 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9600.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+intL[10] = intL[0]
+intL[11] = intL[1]
+'' 
+gosub_with(intL[10], intL[11]) @1
+rtl_with
+
+#entrypoint 001 // Z01
+
+intL[10] = intL[0]
+intL[11] = intL[1]
+gosub_with(intL[10], intL[11]) @1
+KOE_REPLAY_CLEAR
+rtl_with
+
+#entrypoint 002 // Z02
+
+'' 
+gosub_with(strK[0]) @2
+rtl_with
+
+#entrypoint 003 // Z03
+
+gosub_with(strK[0]) @2
+KOE_REPLAY_CLEAR
+rtl_with
+
+  @1
+intL[10] = intL[0]
+intL[11] = intL[1]
+koePlay(intL[10], intL[11])
+ret_with
+
+  @2
+strK[1] = strsub(strK[0], 1, 1)
+intL[0] = strcmp(strK[1], 'A')
+goto_unless(!intL[0]) @3
+strK[2] = '0'
+
+  @3
+intL[0] = strcmp(strK[1], 'B')
+goto_unless(!intL[0]) @4
+strK[2] = '1'
+
+  @4
+intL[0] = strcmp(strK[1], 'C')
+goto_unless(!intL[0]) @5
+strK[2] = '2'
+
+  @5
+intL[0] = strcmp(strK[1], 'D')
+goto_unless(!intL[0]) @6
+strK[2] = '3'
+
+  @6
+intL[0] = strcmp(strK[1], 'E')
+goto_unless(!intL[0]) @7
+strK[2] = '4'
+
+  @7
+intL[0] = strcmp(strK[1], 'F')
+goto_unless(!intL[0]) @8
+strK[2] = '5'
+
+  @8
+intL[0] = strcmp(strK[1], 'G')
+goto_unless(!intL[0]) @9
+strK[2] = '6'
+
+  @9
+intL[0] = strcmp(strK[1], 'H')
+goto_unless(!intL[0]) @10
+strK[2] = '7'
+
+  @10
+intL[0] = strcmp(strK[1], 'K')
+goto_unless(!intL[0]) @11
+strK[2] = '8'
+
+  @11
+strK[1] = strsub(strK[0], 2, 7)
+strK[2] += strK[1]
+strK[0] += ' '
+strK[1] = strsub(strK[0], 9, 1)
+intL[0] = strcmp(strK[1], ' ')
+goto_unless(!intL[0]) @12
+strK[2] += '0'
+
+  @12
+intL[0] = strcmp(strK[1], 'A')
+goto_unless(!intL[0]) @13
+strK[2] += '1'
+
+  @13
+intL[10] = atoi(strK[2])
+strK[1] = strsub(strK[0], 0, 1)
+intL[0] = strcmp(strK[1], 'A')
+goto_unless(!intL[0]) @14
+intL[11] = 0
+
+  @14
+intL[0] = strcmp(strK[1], 'B')
+goto_unless(!intL[0]) @15
+intL[11] = 1
+
+  @15
+intL[0] = strcmp(strK[1], 'C')
+goto_unless(!intL[0]) @16
+intL[11] = 2
+
+  @16
+intL[0] = strcmp(strK[1], 'D')
+goto_unless(!intL[0]) @17
+intL[11] = 3
+
+  @17
+intL[0] = strcmp(strK[1], 'E')
+goto_unless(!intL[0]) @18
+intL[11] = 4
+
+  @18
+intL[0] = strcmp(strK[1], 'F')
+goto_unless(!intL[0]) @19
+intL[11] = 5
+
+  @19
+intL[0] = strcmp(strK[1], 'G')
+goto_unless(!intL[0]) @20
+intL[11] = 6
+
+  @20
+intL[0] = strcmp(strK[1], 'H')
+goto_unless(!intL[0]) @21
+intL[11] = 7
+
+  @21
+intL[0] = strcmp(strK[1], 'I')
+goto_unless(!intL[0]) @22
+intL[11] = 8
+
+  @22
+intL[0] = strcmp(strK[1], 'J')
+goto_unless(!intL[0]) @23
+intL[11] = 9
+
+  @23
+intL[0] = strcmp(strK[1], 'K')
+goto_unless(!intL[0]) @24
+intL[11] = 10
+
+  @24
+intL[0] = strcmp(strK[1], 'L')
+goto_unless(!intL[0]) @25
+intL[11] = 11
+
+  @25
+intL[0] = strcmp(strK[1], 'M')
+goto_unless(!intL[0]) @26
+intL[11] = 12
+
+  @26
+intL[0] = strcmp(strK[1], 'N')
+goto_unless(!intL[0]) @27
+intL[11] = 13
+
+  @27
+intL[0] = strcmp(strK[1], 'O')
+goto_unless(!intL[0]) @28
+intL[11] = 14
+
+  @28
+intL[0] = strcmp(strK[1], 'P')
+goto_unless(!intL[0]) @29
+intL[11] = 15
+
+  @29
+intL[0] = strcmp(strK[1], 'Q')
+goto_unless(!intL[0]) @30
+intL[11] = 16
+
+  @30
+intL[0] = strcmp(strK[1], 'R')
+goto_unless(!intL[0]) @31
+intL[11] = 17
+
+  @31
+intL[0] = strcmp(strK[1], 'S')
+goto_unless(!intL[0]) @32
+intL[11] = 18
+
+  @32
+intL[0] = strcmp(strK[1], 'T')
+goto_unless(!intL[0]) @33
+intL[11] = 19
+
+  @33
+intL[0] = strcmp(strK[1], 'U')
+goto_unless(!intL[0]) @34
+intL[11] = 20
+
+  @34
+intL[0] = strcmp(strK[1], 'V')
+goto_unless(!intL[0]) @35
+intL[11] = 21
+
+  @35
+intL[0] = strcmp(strK[1], 'W')
+goto_unless(!intL[0]) @36
+intL[11] = 22
+
+  @36
+intL[0] = strcmp(strK[1], 'X')
+goto_unless(!intL[0]) @37
+intL[11] = 23
+
+  @37
+intL[0] = strcmp(strK[1], 'Y')
+goto_unless(!intL[0]) @38
+intL[11] = 24
+
+  @38
+intL[0] = strcmp(strK[1], 'Z')
+goto_unless(!intL[0]) @39
+intL[11] = 25
+
+  @39
+gosub_with(intL[10], intL[11]) @1
+ret_with
+eof
+halt

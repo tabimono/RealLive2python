@@ -1,0 +1,35 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9083.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+HideSyscom
+DrawManual
+objClear(0)
+objClear(10)
+objOfFileGan(0, '???', 'SPAPA00')
+objOfFileGan(10, '???', 'SPAPA10')
+objMove(0, 0, (960 - 24) / 2)
+objMove(10, 0, (960 - 24) / 2)
+objPattNo(0, 0)
+objPattNo(10, 0)
+ganPlay2(0, 0)
+OBJFRONTANM_WAIT(0)
+waitC(2400)
+ganPlay2(0, 1)
+ganPlay2(10, 0)
+OBJFRONTANM_WAIT(0)
+OBJFRONTANM_WAIT(10)
+waitC(2600)
+ganPlay2(10, 1)
+OBJFRONTANM_WAIT(10)
+objDelete(0)
+objDelete(10)
+DrawAuto
+EnableSyscom
+rtl
+eof
+halt

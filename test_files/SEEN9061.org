@@ -1,0 +1,20 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9061.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+HideSyscom
+objBgOfRect(85, 0, 0, 1280, 960)
+objBgMono(85, 255)
+objBgShow(85, 1)
+objBgOfFile(86, 'KURO')
+objBgColour(86, 255, 96, 32, 255)
+objBgAlpha(86, 64)
+objBgShow(86, 1)
+EnableSyscom
+rtl
+eof
+halt

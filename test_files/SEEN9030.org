@@ -1,0 +1,123 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9030.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+goto @1
+
+  @1
+SetAutoMode(0)
+intG[1002] = 0
+intG[1008] = 0
+intG[1009] = 0
+SetAutoMode(0)
+goto_unless(intG[1100] == 1) @7
+SetMessageSpeed(intG[1101])
+goto_unless(intG[1102] == 1) @4
+goto_unless(intG[1103] == 1) @2
+intG[1104] = 2
+goto @3
+
+  @2
+goto_unless(!intG[1103]) @3
+intG[1104] = 1
+
+  @3
+goto @6
+
+  @4
+goto_unless(!intG[1102]) @6
+goto_unless(intG[1103] == 1) @5
+intG[1104] = 0
+goto @6
+
+  @5
+goto_unless(!intG[1103]) @6
+intG[1104] = 0
+
+  @6
+SetMessageNoWait(intG[1104])
+
+  @7
+intG[1100] = 0
+goto_unless(intG[1105] == 1) @9
+goto_unless(intG[1106] == 1) @8
+SetSkipAnimations(0)
+goto @9
+
+  @8
+goto_unless(!intG[1106]) @9
+SetSkipAnimations(1)
+
+  @9
+intG[1105] = 0
+goto_unless(intG[1107] == 1) @12
+goto_unless(intG[1108] == 1) @10
+SetBgmKoeFade(1)
+goto @11
+
+  @10
+goto_unless(!intG[1108]) @11
+SetBgmKoeFade(0)
+
+  @11
+SetBgmKoeFadeVol(intG[1109])
+
+  @12
+intG[1107] = 0
+goto_unless(intG[1110] == 1) @14
+goto_unless(intG[1111] == 1) @13
+SET_SYSTEM_FLAG_KOEDONTSTOP(1)
+goto @14
+
+  @13
+goto_unless(!intG[1111]) @14
+SET_SYSTEM_FLAG_KOEDONTSTOP(0)
+
+  @14
+intG[1110] = 0
+goto_unless(!intG[1200]) @15
+intG[1200] = 1
+SET_SYSTEM_FLAG_MOUSEWHEEL(1)
+SET_SYSTEM_FLAG_WAIPKEYJUMP(1)
+intG[1320] = -1
+intG[1531] = 1
+
+  @15
+SET_SYSTEM_FLAG_WAIPKEYJUMP(1)
+SET_SYSTEM_FLAG_KOEDONTSTOP(0)
+intG[1201] += 1
+jump(9031, 0)
+rtl
+
+#entrypoint 010 // Z10
+
+intL[0] = GET_COMPUTER_ID
+
+  @16
+goto_unless(intL[0] != intG[1204]) @19
+intL[1] = DUMMYCHECK_DISC('DUMMY', 79, 'CLANNAD_ME_A')
+goto_unless(intL[1] == 1) @17
+intG[1204] = intL[0]
+goto @19
+
+  @17
+intL[2] = MsgBox('ディスクエラー', '『ＣＬＡＮＮＡＤ - Memorial Edition -』のゲームディスクをセットしてください。', ALERT_OKCANCEL)
+goto_unless(!intL[2]) @18
+intA[0] = intL[0]
+refresh
+waitC(50)
+goto @16
+goto @19
+
+  @18
+goto_unless(intL[2] == 1) @19
+end
+
+  @19
+rtl
+eof
+halt

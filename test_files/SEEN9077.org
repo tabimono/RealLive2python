@@ -1,0 +1,148 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9077.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+objOfFileGan(81, strS[1001], 'SSHREN00', 1)
+rtl
+
+#entrypoint 001 // Z01
+
+ganPlay2(81, 0)
+rtl
+
+#entrypoint 002 // Z02
+
+ganPlay2(81, 1)
+rtl
+
+#entrypoint 003 // Z03
+
+ganLoop2(81, 0)
+rtl
+
+#entrypoint 004 // Z04
+
+ganLoop2(81, 3)
+rtl
+
+#entrypoint 005 // Z05
+
+ganLoop2(81, 4)
+rtl
+
+#entrypoint 006 // Z06
+
+ganLoop2(81, 5)
+rtl
+
+#entrypoint 007 // Z07
+
+OBJFRONTGANANM_NEXT_ONESHOT(81, 6)
+OBJFRONTANM_WAIT(81)
+OBJFRONTANM_STOP(81)
+rtl
+
+#entrypoint 008 // Z08
+
+strS[1002] = 'SSHREN10'
+goto_case(intF[1118]){ 0: @1; 1: @2; 2: @3; 3: @4; 4: @5; 5: @6; 6: @7; 7: @8; 8: @9; 9: @10; 10: @11; _: @12 }
+
+  @1
+goto @12
+
+  @2
+strS[1002] += '?010'
+goto @12
+
+  @3
+strS[1002] += '?011'
+goto @12
+
+  @4
+strS[1002] += '?020'
+goto @12
+
+  @5
+strS[1002] += '?021'
+goto @12
+
+  @6
+strS[1002] += '?022'
+goto @12
+
+  @7
+strS[1002] += '?023'
+goto @12
+
+  @8
+strS[1002] += '?024'
+goto @12
+
+  @9
+strS[1002] += '?025'
+goto @12
+
+  @10
+strS[1002] += '?030'
+goto @12
+
+  @11
+strS[1002] += '?040'
+goto @12
+
+  @12
+objOfFileGan(81, strS[1001], 'SSHREN00', 1)
+objOfFileGan(82, strS[1002], 'SSHREN10', 0, 488, 222, 0)
+rtl
+
+#entrypoint 009 // Z09
+
+rtl
+
+#entrypoint 010 // Z10
+
+rtl
+
+#entrypoint 011 // Z11
+
+rtl
+
+#entrypoint 012 // Z12
+
+ganLoop2(81, 3)
+ganLoop2(82, 3)
+rtl
+
+#entrypoint 013 // Z13
+
+ganLoop2(81, 4)
+ganLoop2(82, 4)
+rtl
+
+#entrypoint 014 // Z14
+
+ganLoop2(81, 5)
+ganLoop2(82, 5)
+rtl
+
+#entrypoint 015 // Z15
+
+OBJFRONTGANANM_NEXT_ONESHOT(81, 6)
+OBJFRONTGANANM_NEXT_ONESHOT(82, 6)
+OBJFRONTANM_WAIT(81)
+OBJFRONTANM_WAIT(82)
+OBJFRONTANM_STOP(81)
+OBJFRONTANM_STOP(82)
+objShow(82, 0)
+rtl
+
+#entrypoint 016 // Z16
+
+ganPlay2(81, 7)
+rtl
+eof
+halt

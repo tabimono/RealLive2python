@@ -1,0 +1,867 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9071.TXT'
+#resource 'SEEN9071.utf'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+objClear(0)
+objClear(1)
+objClear(2)
+objClear(3)
+objClear(4)
+strS[0] = 'STMCMB00'
+goto_case(intF[1118]){ 0: @1; 1: @2; 2: @3; 3: @4; 4: @5; 5: @6; 6: @7; 7: @8; 8: @9; 9: @10; 10: @11; _: @12 }
+
+  @1
+goto @12
+
+  @2
+strS[0] += '?010'
+goto @12
+
+  @3
+strS[0] += '?011'
+goto @12
+
+  @4
+strS[0] += '?020'
+goto @12
+
+  @5
+strS[0] += '?021'
+goto @12
+
+  @6
+strS[0] += '?022'
+goto @12
+
+  @7
+strS[0] += '?023'
+goto @12
+
+  @8
+strS[0] += '?024'
+goto @12
+
+  @9
+strS[0] += '?025'
+goto @12
+
+  @10
+strS[0] += '?030'
+goto @12
+
+  @11
+strS[0] += '?040'
+goto @12
+
+  @12
+objOfFileGan(0, strS[0], 'STMCMB00')
+objOfFileGan(1, '???', 'STMCMB01')
+objOfFileGan(2, '???', 'STMCMB02')
+objOfFileGan(3, '???', 'STMCMB03')
+objOfFileGan(4, '???', 'STMCMB04')
+objMove(0, 300, 0)
+objMove(1, 1032, 78)
+objMove(2, 972, 122)
+objMove(3, 1028, 174)
+objMove(4, 1028, 174)
+objPattNo(0, 0)
+objPattNo(1, 0)
+objPattNo(2, 0)
+objPattNo(3, 0)
+objPattNo(4, 0)
+objWipeCopyOn(0)
+objWipeCopyOn(1)
+objWipeCopyOn(2)
+objWipeCopyOn(3)
+objWipeCopyOn(4)
+intF[1121] = 0
+intF[1122] = 0
+intF[1123] = 0
+intF[1124] = 0
+strclear(strS[1016])
+farcall(9071, 4)
+rtl
+
+#entrypoint 001 // Z01
+
+objClear(0)
+objClear(1)
+objClear(2)
+objClear(3)
+objClear(4)
+strS[0] = 'STMCMB00'
+goto_case(intF[1118]){ 0: @13; 1: @14; 2: @15; 3: @16; 4: @17; 5: @18; 6: @19; 7: @20; 8: @21; 9: @22; 10: @23; _: @24 }
+
+  @13
+goto @24
+
+  @14
+strS[0] += '?010'
+goto @24
+
+  @15
+strS[0] += '?011'
+goto @24
+
+  @16
+strS[0] += '?020'
+goto @24
+
+  @17
+strS[0] += '?021'
+goto @24
+
+  @18
+strS[0] += '?022'
+goto @24
+
+  @19
+strS[0] += '?023'
+goto @24
+
+  @20
+strS[0] += '?024'
+goto @24
+
+  @21
+strS[0] += '?025'
+goto @24
+
+  @22
+strS[0] += '?030'
+goto @24
+
+  @23
+strS[0] += '?040'
+goto @24
+
+  @24
+objOfFileGan(0, strS[0], 'STMCMB00')
+objMove(0, 300, 0)
+objMove(1, 1032, 78)
+objMove(2, 972, 122)
+objMove(3, 1028, 174)
+objMove(4, 1028, 174)
+objPattNo(0, 0)
+objPattNo(1, 0)
+objPattNo(2, 0)
+objPattNo(3, 0)
+objPattNo(4, 0)
+objWipeCopyOn(0)
+objWipeCopyOn(1)
+objWipeCopyOn(2)
+objWipeCopyOn(3)
+objWipeCopyOn(4)
+intF[1121] = 0
+intF[1122] = 0
+intF[1123] = 0
+intF[1124] = 0
+strclear(strS[1016])
+farcall(9071, 4)
+rtl
+
+#entrypoint 002 // Z02
+
+objDelete(0)
+objDelete(1)
+objDelete(2)
+objDelete(3)
+objDelete(4)
+rtl
+
+#entrypoint 003 // Z03
+
+objShow(0, 0)
+objShow(1, 0)
+objShow(2, 0)
+objShow(3, 0)
+objShow(4, 0)
+rtl
+
+#entrypoint 004 // Z04
+
+intF[1121] = -140
+rtl
+
+#entrypoint 005 // Z05
+
+intF[1121] = -280
+rtl
+
+#entrypoint 006 // Z06
+
+intF[1121] = -420
+rtl
+
+#entrypoint 007 // Z07
+
+intF[1121] = -560
+rtl
+
+#entrypoint 008 // Z08
+
+intF[1121] = -700
+rtl
+
+#entrypoint 009 // Z09
+
+intF[1121] = -840
+rtl
+
+#entrypoint 010 // Z10
+
+intF[1121] = -980
+rtl
+
+#entrypoint 011 // Z11
+
+intF[1121] -= 140
+rtl
+
+#entrypoint 012 // Z12
+
+HideSyscom
+intF[1122] -= 20
+goto_unless(intF[1122] < intF[1121]) @25
+intF[1122] = intF[1121]
+
+  @25
+FastText
+intA[0] = strlen(strS[1016])
+goto_unless(0 < intA[0]) @26
+#res<0000>
+
+  @26
+NormalText
+objMove(0, 300, intF[1122])
+ganPlay2(0, 0)
+intF[1123] += 1
+goto_unless(1 < intF[1123]) @27
+ganPlay2(1, intF[1123])
+objShow(2, 1)
+
+  @27
+wavPlay('DOGUSI')
+shake(1)
+wait(150)
+EnableSyscom
+rtl
+
+#entrypoint 013 // Z13
+
+HideSyscom
+intF[1122] -= 20
+goto_unless(intF[1122] < intF[1121]) @28
+intF[1122] = intF[1121]
+
+  @28
+FastText
+intA[0] = strlen(strS[1016])
+goto_unless(0 < intA[0]) @29
+#res<0001>
+
+  @29
+NormalText
+objMove(0, 300, intF[1122])
+ganPlay2(0, 0)
+intF[1123] += 1
+goto_unless(1 < intF[1123]) @30
+ganPlay2(1, intF[1123])
+objShow(2, 1)
+
+  @30
+wavPlay('DOGUSI')
+shake(1)
+OBJFRONTANM_WAIT(0)
+EnableSyscom
+rtl
+
+#entrypoint 014 // Z14
+
+HideSyscom
+intF[1122] -= 20
+goto_unless(intF[1122] < intF[1121]) @31
+intF[1122] = intF[1121]
+
+  @31
+FastText
+intA[0] = strlen(strS[1016])
+goto_unless(0 < intA[0]) @32
+#res<0002>
+
+  @32
+NormalText
+objMove(0, 300, intF[1122])
+ganPlay2(0, 2)
+intF[1123] += 1
+goto_unless(1 < intF[1123]) @33
+ganPlay2(1, intF[1123])
+objShow(2, 1)
+
+  @33
+wavPlay('DOGUSI')
+shake(1)
+OBJFRONTANM_WAIT(0)
+EnableSyscom
+rtl
+
+#entrypoint 015 // Z15
+
+HideSyscom
+intF[1122] -= 20
+goto_unless(intF[1122] < intF[1121]) @34
+intF[1122] = intF[1121]
+
+  @34
+BOXFLUSH(255, 255, 255, 32)
+wait(200)
+FastText
+intA[0] = strlen(strS[1016])
+goto_unless(0 < intA[0]) @35
+#res<0003>
+
+  @35
+NormalText
+objMove(0, 300, intF[1122])
+ganPlay2(0, 1)
+intF[1123] += 1
+goto_unless(1 < intF[1123]) @36
+ganPlay2(1, intF[1123])
+objShow(2, 2)
+
+  @36
+wavPlay('DOGUSI')
+shake(1)
+OBJFRONTANM_WAIT(0)
+wait(400)
+wavPlay('DOGUSI')
+shake(7)
+wait(500)
+EnableSyscom
+rtl
+
+#entrypoint 016 // Z16
+
+HideSyscom
+FastText
+#res<0004>
+NormalText
+strS[1016] = strS[1016]
+farcall(9071, 15)
+EnableSyscom
+rtl
+
+#entrypoint 017 // Z17
+
+HideSyscom
+intF[1122] -= 20
+goto_unless(intF[1122] < intF[1121]) @37
+intF[1122] = intF[1121]
+
+  @37
+BOXFLUSH(255, 255, 255, 32)
+wait(200)
+FastText
+intA[0] = strlen(strS[1016])
+goto_unless(0 < intA[0]) @38
+msgClear
+#res<0005>
+
+  @38
+NormalText
+objMove(0, 300, intF[1122])
+ganPlay2(0, 3)
+intF[1123] += 1
+goto_unless(1 < intF[1123]) @39
+ganPlay2(1, intF[1123])
+objShow(2, 2)
+
+  @39
+wavPlay('DOGUSI')
+shake(1)
+OBJFRONTANM_WAIT(0)
+wait(600)
+EnableSyscom
+rtl
+
+#entrypoint 018 // Z18
+
+HideSyscom
+FastText
+farcall_with(9600, 0, 241801560, 3)
+#res<0006>
+NormalText
+strS[1016] = strS[1016]
+farcall(9071, 17)
+EnableSyscom
+rtl
+
+#entrypoint 019 // Z19
+
+HideSyscom
+FastText
+farcall_with(9600, 0, 241801560, 3)
+#res<0007>
+NormalText
+strS[1016] = strS[1016]
+farcall(9071, 17)
+EnableSyscom
+rtl
+
+#entrypoint 020 // Z20
+
+ganPlay2(2, 0)
+rtl
+
+#entrypoint 021 // Z21
+
+ganPlay2(1, 70 + intF[1123])
+ganPlay2(2, 1)
+rtl
+
+#entrypoint 022 // Z22
+
+ganPlay2(1, 140 + intF[1123])
+ganPlay2(2, 2)
+ganPlay2(3, 0)
+rtl
+
+#entrypoint 023 // Z23
+
+ganPlay2(1, 140 + intF[1123])
+ganPlay2(2, 2)
+ganPlay2(4, 0)
+rtl
+
+#entrypoint 024 // Z24
+
+goto_unless(64 <= intF[1123]) @40
+farcall(9071, 23)
+goto @43
+
+  @40
+goto_unless(!intG[1010]) @41
+farcall(9071, 21)
+goto @43
+
+  @41
+goto_unless(intG[1010] < intF[1123]) @42
+farcall(9071, 22)
+goto @43
+
+  @42
+farcall(9071, 21)
+
+  @43
+goto_unless(intG[1010] < intF[1123]) @44
+intG[1010] = intF[1123]
+
+  @44
+rtl
+
+#entrypoint 025 // Z25
+
+HideSyscom
+DrawManual
+objClear(10)
+objClear(11)
+objClear(12)
+objOfFile(10, 'SFUSM00')
+objOfFile(11, 'SFUSM00')
+objTextOpts(12, 36, 0, 0, 99, 0, 255)
+intF[1124] += 1
+goto_unless(intF[1124] < 2) @45
+objOfText(12, #res<0008>)
+goto @46
+
+  @45
+goto_unless(2 <= intF[1124]) @46
+objOfText(12, #res<0009>)
+
+  @46
+objMove(10, 240, 436)
+objMove(11, 240, 436)
+objMove(12, 240 + 150, 436 + 10)
+objPattNo(10, 0)
+objPattNo(11, 1)
+GetWindowAttr(intF[1273], intF[1274], intF[1275], intF[1276], intF[1277])
+objAlpha(10, intF[1276])
+goto_unless(intF[1277] == 1) @47
+objComposite(10, 0)
+objColour(10, intF[1273], intF[1274], intF[1275], 255)
+goto @48
+
+  @47
+goto_unless(!intF[1277]) @48
+objComposite(10, 2)
+objColour(10, 255 - intF[1273], 255 - intF[1274], 255 - intF[1275], 255)
+
+  @48
+wavPlay('KYUPEEN', 0)
+objShow(10, 1)
+objShow(11, 1)
+objShow(12, 1)
+FlushClick
+intC[0] = 700
+intC[1] = 700 + 500 + 700
+InitExFrames({0, 0, 90, intC[0]})
+InitExFrames({1, 640, -640, intC[1]})
+
+  @49
+intC[0] = ReadExFrames({0, intC[1]})
+ReadExFrames({1, intC[2]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @50
+intF[1212] = 1
+FlushClick
+goto @51
+
+  @50
+intF[1212] = 0
+
+  @51
+goto_unless(intF[1212] == 1) @52
+intC[0] = 0
+intC[1] = 90
+
+  @52
+intA[0] = sin(90, 50)
+intA[1] = sin(intC[1], 50)
+objAdjust(10, 0, intA[0] - intA[1] + 20, 0)
+objAdjust(11, 0, intA[0] - intA[1] + 20, 0)
+objAdjust(12, 0, intA[0] - intA[1] + 20, 0)
+objAdjust(10, 1, intC[2], 0)
+objAdjust(11, 1, intC[2], 0)
+objAdjust(12, 1, intC[2], 0)
+goto_unless(!intC[0]) @53
+goto @55
+goto @54
+
+  @53
+refresh
+
+  @54
+goto @49
+
+  @55
+intC[0] = 500
+InitExFrames({0, 0, 1, intC[0]})
+
+  @56
+intC[0] = ReadExFrames({0, intC[1]})
+ReadExFrames({1, intC[2]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @57
+intF[1212] = 1
+FlushClick
+goto @58
+
+  @57
+intF[1212] = 0
+
+  @58
+goto_unless(intF[1212] == 1) @59
+intC[0] = 0
+intC[1] = 1
+
+  @59
+objAdjust(10, 1, intC[2], 0)
+objAdjust(11, 1, intC[2], 0)
+objAdjust(12, 1, intC[2], 0)
+goto_unless(!intC[0]) @60
+goto @62
+goto @61
+
+  @60
+refresh
+
+  @61
+goto @56
+
+  @62
+intC[0] = 700
+InitExFrames({0, 90, 180, intC[0]})
+
+  @63
+intC[0] = ReadExFrames({0, intC[1]})
+ReadExFrames({1, intC[2]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @64
+intF[1212] = 1
+FlushClick
+goto @65
+
+  @64
+intF[1212] = 0
+
+  @65
+goto_unless(intF[1212] == 1) @66
+intC[0] = 0
+intC[1] = 180
+
+  @66
+intA[0] = sin(90, 80)
+intA[1] = sin(intC[1], 80)
+objAdjust(10, 0, intA[1] - intA[0] + 20, 0)
+objAdjust(11, 0, intA[1] - intA[0] + 20, 0)
+objAdjust(12, 0, intA[1] - intA[0] + 20, 0)
+objAdjust(10, 1, intC[2], 0)
+objAdjust(11, 1, intC[2], 0)
+objAdjust(12, 1, intC[2], 0)
+refresh
+goto_unless(!intC[0]) @67
+goto @68
+
+  @67
+goto @63
+
+  @68
+objShow(10, 0)
+objShow(11, 0)
+objShow(12, 0)
+objDelete(10)
+objDelete(11)
+objDelete(12)
+DrawAuto
+EnableSyscom
+rtl
+
+#entrypoint 026 // Z26
+
+HideSyscom
+DrawManual
+objClear(20)
+objOfFile(20, 'STMCMB00')
+objMove(20, 268, 0)
+objPattNo(20, 0)
+objShow(20, 1)
+FlushClick
+intC[0] = 500
+InitExFrames({0, 0, 3600 * 2 + 1400, intC[0]}, {1, 100, 200, intC[0]}, {2, -700, 100, intC[0]})
+
+  @69
+intC[0] = ReadExFrames({0, intC[1]}, {1, intC[2]}, {2, intC[3]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @70
+intF[1212] = 1
+FlushClick
+goto @71
+
+  @70
+intF[1212] = 0
+
+  @71
+goto_unless(intF[1212] == 1) @72
+intC[0] = 0
+intC[1] = 3600 * 2 + 1400
+intC[2] = 200
+intC[3] = 100
+
+  @72
+objRepOrigin(20, 320, 480)
+objRotate(20, intC[1] % 3600)
+objRepOrigin(20, 372, 388)
+objScale(20, intC[2], intC[2])
+objMove(20, 268, intC[3])
+refresh
+goto_unless(!intC[0]) @73
+goto @74
+
+  @73
+goto @69
+
+  @74
+DrawAuto
+EnableSyscom
+rtl
+
+#entrypoint 027 // Z27
+
+HideSyscom
+ShakeSpec(7, 1, 0)
+DrawManual
+FlushClick
+intC[0] = 500
+InitExFrames({0, 3600 * 2 + 1400, (3600 * 2 + 1400) * 2, intC[0]}, {1, 200, 150, intC[0]}, {2, 100, -800, intC[0]})
+
+  @75
+intC[0] = ReadExFrames({0, intC[1]}, {1, intC[2]}, {2, intC[3]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @76
+intF[1212] = 1
+FlushClick
+goto @77
+
+  @76
+intF[1212] = 0
+
+  @77
+goto_unless(intF[1212] == 1) @78
+intC[0] = 0
+intC[1] = (3600 * 2 + 1400) * 2
+intC[2] = 150
+intC[3] = -800
+
+  @78
+objRepOrigin(20, 320, 480)
+objRotate(20, intC[1] % 3600)
+objRepOrigin(20, 372, 388)
+objScale(20, intC[2], intC[2])
+objMove(20, 268, intC[3])
+refresh
+goto_unless(!intC[0]) @79
+goto @80
+
+  @79
+goto @75
+
+  @80
+objShow(20, 0)
+refresh
+objDelete(20)
+DrawAuto
+EnableSyscom
+rtl
+
+#entrypoint 028 // Z28
+
+HideSyscom
+DrawManual
+FlushClick
+intC[0] = 500
+InitExFrames({0, 3600 * 2 + 1400, (3600 * 2 + 1400) * 2, intC[0]}, {1, 200, 300, intC[0]}, {2, 100, 300, intC[0]})
+
+  @81
+intC[0] = ReadExFrames({0, intC[1]}, {1, intC[2]}, {2, intC[3]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @82
+intF[1212] = 1
+FlushClick
+goto @83
+
+  @82
+intF[1212] = 0
+
+  @83
+goto_unless(intF[1212] == 1) @84
+intC[0] = 0
+intC[1] = (3600 * 2 + 1400) * 2
+intC[2] = 300
+intC[3] = 300
+
+  @84
+objRepOrigin(20, 320, 480)
+objRotate(20, intC[1] % 3600)
+objRepOrigin(20, 372, 388)
+objScale(20, intC[2], intC[2])
+objMove(20, 268, intC[3])
+refresh
+goto_unless(!intC[0]) @85
+goto @86
+
+  @85
+goto @81
+
+  @86
+objShow(20, 0)
+refresh
+wait(500)
+objDelete(20)
+DrawAuto
+EnableSyscom
+rtl
+
+#entrypoint 029 // Z29
+
+HideSyscom
+DrawManual
+objShow(20, 0)
+refresh
+objDelete(20)
+DrawAuto
+EnableSyscom
+rtl
+
+#entrypoint 030 // Z30
+
+objClear(30)
+goto_case(intF[1118]){ 0: @87; 1: @88; 2: @89; 3: @90; 4: @91; 5: @92; 6: @93; 7: @94; 8: @95; 9: @96; 10: @97; _: @98 }
+
+  @87
+goto @98
+
+  @88
+strS[1016] += '?010'
+goto @98
+
+  @89
+strS[1016] += '?011'
+goto @98
+
+  @90
+strS[1016] += '?020'
+goto @98
+
+  @91
+strS[1016] += '?021'
+goto @98
+
+  @92
+strS[1016] += '?022'
+goto @98
+
+  @93
+strS[1016] += '?023'
+goto @98
+
+  @94
+strS[1016] += '?024'
+goto @98
+
+  @95
+strS[1016] += '?025'
+goto @98
+
+  @96
+strS[1016] += '?030'
+goto @98
+
+  @97
+strS[1016] += '?040'
+goto @98
+
+  @98
+objOfFileGan(30, strS[1016], 'STMCMB05')
+objMove(30, 0, 0)
+objPattNo(30, 0)
+ganPlay2(30, 0)
+rtl
+
+#entrypoint 031 // Z31
+
+objShow(30, 0)
+objDelete(30)
+rtl
+
+#entrypoint 032 // Z32
+
+OBJFRONTANM_WAIT(30)
+rtl
+
+#entrypoint 033 // Z33
+
+farcall(9071, 1)
+farcall(9071, 4)
+strS[1016] = '*Bam*'
+farcall(9071, 13)
+msgClear
+farcall(9071, 3)
+farcall(9071, 2)
+rtl
+eof
+halt

@@ -1,0 +1,337 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9070.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+strS[1011] = 'Make her drink juice with her nose       '
+strS[1012] = 'Put her around somewhere                 '
+strS[1013] = 'Switch the person she\'s talking to       '
+strS[1014] = 'Switch the carving she\'s holding         '
+goto_case(intF[100]){ 0: @1; 1: @2; 2: @3; _: @4 }
+
+  @1
+strS[1011] += 'Lv1'
+goto @4
+
+  @2
+strS[1011] += 'Lv2'
+goto @4
+
+  @3
+strS[1011] += '#C100Master'
+goto @4
+
+  @4
+goto_case(intF[101]){ 0: @5; 1: @6; 2: @7; _: @8 }
+
+  @5
+strS[1012] += 'Lv1'
+goto @8
+
+  @6
+strS[1012] += 'Lv2'
+goto @8
+
+  @7
+strS[1012] += '#C100Master'
+goto @8
+
+  @8
+goto_case(intF[103]){ 0: @9; 1: @10; 2: @11; _: @12 }
+
+  @9
+strS[1013] += 'Lv1'
+goto @12
+
+  @10
+strS[1013] += 'Lv2'
+goto @12
+
+  @11
+strS[1013] += '#C100Master'
+goto @12
+
+  @12
+goto_case(intF[104]){ 0: @13; 1: @14; 2: @15; _: @16 }
+
+  @13
+strS[1014] += 'Lv1'
+goto @16
+
+  @14
+strS[1014] += 'Lv2'
+goto @16
+
+  @15
+strS[1014] += '#C100Master'
+goto @16
+
+  @16
+rtl
+
+#entrypoint 001 // Z01
+
+HideSyscom
+DrawManual
+intA[0] = strpos(strS[1015], '風子使い')
+intA[1] = strpos(strS[1015], '風子マスター')
+goto_unless(intA[0] == -1) @17
+intA[0] = strpos(strS[1015], '"Fuko User')
+
+  @17
+goto_unless(intA[1] == -1) @18
+intA[1] = strpos(strS[1015], 'Fuko Master')
+
+  @18
+goto_unless(intA[0] == -1 && intA[1] == -1) @19
+intA[100] = 0
+goto @20
+
+  @19
+goto_unless(intA[0] != -1 || intA[1] != -1) @20
+intA[100] = 1
+
+  @20
+intA[0] = strpos(strS[1015], '風子の鼻をつまむ')
+goto_unless(intA[0] == -1) @21
+intA[0] = strpos(strS[1015], 'Pinching Fuko\'s Nose')
+
+  @21
+goto_unless(intA[0] == -1) @22
+intA[200] = 0
+goto @23
+
+  @22
+goto_unless(intA[0] != -1) @23
+intA[200] = 1
+
+  @23
+intA[0] = strlen(strS[1015])
+intA[1] = (66 - intA[0]) / 2
+strclear(strS[0])
+intA[2] = 0
+
+  @24
+goto_unless(intA[2] < intA[1]) @25
+strS[0] += ' '
+intA[2] += 1
+goto @24
+
+  @25
+strS[0] += strS[1015]
+strS[1015] = strS[0]
+objClear(100)
+objClear(101)
+objClear(102)
+objOfFile(100, 'SFUSM01')
+objOfFile(101, 'SFUSM01')
+objTextOpts(102, 30, 0, 0, 99, 0, 255)
+objOfText(102, strS[1015])
+objMove(100, 115, 435 - 110)
+objMove(101, 115, 435 - 110)
+objMove(102, 115 + 32, 435 - 110 + 12)
+objPattNo(100, 0)
+objPattNo(101, 1)
+GetWindowAttr(intF[1273], intF[1274], intF[1275], intF[1276], intF[1277])
+objAlpha(100, intF[1276])
+goto_unless(intF[1277] == 1) @26
+objComposite(100, 0)
+objColour(100, intF[1273], intF[1274], intF[1275], 255)
+goto @27
+
+  @26
+goto_unless(!intF[1277]) @27
+objComposite(100, 2)
+objColour(100, 255 - intF[1273], 255 - intF[1274], 255 - intF[1275], 255)
+
+  @27
+goto_unless(!intA[100]) @28
+bgmMute(1000)
+msgHide
+wait(1000)
+goto @29
+
+  @28
+goto_unless(intA[100] == 1) @29
+
+  @29
+goto_unless(!intA[100]) @30
+wavPlay('FUFAN00', 0)
+goto @31
+
+  @30
+goto_unless(intA[100] == 1) @31
+wavPlay('FUFAN01', 0)
+
+  @31
+wait(200)
+objShow(100, 1)
+objShow(101, 1)
+objShow(102, 1)
+FlushClick
+intC[0] = 1000
+intC[1] = 1500
+InitExFrames({0, 0, 255, intC[0]}, {1, 0, intF[1276], intC[0]}, {2, 50, 0, intC[1]})
+
+  @32
+intC[0] = ReadExFrames({0, intC[1]}, {1, intC[2]}, {2, intC[3]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @33
+intF[1212] = 1
+FlushClick
+goto @34
+
+  @33
+intF[1212] = 0
+
+  @34
+goto_unless(intF[1212] == 1) @35
+intC[0] = 0
+intC[1] = 255
+intC[2] = intF[1276]
+intC[3] = 0
+
+  @35
+objAdjust(100, 0, 0, intC[3])
+objAdjust(101, 0, 0, intC[3])
+objAdjust(102, 0, 0, intC[3])
+objAlpha(100, intC[2])
+objAlpha(101, intC[1])
+objAlpha(102, intC[1])
+refresh
+goto_unless(!intC[0]) @36
+goto @37
+
+  @36
+goto @32
+
+  @37
+goto_unless(!intA[100]) @38
+intA[0] = waitC(5000)
+goto @39
+
+  @38
+goto_unless(intA[100] == 1) @39
+intA[0] = waitC(5000)
+
+  @39
+goto_unless(!intA[0]) @48
+FlushClick
+
+  @40
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+intA[1004] = CtrlKeySkip
+intA[1005] = CtrlPressed
+intA[1006] = ShiftPressed
+intA[1007] = LocalSkipMode
+goto_unless(intA[1007] == 1) @41
+intF[1212] = 1
+goto @44
+
+  @41
+goto_unless(intA[1004] == 1 && intA[1005] == 1 && !intA[1006]) @42
+intF[1212] = 1
+goto @44
+
+  @42
+goto_unless(intA[1002] == 2) @43
+intF[1212] = 1
+FlushClick
+goto @44
+
+  @43
+intF[1212] = 0
+
+  @44
+goto_unless(intF[1212] == 1) @45
+goto @47
+
+  @45
+intA[0] = wavPlaying(0)
+goto_unless(!intA[0]) @46
+goto @47
+
+  @46
+refresh
+goto @40
+
+  @47
+
+  @48
+FlushClick
+intC[0] = 500
+InitExFrames({0, 255, 0, intC[0]}, {1, intF[1276], 0, intC[0]})
+
+  @49
+intC[0] = ReadExFrames({0, intC[1]}, {1, intC[2]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @50
+intF[1212] = 1
+FlushClick
+goto @51
+
+  @50
+intF[1212] = 0
+
+  @51
+goto_unless(intF[1212] == 1) @52
+intC[0] = 0
+intC[1] = 0
+intC[2] = 0
+
+  @52
+objAlpha(100, intC[2])
+objAlpha(101, intC[1])
+objAlpha(102, intC[1])
+refresh
+goto_unless(!intC[0]) @53
+goto @54
+
+  @53
+goto @49
+
+  @54
+wavStop(0)
+objShow(100, 0)
+objShow(101, 0)
+objShow(102, 0)
+goto_unless(!intA[100]) @60
+goto_unless(!intA[200]) @57
+goto_unless(intF[124] < 3) @55
+bgmUnMute(1400)
+goto @56
+
+  @55
+goto_unless(3 <= intF[124]) @56
+
+  @56
+goto @59
+
+  @57
+goto_unless(intA[200] == 1) @59
+goto_unless(intF[125] == 1) @58
+goto @59
+
+  @58
+goto_unless(!intF[125]) @59
+bgmUnMute(1400)
+
+  @59
+goto @61
+
+  @60
+goto_unless(intA[100] == 1) @61
+bgmUnMute(1400)
+
+  @61
+objDelete(100)
+objDelete(101)
+objDelete(102)
+DrawAuto
+EnableSyscom
+rtl
+eof
+halt

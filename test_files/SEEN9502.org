@@ -1,0 +1,132 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9502.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+intZ[intF[1303] + 0] = 0
+intZ[intF[1303] + 1] = 0
+intZ[intF[1303] + 2] = 0
+intZ[intF[1303] + 3] = 0
+intZ[intF[1303] + 4] = 0
+intZ[intF[1303] + 5] = 0
+intZ[intF[1303] + 6] = 0
+intZ[intF[1303] + 7] = 0
+intZ[intF[1303] + 8] = 0
+intZ[intF[1303] + 9] = 0
+intZ[intF[1303] + 10] = 0
+intZ[intF[1303] + 11] = 0
+intZ[intF[1303] + 12] = 0
+intZ[intF[1303] + 13] = 0
+intZ[intF[1303] + 14] = 0
+rtl
+
+#entrypoint 001 // Z01
+
+intZ[intF[1303] + 0] = intZ[intF[1303] + 15]
+rtl
+
+#entrypoint 002 // Z02
+
+intZ[intF[1303] + 2] = intZ[intF[1303] + 17]
+intZ[intF[1303] + 3] = intZ[intF[1303] + 18]
+objGetPos(intZ[intF[1303] + 2], intZ[intF[1303] + 5], intZ[intF[1303] + 6])
+objGetDims(intZ[intF[1303] + 2], intZ[intF[1303] + 7], intZ[intF[1303] + 8], 0)
+rtl
+
+#entrypoint 003 // Z03
+
+intZ[intF[1303] + 1] = intZ[intF[1303] + 16]
+intZ[intF[1303] + 2] = intZ[intF[1303] + 17]
+intZ[intF[1303] + 3] = intZ[intF[1303] + 18]
+OBJFRONTCHILDGET_POS(intZ[intF[1303] + 1], intZ[intF[1303] + 2], intZ[intF[1303] + 5], intZ[intF[1303] + 6])
+OBJFRONTCHILDGET_SELSIZE(intZ[intF[1303] + 1], intZ[intF[1303] + 2], intZ[intF[1303] + 7], intZ[intF[1303] + 8], 0)
+rtl
+
+#entrypoint 004 // Z04
+
+intZ[intF[1303] + 4] = intZ[intF[1303] + 19]
+rtl
+
+#entrypoint 005 // Z05
+
+intZ[intF[1303] + 9] = intZ[intF[1303] + 20]
+intZ[intF[1303] + 10] = intZ[intF[1303] + 7] / intZ[intF[1303] + 9]
+intZ[intF[1303] + 11] = 0
+rtl
+
+#entrypoint 006 // Z06
+
+intZ[intF[1303] + 12] = intZ[intF[1303] + 21]
+intZ[intF[1303] + 13] = intZ[intF[1303] + 22]
+intZ[intF[1303] + 14] = 0
+rtl
+
+#entrypoint 007 // Z07
+
+goto_unless(!intZ[intF[1303] + 4]) @1
+intZ[intF[1303] + 11] = 0
+goto @3
+
+  @1
+goto_unless(intZ[intF[1303] + 4] == 1) @2
+intZ[intF[1303] + 11] = 0
+goto @3
+
+  @2
+goto_unless(intZ[intF[1303] + 4] == 2) @3
+intZ[intF[1303] + 11] = intZ[intF[1303] + 10]
+
+  @3
+intZ[intF[1303] + 14] = 0
+ResetTimer(intZ[intF[1303] + 0])
+rtl
+
+#entrypoint 008 // Z08
+
+goto_unless(!intZ[intF[1303] + 4]) @7
+intZ[intF[1303] + 14] = Timer(intZ[intF[1303] + 0])
+goto_unless(intZ[intF[1303] + 14] < intZ[intF[1303] + 12]) @4
+intZ[intF[1303] + 11] = intZ[intF[1303] + 14] * 1000 / intZ[intF[1303] + 12] * intZ[intF[1303] + 10] / 1000
+goto @6
+
+  @4
+goto_unless(intZ[intF[1303] + 14] < intZ[intF[1303] + 12] + intZ[intF[1303] + 13]) @5
+intZ[intF[1303] + 11] = intZ[intF[1303] + 10]
+goto @6
+
+  @5
+intZ[intF[1303] + 11] = 0
+intZ[intF[1303] + 14] = 0
+ResetTimer(intZ[intF[1303] + 0])
+
+  @6
+goto @9
+
+  @7
+goto_unless(intZ[intF[1303] + 4] == 1) @8
+intZ[intF[1303] + 11] = 0
+goto @9
+
+  @8
+goto_unless(intZ[intF[1303] + 4] == 2) @9
+intZ[intF[1303] + 11] = intZ[intF[1303] + 10]
+
+  @9
+rtl
+
+#entrypoint 009 // Z09
+
+objDispRect(intZ[intF[1303] + 2], intZ[intF[1303] + 5] + intZ[intF[1303] + 9] * intZ[intF[1303] + 11], intZ[intF[1303] + 6], intZ[intF[1303] + 7] - intZ[intF[1303] + 9] * intZ[intF[1303] + 11], intZ[intF[1303] + 8])
+objDispRect(intZ[intF[1303] + 3], intZ[intF[1303] + 5], intZ[intF[1303] + 6], intZ[intF[1303] + 9] * intZ[intF[1303] + 11], intZ[intF[1303] + 8])
+rtl
+
+#entrypoint 010 // Z10
+
+OBJFRONTCHILDSET_RECTERIA(intZ[intF[1303] + 1], intZ[intF[1303] + 2], intZ[intF[1303] + 5] + intZ[intF[1303] + 9] * intZ[intF[1303] + 11], intZ[intF[1303] + 6], intZ[intF[1303] + 7] - intZ[intF[1303] + 9] * intZ[intF[1303] + 11], intZ[intF[1303] + 8])
+OBJFRONTCHILDSET_RECTERIA(intZ[intF[1303] + 1], intZ[intF[1303] + 3], intZ[intF[1303] + 5], intZ[intF[1303] + 6], intZ[intF[1303] + 9] * intZ[intF[1303] + 11], intZ[intF[1303] + 8])
+rtl
+eof
+halt

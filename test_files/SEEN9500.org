@@ -1,0 +1,208 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9500.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+intZ[intF[1300] + 0] = 0
+intZ[intF[1300] + 1] = 0
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 0
+intZ[intF[1300] + 4] = 0
+intZ[intF[1300] + 5] = 0
+intZ[intF[1300] + 6] = 0
+intZ[intF[1300] + 7] = 0
+intZ[intF[1300] + 8] = 0
+intZ[intF[1300] + 9] = 0
+intZ[intF[1300] + 10] = 0
+intZ[intF[1300] + 11] = 0
+rtl
+
+#entrypoint 001 // Z01
+
+intZ[intF[1300] + 0] = intZ[intF[1300] + 12]
+rtl
+
+#entrypoint 002 // Z02
+
+intZ[intF[1300] + 1] = intZ[intF[1300] + 13]
+intZ[intF[1300] + 2] = intZ[intF[1300] + 14]
+intZ[intF[1300] + 3] = intZ[intF[1300] + 15]
+intZ[intF[1300] + 4] = intZ[intF[1300] + 16]
+intZ[intF[1300] + 5] = intZ[intF[1300] + 17]
+intZ[intF[1300] + 6] = intZ[intF[1300] + 18]
+intZ[intF[1300] + 7] = intZ[intF[1300] + 19]
+intZ[intF[1300] + 8] = intZ[intF[1300] + 20]
+intZ[intF[1300] + 9] = intZ[intF[1300] + 21]
+intZ[intF[1300] + 10] = intZ[intF[1300] + 22]
+intZ[intF[1300] + 11] = intZ[intF[1300] + 23]
+rtl
+
+#entrypoint 003 // Z03
+
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 0
+intZ[intF[1300] + 4] = 0
+intZ[intF[1300] + 6] = 0
+intZ[intF[1300] + 8] = 0
+intZ[intF[1300] + 10] = 0
+goto_unless(intZ[intF[1300] + 1] == 3) @1
+ResetExTimer(intZ[intF[1300] + 0])
+
+  @1
+rtl
+
+#entrypoint 004 // Z04
+
+intZ[intF[1300] + 2] = intZ[intF[1300] + 24]
+goto_unless(!intZ[intF[1300] + 1]) @4
+goto_unless(intZ[intF[1300] + 2] == 1) @2
+intZ[intF[1300] + 2] = 1
+goto @3
+
+  @2
+goto_unless(!intZ[intF[1300] + 2]) @3
+intZ[intF[1300] + 2] = 0
+
+  @3
+goto @28
+
+  @4
+goto_unless(intZ[intF[1300] + 1] == 1) @9
+goto_unless(intZ[intF[1300] + 2] == 1) @7
+goto_unless(intZ[intF[1300] + 3] == 1) @5
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 1
+goto @6
+
+  @5
+goto_unless(!intZ[intF[1300] + 3]) @6
+intZ[intF[1300] + 2] = 1
+intZ[intF[1300] + 3] = 1
+
+  @6
+goto @8
+
+  @7
+goto_unless(!intZ[intF[1300] + 2]) @8
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 0
+
+  @8
+goto @28
+
+  @9
+goto_unless(intZ[intF[1300] + 1] == 2) @19
+goto_unless(intZ[intF[1300] + 2] == 1) @17
+goto_unless(intZ[intF[1300] + 3] == 1) @15
+goto_unless(intZ[intF[1300] + 4] <= intZ[intF[1300] + 5]) @12
+intZ[intF[1300] + 4] += 1
+goto_unless(intZ[intF[1300] + 5] < intZ[intF[1300] + 4]) @10
+intZ[intF[1300] + 6] = 0
+intZ[intF[1300] + 2] = 1
+intZ[intF[1300] + 3] = 1
+goto @11
+
+  @10
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 1
+
+  @11
+goto @14
+
+  @12
+intZ[intF[1300] + 6] += 1
+goto_unless(intZ[intF[1300] + 7] < intZ[intF[1300] + 6]) @13
+intZ[intF[1300] + 6] = 0
+intZ[intF[1300] + 2] = 1
+intZ[intF[1300] + 3] = 1
+goto @14
+
+  @13
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 1
+
+  @14
+goto @16
+
+  @15
+goto_unless(!intZ[intF[1300] + 3]) @16
+intZ[intF[1300] + 4] = 0
+intZ[intF[1300] + 6] = 0
+intZ[intF[1300] + 2] = 1
+intZ[intF[1300] + 3] = 1
+
+  @16
+goto @18
+
+  @17
+goto_unless(!intZ[intF[1300] + 2]) @18
+intZ[intF[1300] + 4] = 0
+intZ[intF[1300] + 6] = 0
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 0
+
+  @18
+goto @28
+
+  @19
+goto_unless(intZ[intF[1300] + 1] == 3) @28
+goto_unless(intZ[intF[1300] + 2] == 1) @27
+goto_unless(intZ[intF[1300] + 3] == 1) @25
+goto_unless(intZ[intF[1300] + 8] <= intZ[intF[1300] + 9]) @22
+intZ[intF[1300] + 8] = ExTimer(intZ[intF[1300] + 0])
+goto_unless(intZ[intF[1300] + 9] < intZ[intF[1300] + 8]) @20
+intZ[intF[1300] + 10] = 0
+intZ[intF[1300] + 2] = 1
+intZ[intF[1300] + 3] = 1
+ResetExTimer(intZ[intF[1300] + 0])
+goto @21
+
+  @20
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 1
+
+  @21
+goto @24
+
+  @22
+intZ[intF[1300] + 10] = ExTimer(intZ[intF[1300] + 0])
+goto_unless(intZ[intF[1300] + 11] < intZ[intF[1300] + 10]) @23
+intZ[intF[1300] + 10] = 0
+intZ[intF[1300] + 2] = 1
+intZ[intF[1300] + 3] = 1
+ResetExTimer(intZ[intF[1300] + 0])
+goto @24
+
+  @23
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 1
+
+  @24
+goto @26
+
+  @25
+goto_unless(!intZ[intF[1300] + 3]) @26
+intZ[intF[1300] + 8] = 0
+intZ[intF[1300] + 10] = 0
+intZ[intF[1300] + 2] = 1
+intZ[intF[1300] + 3] = 1
+ResetExTimer(intZ[intF[1300] + 0])
+
+  @26
+goto @28
+
+  @27
+goto_unless(!intZ[intF[1300] + 2]) @28
+intZ[intF[1300] + 8] = 0
+intZ[intF[1300] + 10] = 0
+intZ[intF[1300] + 2] = 0
+intZ[intF[1300] + 3] = 0
+
+  @28
+intZ[intF[1300] + 25] = intZ[intF[1300] + 2]
+rtl
+eof
+halt

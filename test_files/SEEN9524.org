@@ -1,0 +1,3722 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9524.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+intL[10] = intL[0]
+intL[11] = intL[1]
+intF[1480] = intL[10]
+intF[1481] = intL[11]
+gosub @353
+gosub @421
+
+  @1
+intF[1204] = 999
+intF[1205] = intF[1204]
+intF[1206] = -1
+intF[1207] = 0
+intF[1208] = 0
+intF[1209] = 0
+intF[1210] = 0
+intF[1211] = 0
+setrng_stepped(intE[0], 1, 60, 0)
+FlushClick
+
+  @2
+GetCursorPos(intF[1200], intF[1201], intF[1202], intF[1203])
+intF[1205] = intF[1204]
+intF[1204] = 999
+goto_unless(intF[1204] == 999) @3
+OBJFRONTCHILDGET_POS(204, 1, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 1, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @3
+goto_unless(!intF[1235]) @3
+intF[1204] = 0
+
+  @3
+goto_unless(intF[1204] == 999) @4
+OBJFRONTCHILDGET_POS(204, 2, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 2, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @4
+goto_unless(intF[1235] == 1) @4
+intF[1204] = 1
+
+  @4
+goto_unless(intF[1204] == 999) @5
+OBJFRONTCHILDGET_POS(204, 3, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 3, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @5
+goto_unless(!intF[1236]) @5
+intF[1204] = 2
+
+  @5
+goto_unless(intF[1204] == 999) @6
+OBJFRONTCHILDGET_POS(204, 4, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 4, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @6
+goto_unless(intF[1236] == 1) @6
+intF[1204] = 3
+
+  @6
+goto_unless(intF[1204] == 999) @7
+OBJFRONTCHILDGET_POS(204, 5, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 5, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @7
+goto_unless(!intF[1237]) @7
+intF[1204] = 4
+
+  @7
+goto_unless(intF[1204] == 999) @8
+OBJFRONTCHILDGET_POS(204, 6, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 6, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @8
+goto_unless(intF[1237] == 1) @8
+intF[1204] = 5
+
+  @8
+goto_unless(intF[1204] == 999) @9
+OBJFRONTCHILDGET_POS(204, 7, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 7, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @9
+intF[1204] = 6
+
+  @9
+goto_unless(intF[1204] == 999) @10
+OBJFRONTCHILDGET_POS(204, 8, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 8, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @10
+intF[1204] = 7
+
+  @10
+goto_unless(intF[1204] == 999) @11
+OBJFRONTCHILDGET_POS(204, 9, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 9, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @11
+intF[1204] = 8
+
+  @11
+goto_unless(intF[1204] == 999) @12
+OBJFRONTCHILDGET_POS(204, 10, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 10, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @12
+intF[1204] = 9
+
+  @12
+goto_unless(intF[1204] == 999) @13
+OBJFRONTCHILDGET_POS(204, 11, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 11, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @13
+intF[1204] = 10
+
+  @13
+goto_unless(intF[1204] == 999) @14
+OBJFRONTCHILDGET_POS(204, 12, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 12, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @14
+intF[1204] = 52
+
+  @14
+goto_unless(intF[1204] == 999) @15
+OBJFRONTCHILDGET_POS(204, 18, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 18, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @15
+intF[1204] = 17
+
+  @15
+goto_unless(intF[1204] == 999) @16
+goto_unless(66 <= intF[1200] && intF[1200] < 66 + 88 && (304 <= intF[1201] && intF[1201] < 304 + 21)) @16
+intF[1204] = 18
+
+  @16
+goto_unless(intF[1204] == 999) @17
+goto_unless(174 <= intF[1200] && intF[1200] < 174 + 158 && (335 <= intF[1201] && intF[1201] < 335 + 22)) @17
+intF[1204] = 19
+
+  @17
+goto_unless(intF[1204] == 999) @18
+goto_unless(66 <= intF[1200] && intF[1200] < 66 + 105 && (406 <= intF[1201] && intF[1201] < 406 + 25)) @18
+intF[1204] = 20
+
+  @18
+goto_unless(intF[1204] == 999) @19
+goto_unless(66 <= intF[1200] && intF[1200] < 66 + 145 && (479 <= intF[1201] && intF[1201] < 479 + 21)) @19
+intF[1204] = 21
+
+  @19
+goto_unless(intF[1204] == 999) @20
+goto_unless(66 <= intF[1200] && intF[1200] < 66 + 84 && (546 <= intF[1201] && intF[1201] < 546 + 23)) @20
+intF[1204] = 22
+
+  @20
+goto_unless(intF[1204] == 999) @21
+goto_unless(80 <= intF[1200] && intF[1200] < 80 + 101 && (731 <= intF[1201] && intF[1201] < 731 + 25)) @21
+intF[1204] = 23
+
+  @21
+goto_unless(intF[1204] == 999) @22
+goto_unless(200 <= intF[1200] && intF[1200] < 200 + 101 && (731 <= intF[1201] && intF[1201] < 731 + 25)) @22
+intF[1204] = 24
+
+  @22
+goto_unless(intF[1204] == 999) @23
+goto_unless(325 <= intF[1200] && intF[1200] < 325 + 101 && (731 <= intF[1201] && intF[1201] < 731 + 25)) @23
+intF[1204] = 25
+
+  @23
+goto_unless(intF[1204] == 999) @24
+goto_unless(447 <= intF[1200] && intF[1200] < 447 + 101 && (731 <= intF[1201] && intF[1201] < 731 + 25)) @24
+intF[1204] = 26
+
+  @24
+goto_unless(intF[1204] == 999) @25
+goto_unless(80 <= intF[1200] && intF[1200] < 80 + 101 && (771 <= intF[1201] && intF[1201] < 771 + 25)) @25
+intF[1204] = 27
+
+  @25
+goto_unless(intF[1204] == 999) @26
+goto_unless(200 <= intF[1200] && intF[1200] < 200 + 101 && (771 <= intF[1201] && intF[1201] < 771 + 25)) @26
+intF[1204] = 28
+
+  @26
+goto_unless(intF[1204] == 999) @27
+goto_unless(325 <= intF[1200] && intF[1200] < 325 + 101 && (771 <= intF[1201] && intF[1201] < 771 + 25)) @27
+intF[1204] = 29
+
+  @27
+goto_unless(intF[1204] == 999) @28
+goto_unless(447 <= intF[1200] && intF[1200] < 447 + 101 && (771 <= intF[1201] && intF[1201] < 771 + 25)) @28
+intF[1204] = 30
+
+  @28
+goto_unless(intF[1204] == 999) @29
+goto_unless(80 <= intF[1200] && intF[1200] < 80 + 101 && (808 <= intF[1201] && intF[1201] < 808 + 25)) @29
+intF[1204] = 31
+
+  @29
+goto_unless(intF[1204] == 999) @30
+goto_unless(200 <= intF[1200] && intF[1200] < 200 + 101 && (808 <= intF[1201] && intF[1201] < 808 + 25)) @30
+intF[1204] = 32
+
+  @30
+goto_unless(intF[1204] == 999) @31
+goto_unless(325 <= intF[1200] && intF[1200] < 325 + 101 && (808 <= intF[1201] && intF[1201] < 808 + 25)) @31
+intF[1204] = 33
+
+  @31
+goto_unless(intF[1204] == 999) @32
+goto_unless(447 <= intF[1200] && intF[1200] < 447 + 101 && (808 <= intF[1201] && intF[1201] < 808 + 25)) @32
+intF[1204] = 34
+
+  @32
+goto_unless(intF[1204] == 999) @33
+goto_unless(80 <= intF[1200] && intF[1200] < 80 + 101 && (848 <= intF[1201] && intF[1201] < 848 + 25)) @33
+intF[1204] = 35
+
+  @33
+goto_unless(intF[1204] == 999) @34
+goto_unless(200 <= intF[1200] && intF[1200] < 200 + 101 && (848 <= intF[1201] && intF[1201] < 848 + 25)) @34
+intF[1204] = 36
+
+  @34
+goto_unless(intF[1204] == 999) @35
+goto_unless(325 <= intF[1200] && intF[1200] < 325 + 101 && (848 <= intF[1201] && intF[1201] < 848 + 25)) @35
+intF[1204] = 37
+
+  @35
+goto_unless(intF[1204] == 999) @36
+goto_unless(447 <= intF[1200] && intF[1200] < 447 + 101 && (848 <= intF[1201] && intF[1201] < 848 + 25)) @36
+intF[1204] = 38
+
+  @36
+goto_unless(intF[1204] == 999) @37
+goto_unless(80 <= intF[1200] && intF[1200] < 80 + 101 && (885 <= intF[1201] && intF[1201] < 885 + 25)) @37
+intF[1204] = 39
+
+  @37
+goto_unless(intF[1204] == 999) @38
+goto_unless(200 <= intF[1200] && intF[1200] < 200 + 101 && (885 <= intF[1201] && intF[1201] < 885 + 25)) @38
+intF[1204] = 40
+
+  @38
+goto_unless(intF[1204] == 999) @39
+goto_unless(325 <= intF[1200] && intF[1200] < 325 + 101 && (885 <= intF[1201] && intF[1201] < 885 + 25)) @39
+intF[1204] = 41
+
+  @39
+goto_unless(intF[1204] == 999) @40
+goto_unless(447 <= intF[1200] && intF[1200] < 447 + 101 && (885 <= intF[1201] && intF[1201] < 885 + 25)) @40
+intF[1204] = 42
+
+  @40
+goto_unless(intF[1204] == 999) @41
+goto_unless(1030 <= intF[1200] && intF[1200] < 1030 + 185 && (108 <= intF[1201] && intF[1201] < 108 + 23)) @41
+intF[1204] = 43
+
+  @41
+goto_unless(intF[1204] == 999) @42
+goto_unless(706 <= intF[1200] && intF[1200] < 706 + 159 && (555 <= intF[1201] && intF[1201] < 555 + 50)) @42
+intF[1204] = 44
+
+  @42
+goto_unless(intF[1204] == 999) @43
+goto_unless(706 <= intF[1200] && intF[1200] < 706 + 525 && (716 <= intF[1201] && intF[1201] < 716 + 20)) @43
+intF[1204] = 45
+
+  @43
+goto_unless(intF[1204] == 999) @44
+goto_unless(706 <= intF[1200] && intF[1200] < 706 + 459 && (748 <= intF[1201] && intF[1201] < 748 + 38)) @44
+intF[1204] = 46
+
+  @44
+goto_unless(intF[1204] == 999) @45
+goto_unless(706 <= intF[1200] && intF[1200] < 706 + 513 && (790 <= intF[1201] && intF[1201] < 790 + 20)) @45
+intF[1204] = 47
+
+  @45
+goto_unless(intF[1204] == 999) @46
+goto_unless(706 <= intF[1200] && intF[1200] < 706 + 442 && (818 <= intF[1201] && intF[1201] < 818 + 20)) @46
+intF[1204] = 48
+
+  @46
+goto_unless(intF[1204] == 999) @47
+goto_unless(706 <= intF[1200] && intF[1200] < 706 + 275 && (845 <= intF[1201] && intF[1201] < 845 + 20)) @47
+intF[1204] = 53
+
+  @47
+goto_unless(intF[1204] == 999) @48
+OBJFRONTCHILDGET_POS(204, 114, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 114, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @48
+intF[1204] = 49
+
+  @48
+goto_unless(intF[1204] == 999) @49
+OBJFRONTCHILDGET_POS(204, 19, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 19, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @49
+intF[1204] = 50
+
+  @49
+goto_unless(intF[1204] == 999) @50
+OBJFRONTCHILDGET_POS(204, 20, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(204, 20, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @50
+intF[1204] = 51
+
+  @50
+goto_unless(intF[1483] == 1) @51
+intF[1483] = 0
+intF[1205] = intF[1204]
+intF[1207] = 2
+
+  @51
+goto_unless(!intF[1202]) @55
+goto_unless(intF[1204] != 999) @53
+goto_unless(intF[1207] != 2 || intF[1204] != intF[1205]) @52
+sePlay(10)
+
+  @52
+intF[1207] = 2
+goto @54
+
+  @53
+intF[1207] = 0
+
+  @54
+goto @65
+
+  @55
+goto_unless(intF[1202] == 1) @61
+goto_unless(intF[1206] != -1) @59
+goto_unless(intF[1204] == intF[1206] && intF[1204] != 999) @57
+goto_unless(intF[1207] != 3) @56
+sePlay(10)
+
+  @56
+intF[1207] = 3
+goto @58
+
+  @57
+intF[1207] = 0
+
+  @58
+goto @60
+
+  @59
+intF[1207] = 3
+intF[1206] = intF[1204]
+
+  @60
+goto @65
+
+  @61
+goto_unless(intF[1202] == 2) @65
+goto_unless(intF[1206] != -1) @64
+goto_unless(intF[1204] == intF[1206] && intF[1204] != 999) @62
+intF[1207] = 2
+intF[1210] = 1
+goto @63
+
+  @62
+intF[1207] = 0
+
+  @63
+intF[1206] = -1
+
+  @64
+FlushClick
+
+  @65
+goto_unless(0 <= intF[1206] && intF[1206] <= 5) @66
+intF[1210] = 1
+
+  @66
+goto_unless(11 <= intF[1206] && intF[1206] <= 16) @67
+intF[1210] = 1
+
+  @67
+setrng_stepped(intE[0], 1, 60, 0)
+goto_unless(intF[1204] != 999) @68
+intE[0 + intF[1204]] = intF[1207]
+
+  @68
+goto_unless(intF[1235] == 1) @70
+goto_unless(intF[1206] != 1 && intF[1204]) @69
+intE[0] = 3
+
+  @69
+goto @71
+
+  @70
+goto_unless(!intF[1235]) @71
+goto_unless(intF[1206] && intF[1204] != 1) @71
+intE[1] = 3
+
+  @71
+goto_unless(intF[1236] == 1) @73
+goto_unless(intF[1206] != 3 && intF[1204] != 2) @72
+intE[2] = 3
+
+  @72
+goto @74
+
+  @73
+goto_unless(!intF[1236]) @74
+goto_unless(intF[1206] != 2 && intF[1204] != 3) @74
+intE[3] = 3
+
+  @74
+goto_unless(intF[1237] == 1) @76
+goto_unless(intF[1206] != 5 && intF[1204] != 4) @75
+intE[4] = 3
+
+  @75
+goto @77
+
+  @76
+goto_unless(!intF[1237]) @77
+goto_unless(intF[1206] != 4 && intF[1204] != 5) @77
+intE[5] = 3
+
+  @77
+goto_unless(11 <= intF[1206] && intF[1206] <= 16) @78
+goto @79
+
+  @78
+intE[11 + (intF[1293] - 2)] = 3
+
+  @79
+OBJFRONTCHILDSET_PATNO(204, 1, intE[0])
+OBJFRONTCHILDSET_PATNO(204, 2, intE[1])
+OBJFRONTCHILDSET_PATNO(204, 3, intE[2])
+OBJFRONTCHILDSET_PATNO(204, 4, intE[3])
+OBJFRONTCHILDSET_PATNO(204, 5, intE[4])
+OBJFRONTCHILDSET_PATNO(204, 6, intE[5])
+OBJFRONTCHILDSET_PATNO(204, 7, intE[6])
+OBJFRONTCHILDSET_PATNO(204, 8, intE[7])
+OBJFRONTCHILDSET_PATNO(204, 9, intE[8])
+OBJFRONTCHILDSET_PATNO(204, 10, intE[9])
+OBJFRONTCHILDSET_PATNO(204, 11, intE[10])
+OBJFRONTCHILDSET_PATNO(204, 12, intE[52])
+OBJFRONTCHILDSET_PATNO(204, 18, intE[17])
+OBJFRONTCHILDSET_PATNO(204, 21, 5 * intF[1238] + intE[18])
+OBJFRONTCHILDSET_PATNO(204, 22, 5 * intF[1250] + intE[19])
+OBJFRONTCHILDSET_PATNO(204, 23, 5 * intF[1242] + intE[20])
+OBJFRONTCHILDSET_PATNO(204, 24, 5 * intF[1244] + intE[21])
+OBJFRONTCHILDSET_PATNO(204, 25, 5 * intF[1240] + intE[22])
+OBJFRONTCHILDSET_PATNO(204, 26, 5 * intF[1253] + intE[23])
+OBJFRONTCHILDSET_PATNO(204, 27, 5 * intF[1254] + intE[24])
+OBJFRONTCHILDSET_PATNO(204, 28, 5 * intF[1255] + intE[25])
+OBJFRONTCHILDSET_PATNO(204, 29, 5 * intF[1256] + intE[26])
+OBJFRONTCHILDSET_PATNO(204, 30, 5 * intF[1257] + intE[27])
+OBJFRONTCHILDSET_PATNO(204, 31, 5 * intF[1258] + intE[28])
+OBJFRONTCHILDSET_PATNO(204, 32, 5 * intF[1259] + intE[29])
+OBJFRONTCHILDSET_PATNO(204, 33, 5 * intF[1260] + intE[30])
+OBJFRONTCHILDSET_PATNO(204, 34, 5 * intF[1261] + intE[31])
+OBJFRONTCHILDSET_PATNO(204, 35, 5 * intF[1262] + intE[32])
+OBJFRONTCHILDSET_PATNO(204, 36, 5 * intF[1263] + intE[33])
+OBJFRONTCHILDSET_PATNO(204, 37, 5 * intF[1264] + intE[34])
+OBJFRONTCHILDSET_PATNO(204, 38, 5 * intF[1265] + intE[35])
+OBJFRONTCHILDSET_PATNO(204, 39, 5 * intF[1266] + intE[36])
+OBJFRONTCHILDSET_PATNO(204, 40, 5 * intF[1267] + intE[37])
+OBJFRONTCHILDSET_PATNO(204, 41, 5 * intF[1268] + intE[38])
+OBJFRONTCHILDSET_PATNO(204, 42, 5 * intF[1269] + intE[39])
+OBJFRONTCHILDSET_PATNO(204, 43, 5 * intF[1270] + intE[40])
+OBJFRONTCHILDSET_PATNO(204, 44, 5 * intF[1271] + intE[41])
+OBJFRONTCHILDSET_PATNO(204, 45, 5 * intF[1272] + intE[42])
+OBJFRONTCHILDSET_PATNO(204, 46, 5 * intF[1277] + intE[43])
+OBJFRONTCHILDSET_PATNO(204, 47, 5 * intF[1284] + intE[44])
+OBJFRONTCHILDSET_PATNO(204, 48, 5 * intF[1290] + intE[45])
+OBJFRONTCHILDSET_PATNO(204, 49, 5 * intF[1291] + intE[46])
+OBJFRONTCHILDSET_PATNO(204, 50, 5 * intF[1292] + intE[47])
+OBJFRONTCHILDSET_PATNO(204, 51, 5 * intF[1294] + intE[48])
+OBJFRONTCHILDSET_PATNO(204, 118, 5 * intG[1800] + intE[52])
+OBJFRONTCHILDSET_PATNO(204, 114, intE[49])
+OBJFRONTCHILDSET_PATNO(204, 19, intE[50])
+OBJFRONTCHILDSET_PATNO(204, 20, intE[51])
+intF[1301] = 600
+intF[1302] = 600 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1246] = intZ[intF[1301] + 84]
+intF[1301] = 700
+intF[1302] = 700 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1252] = intZ[intF[1301] + 84]
+intF[1301] = 800
+intF[1302] = 800 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1248] = intZ[intF[1301] + 84]
+intF[1301] = 900
+intF[1302] = 900 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1249] = intZ[intF[1301] + 84]
+intF[1301] = 1000
+intF[1302] = 1000 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1247] = intZ[intF[1301] + 84]
+intF[1301] = 1100
+intF[1302] = 1100 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1278] = intZ[intF[1301] + 84]
+intF[1301] = 1200
+intF[1302] = 1200 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1279] = intZ[intF[1301] + 84]
+intF[1301] = 1300
+intF[1302] = 1300 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1280] = intZ[intF[1301] + 84]
+intF[1301] = 1400
+intF[1302] = 1400 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1281] = intZ[intF[1301] + 84]
+intF[1301] = 1500
+intF[1302] = 1500 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1287] = intZ[intF[1301] + 84]
+intF[1303] = 1720
+farcall(9502, 8)
+farcall(9502, 10)
+refresh
+intA[1000] = ScreenMode
+goto_unless(!intA[1000]) @80
+intF[1235] = 1
+goto @81
+
+  @80
+goto_unless(intA[1000] == 1) @81
+intF[1235] = 0
+
+  @81
+intA[1000] = ShowObject1
+goto_unless(!intA[1000]) @82
+intF[1236] = 0
+goto @83
+
+  @82
+goto_unless(intA[1000] == 1) @83
+intF[1236] = 1
+
+  @83
+intA[1000] = SkipAnimations
+goto_unless(!intA[1000]) @84
+intF[1237] = 1
+goto @85
+
+  @84
+goto_unless(intA[1000] == 1) @85
+intF[1237] = 0
+
+  @85
+goto_unless(intF[1246] != intF[1239]) @86
+intF[1239] = intF[1246]
+SetBgmVolMod(intF[1239])
+intF[1303] = 1600
+farcall(9502, 8)
+intZ[intF[1303] + 11] = intF[1239] * 10 / 255
+farcall(9502, 10)
+
+  @86
+intL[0] = intF[1252] * 2
+goto_unless(intL[0] == 256) @87
+intL[0] = 255
+
+  @87
+goto_unless(intL[0] != intF[1251]) @88
+intF[1251] = intL[0]
+SetBgmKoeFadeVol(intF[1251])
+
+  @88
+goto_unless(intF[1248] != intF[1243]) @89
+intF[1243] = intF[1248]
+SetPcmVolMod(intF[1243])
+intF[1303] = 1630
+farcall(9502, 8)
+intZ[intF[1303] + 11] = intF[1243] * 10 / 255
+farcall(9502, 10)
+
+  @89
+goto_unless(intF[1249] != intF[1245]) @90
+intF[1245] = intF[1249]
+SetSeVolMod(intF[1245])
+intF[1303] = 1660
+farcall(9502, 8)
+intZ[intF[1303] + 11] = intF[1245] * 10 / 255
+farcall(9502, 10)
+
+  @90
+goto_unless(intF[1247] != intF[1241]) @91
+intF[1241] = intF[1247]
+SetKoeVolMod(intF[1241])
+intF[1303] = 1690
+farcall(9502, 8)
+intZ[intF[1303] + 11] = intF[1241] * 10 / 255
+farcall(9502, 10)
+
+  @91
+goto_unless(intF[1278] != intF[1273]) @93
+intF[1273] = intF[1278]
+SetWindowAttrR(intF[1273])
+goto_unless(!intF[1277]) @92
+OBJFRONTCHILDSET_COL_R(204, 113, 255 - intF[1273])
+goto @93
+
+  @92
+goto_unless(intF[1277] == 1) @93
+OBJFRONTCHILDSET_COL_R(204, 113, intF[1273])
+
+  @93
+goto_unless(intF[1279] != intF[1274]) @95
+intF[1274] = intF[1279]
+SetWindowAttrG(intF[1274])
+goto_unless(!intF[1277]) @94
+OBJFRONTCHILDSET_COL_G(204, 113, 255 - intF[1274])
+goto @95
+
+  @94
+goto_unless(intF[1277] == 1) @95
+OBJFRONTCHILDSET_COL_G(204, 113, intF[1274])
+
+  @95
+goto_unless(intF[1280] != intF[1275]) @97
+intF[1275] = intF[1280]
+SetWindowAttrB(intF[1275])
+goto_unless(!intF[1277]) @96
+OBJFRONTCHILDSET_COL_B(204, 113, 255 - intF[1275])
+goto @97
+
+  @96
+goto_unless(intF[1277] == 1) @97
+OBJFRONTCHILDSET_COL_B(204, 113, intF[1275])
+
+  @97
+goto_unless(intF[1281] != intF[1276]) @98
+intF[1276] = intF[1281]
+SetWindowAttrA(intF[1276])
+OBJFRONTCHILDSET_TR(204, 113, intF[1276])
+
+  @98
+goto_unless(intF[1287] != intF[1283]) @99
+intF[1283] = intF[1287]
+intA[1000] = (intF[1283] - 0) * 1000 / (255 - 0)
+intF[1288] = ((100 - 10) * intA[1000] + 500) / 1000 + 10
+SetMessageSpeed(intF[1288])
+intF[1303] = 1720
+intZ[intF[1303] + 21] = intF[1288] * 21
+intZ[intF[1303] + 22] = 400
+farcall(9502, 6)
+farcall(9502, 7)
+
+  @99
+goto_unless(intF[1210] == 1) @326
+intF[1210] = 0
+intF[1211] = intF[1204]
+goto_unless(0 <= intF[1211] && intF[1211] <= 5) @100
+goto @328
+goto @325
+
+  @100
+goto_unless(intF[1211] == 6) @141
+sePlay(13)
+intF[1253] = 1
+intF[1254] = 1
+intF[1255] = 1
+intF[1256] = 1
+intF[1257] = 1
+intF[1258] = 1
+intF[1259] = 1
+intF[1260] = 1
+intF[1261] = 1
+intF[1262] = 1
+intF[1263] = 1
+intF[1264] = 1
+intF[1265] = 1
+intF[1266] = 1
+intF[1267] = 1
+intF[1268] = 1
+intF[1269] = 1
+intF[1270] = 1
+intF[1271] = 1
+intF[1272] = 1
+goto_unless(intF[1253] == 1) @101
+SetUseKoe(0, 1)
+goto @102
+
+  @101
+goto_unless(!intF[1253]) @102
+SetUseKoe(0, 0)
+
+  @102
+goto_unless(intF[1254] == 1) @103
+SetUseKoe(1, 1)
+goto @104
+
+  @103
+goto_unless(!intF[1254]) @104
+SetUseKoe(1, 0)
+
+  @104
+goto_unless(intF[1255] == 1) @105
+SetUseKoe(2, 1)
+goto @106
+
+  @105
+goto_unless(!intF[1255]) @106
+SetUseKoe(2, 0)
+
+  @106
+goto_unless(intF[1256] == 1) @107
+SetUseKoe(3, 1)
+goto @108
+
+  @107
+goto_unless(!intF[1256]) @108
+SetUseKoe(3, 0)
+
+  @108
+goto_unless(intF[1257] == 1) @109
+SetUseKoe(4, 1)
+goto @110
+
+  @109
+goto_unless(!intF[1257]) @110
+SetUseKoe(4, 0)
+
+  @110
+goto_unless(intF[1258] == 1) @111
+SetUseKoe(5, 1)
+goto @112
+
+  @111
+goto_unless(!intF[1258]) @112
+SetUseKoe(5, 0)
+
+  @112
+goto_unless(intF[1259] == 1) @113
+SetUseKoe(6, 1)
+goto @114
+
+  @113
+goto_unless(!intF[1259]) @114
+SetUseKoe(6, 0)
+
+  @114
+goto_unless(intF[1260] == 1) @115
+SetUseKoe(7, 1)
+goto @116
+
+  @115
+goto_unless(!intF[1260]) @116
+SetUseKoe(7, 0)
+
+  @116
+goto_unless(intF[1261] == 1) @117
+SetUseKoe(8, 1)
+goto @118
+
+  @117
+goto_unless(!intF[1261]) @118
+SetUseKoe(8, 0)
+
+  @118
+goto_unless(intF[1262] == 1) @119
+SetUseKoe(9, 1)
+goto @120
+
+  @119
+goto_unless(!intF[1262]) @120
+SetUseKoe(9, 0)
+
+  @120
+goto_unless(intF[1263] == 1) @121
+SetUseKoe(10, 1)
+goto @122
+
+  @121
+goto_unless(!intF[1263]) @122
+SetUseKoe(10, 0)
+
+  @122
+goto_unless(intF[1264] == 1) @123
+SetUseKoe(11, 1)
+goto @124
+
+  @123
+goto_unless(!intF[1264]) @124
+SetUseKoe(11, 0)
+
+  @124
+goto_unless(intF[1265] == 1) @125
+SetUseKoe(12, 1)
+goto @126
+
+  @125
+goto_unless(!intF[1265]) @126
+SetUseKoe(12, 0)
+
+  @126
+goto_unless(intF[1266] == 1) @127
+SetUseKoe(13, 1)
+goto @128
+
+  @127
+goto_unless(!intF[1266]) @128
+SetUseKoe(13, 0)
+
+  @128
+goto_unless(intF[1267] == 1) @129
+SetUseKoe(14, 1)
+goto @130
+
+  @129
+goto_unless(!intF[1267]) @130
+SetUseKoe(14, 0)
+
+  @130
+goto_unless(intF[1268] == 1) @131
+SetUseKoe(15, 1)
+goto @132
+
+  @131
+goto_unless(!intF[1268]) @132
+SetUseKoe(15, 0)
+
+  @132
+goto_unless(intF[1269] == 1) @133
+SetUseKoe(16, 1)
+goto @134
+
+  @133
+goto_unless(!intF[1269]) @134
+SetUseKoe(16, 0)
+
+  @134
+goto_unless(intF[1270] == 1) @135
+SetUseKoe(17, 1)
+goto @136
+
+  @135
+goto_unless(!intF[1270]) @136
+SetUseKoe(17, 0)
+
+  @136
+goto_unless(intF[1271] == 1) @137
+SetUseKoe(18, 1)
+goto @138
+
+  @137
+goto_unless(!intF[1271]) @138
+SetUseKoe(18, 0)
+
+  @138
+goto_unless(intF[1272] == 1) @139
+SetUseKoe(19, 1)
+goto @140
+
+  @139
+goto_unless(!intF[1272]) @140
+SetUseKoe(19, 0)
+
+  @140
+FlushClick
+goto @325
+
+  @141
+goto_unless(intF[1211] == 7) @182
+sePlay(13)
+intF[1253] = 0
+intF[1254] = 0
+intF[1255] = 0
+intF[1256] = 0
+intF[1257] = 0
+intF[1258] = 0
+intF[1259] = 0
+intF[1260] = 0
+intF[1261] = 0
+intF[1262] = 0
+intF[1263] = 0
+intF[1264] = 0
+intF[1265] = 0
+intF[1266] = 0
+intF[1267] = 0
+intF[1268] = 0
+intF[1269] = 0
+intF[1270] = 0
+intF[1271] = 0
+intF[1272] = 0
+goto_unless(intF[1253] == 1) @142
+SetUseKoe(0, 1)
+goto @143
+
+  @142
+goto_unless(!intF[1253]) @143
+SetUseKoe(0, 0)
+
+  @143
+goto_unless(intF[1254] == 1) @144
+SetUseKoe(1, 1)
+goto @145
+
+  @144
+goto_unless(!intF[1254]) @145
+SetUseKoe(1, 0)
+
+  @145
+goto_unless(intF[1255] == 1) @146
+SetUseKoe(2, 1)
+goto @147
+
+  @146
+goto_unless(!intF[1255]) @147
+SetUseKoe(2, 0)
+
+  @147
+goto_unless(intF[1256] == 1) @148
+SetUseKoe(3, 1)
+goto @149
+
+  @148
+goto_unless(!intF[1256]) @149
+SetUseKoe(3, 0)
+
+  @149
+goto_unless(intF[1257] == 1) @150
+SetUseKoe(4, 1)
+goto @151
+
+  @150
+goto_unless(!intF[1257]) @151
+SetUseKoe(4, 0)
+
+  @151
+goto_unless(intF[1258] == 1) @152
+SetUseKoe(5, 1)
+goto @153
+
+  @152
+goto_unless(!intF[1258]) @153
+SetUseKoe(5, 0)
+
+  @153
+goto_unless(intF[1259] == 1) @154
+SetUseKoe(6, 1)
+goto @155
+
+  @154
+goto_unless(!intF[1259]) @155
+SetUseKoe(6, 0)
+
+  @155
+goto_unless(intF[1260] == 1) @156
+SetUseKoe(7, 1)
+goto @157
+
+  @156
+goto_unless(!intF[1260]) @157
+SetUseKoe(7, 0)
+
+  @157
+goto_unless(intF[1261] == 1) @158
+SetUseKoe(8, 1)
+goto @159
+
+  @158
+goto_unless(!intF[1261]) @159
+SetUseKoe(8, 0)
+
+  @159
+goto_unless(intF[1262] == 1) @160
+SetUseKoe(9, 1)
+goto @161
+
+  @160
+goto_unless(!intF[1262]) @161
+SetUseKoe(9, 0)
+
+  @161
+goto_unless(intF[1263] == 1) @162
+SetUseKoe(10, 1)
+goto @163
+
+  @162
+goto_unless(!intF[1263]) @163
+SetUseKoe(10, 0)
+
+  @163
+goto_unless(intF[1264] == 1) @164
+SetUseKoe(11, 1)
+goto @165
+
+  @164
+goto_unless(!intF[1264]) @165
+SetUseKoe(11, 0)
+
+  @165
+goto_unless(intF[1265] == 1) @166
+SetUseKoe(12, 1)
+goto @167
+
+  @166
+goto_unless(!intF[1265]) @167
+SetUseKoe(12, 0)
+
+  @167
+goto_unless(intF[1266] == 1) @168
+SetUseKoe(13, 1)
+goto @169
+
+  @168
+goto_unless(!intF[1266]) @169
+SetUseKoe(13, 0)
+
+  @169
+goto_unless(intF[1267] == 1) @170
+SetUseKoe(14, 1)
+goto @171
+
+  @170
+goto_unless(!intF[1267]) @171
+SetUseKoe(14, 0)
+
+  @171
+goto_unless(intF[1268] == 1) @172
+SetUseKoe(15, 1)
+goto @173
+
+  @172
+goto_unless(!intF[1268]) @173
+SetUseKoe(15, 0)
+
+  @173
+goto_unless(intF[1269] == 1) @174
+SetUseKoe(16, 1)
+goto @175
+
+  @174
+goto_unless(!intF[1269]) @175
+SetUseKoe(16, 0)
+
+  @175
+goto_unless(intF[1270] == 1) @176
+SetUseKoe(17, 1)
+goto @177
+
+  @176
+goto_unless(!intF[1270]) @177
+SetUseKoe(17, 0)
+
+  @177
+goto_unless(intF[1271] == 1) @178
+SetUseKoe(18, 1)
+goto @179
+
+  @178
+goto_unless(!intF[1271]) @179
+SetUseKoe(18, 0)
+
+  @179
+goto_unless(intF[1272] == 1) @180
+SetUseKoe(19, 1)
+goto @181
+
+  @180
+goto_unless(!intF[1272]) @181
+SetUseKoe(19, 0)
+
+  @181
+FlushClick
+goto @325
+
+  @182
+goto_unless(intF[1211] == 8) @185
+sePlay(13)
+DefWindowAttr(intF[1273], intF[1274], intF[1275], intF[1276], intF[1277])
+SetWindowAttr(intF[1273], intF[1274], intF[1275], intF[1276], intF[1277])
+FlushClick
+intF[1301] = 1100
+intF[1302] = 1100 + 0
+intZ[intF[1301] + 85] = intF[1273]
+farcall(9501, 10)
+intF[1301] = 1200
+intF[1302] = 1200 + 0
+intZ[intF[1301] + 85] = intF[1274]
+farcall(9501, 10)
+intF[1301] = 1300
+intF[1302] = 1300 + 0
+intZ[intF[1301] + 85] = intF[1275]
+farcall(9501, 10)
+intF[1301] = 1400
+intF[1302] = 1400 + 0
+intZ[intF[1301] + 85] = intF[1276]
+farcall(9501, 10)
+goto_unless(!intF[1277]) @183
+OBJFRONTCHILDSET_COL_RATE(204, 113, 255)
+OBJFRONTCHILDSET_COL_R(204, 113, 255 - intF[1273])
+OBJFRONTCHILDSET_COL_G(204, 113, 255 - intF[1274])
+OBJFRONTCHILDSET_COL_B(204, 113, 255 - intF[1275])
+OBJFRONTCHILDSET_TR(204, 113, intF[1276])
+OBJFRONTCHILDSET_DISPMOD(204, 113, 2)
+goto @184
+
+  @183
+goto_unless(intF[1277] == 1) @184
+OBJFRONTCHILDSET_COL_RATE(204, 113, 255)
+OBJFRONTCHILDSET_COL_R(204, 113, intF[1273])
+OBJFRONTCHILDSET_COL_G(204, 113, intF[1274])
+OBJFRONTCHILDSET_COL_B(204, 113, intF[1275])
+OBJFRONTCHILDSET_TR(204, 113, intF[1276])
+OBJFRONTCHILDSET_DISPMOD(204, 113, 0)
+
+  @184
+goto @325
+
+  @185
+goto_unless(intF[1211] == 9) @196
+sePlay(13)
+intF[1283] = DefMessageSpeed
+intF[1286] = DefMessageNoWait
+goto_unless(!intF[1286]) @186
+intF[1284] = 0
+intF[1285] = intG[1112]
+goto @188
+
+  @186
+goto_unless(intF[1286] == 1) @187
+intF[1284] = 1
+intF[1285] = 0
+goto @188
+
+  @187
+goto_unless(intF[1286] == 2) @188
+intF[1284] = 1
+intF[1285] = 1
+
+  @188
+SetMessageSpeed(intF[1283])
+goto_unless(intF[1284] == 1) @191
+goto_unless(intF[1285] == 1) @189
+intF[1286] = 2
+goto @190
+
+  @189
+goto_unless(!intF[1285]) @190
+intF[1286] = 1
+
+  @190
+goto @193
+
+  @191
+goto_unless(!intF[1284]) @193
+goto_unless(intF[1285] == 1) @192
+intF[1286] = 0
+goto @193
+
+  @192
+goto_unless(!intF[1285]) @193
+intF[1286] = 0
+
+  @193
+SetMessageNoWait(intF[1286])
+intA[1000] = (intF[1283] - 10) * 1000 / (100 - 10)
+intF[1283] = ((255 - 0) * intA[1000] + 500) / 1000
+FlushClick
+intF[1301] = 1500
+intF[1302] = 1500 + 0
+intZ[intF[1301] + 85] = intF[1283]
+farcall(9501, 10)
+intF[1303] = 1720
+goto_unless(intF[1284] == 1) @194
+intZ[intF[1303] + 19] = 2
+farcall(9502, 4)
+goto @195
+
+  @194
+goto_unless(!intF[1284]) @195
+intZ[intF[1303] + 19] = 0
+farcall(9502, 4)
+
+  @195
+intA[1000] = (intF[1283] - 0) * 1000 / (255 - 0)
+intF[1288] = ((100 - 10) * intA[1000] + 500) / 1000 + 10
+intZ[intF[1303] + 21] = intF[1288] * 21
+intZ[intF[1303] + 22] = 400
+farcall(9502, 6)
+farcall(9502, 7)
+goto @325
+
+  @196
+goto_unless(intF[1211] == 10) @197
+goto @328
+goto @325
+
+  @197
+goto_unless(intF[1211] == 52) @220
+sePlay(13)
+intL[0] = GET_SYSTEM_FLAG_DEFAULT_BGMVOLUME
+SetBgmVolMod(intL[0])
+intL[1] = GET_SYSTEM_FLAG_DEFAULT_KOEVOLUME
+SetKoeVolMod(intL[1])
+intL[2] = GET_SYSTEM_FLAG_DEFAULT_PCMVOLUME
+SetPcmVolMod(intL[2])
+intL[3] = GET_SYSTEM_FLAG_DEFAULT_SEVOLUME
+SetSeVolMod(intL[3])
+intL[4] = DefBgmKoeFadeVol
+SetBgmKoeFadeVol(intL[4])
+intL[5] = GET_SYSTEM_FLAG_DEFAULT_BGMUSE
+SetBgmEnabled(intL[5])
+intL[6] = GET_SYSTEM_FLAG_DEFAULT_KOEUSE
+SetKoeEnabled(intL[6])
+intL[7] = GET_SYSTEM_FLAG_DEFAULT_PCMUSE
+SetPcmEnabled(intL[7])
+intL[8] = GET_SYSTEM_FLAG_DEFAULT_SEUSE
+SetSeEnabled(intL[8])
+intA[1000] = DefBgmKoeFade
+goto_unless(!intA[1000]) @198
+intF[1250] = 0
+goto @199
+
+  @198
+goto_unless(intA[1000] == 1) @199
+intF[1250] = 1
+
+  @199
+intF[1251] = DefBgmKoeFadeVol
+intA[1000] = BgmEnabled
+goto_unless(!intA[1000]) @200
+intF[1238] = 0
+goto @201
+
+  @200
+goto_unless(intA[1000] == 1) @201
+intF[1238] = 1
+
+  @201
+intF[1239] = BgmVolMod
+intA[1000] = KoeEnabled
+goto_unless(!intA[1000]) @202
+intF[1240] = 0
+goto @203
+
+  @202
+goto_unless(intA[1000] == 1) @203
+intF[1240] = 1
+
+  @203
+intF[1241] = KoeVolMod
+intA[1000] = PcmEnabled
+goto_unless(!intA[1000]) @204
+intF[1242] = 0
+goto @205
+
+  @204
+goto_unless(intA[1000] == 1) @205
+intF[1242] = 1
+
+  @205
+intF[1243] = PcmVolMod
+intA[1000] = SeEnabled
+goto_unless(!intA[1000]) @206
+intF[1244] = 0
+goto @207
+
+  @206
+goto_unless(intA[1000] == 1) @207
+intF[1244] = 1
+
+  @207
+intF[1245] = SeVolMod
+intF[1238] = 1
+goto_unless(intF[1238] == 1) @208
+SetBgmEnabled(1)
+goto @209
+
+  @208
+goto_unless(!intF[1238]) @209
+SetBgmEnabled(0)
+
+  @209
+intF[1250] = 1
+goto_unless(intF[1250] == 1) @210
+SetBgmKoeFade(1)
+goto @211
+
+  @210
+goto_unless(!intF[1250]) @211
+SetBgmKoeFade(0)
+
+  @211
+intF[1242] = 1
+goto_unless(intF[1242] == 1) @212
+SetPcmEnabled(1)
+goto @213
+
+  @212
+goto_unless(!intF[1242]) @213
+SetPcmEnabled(0)
+
+  @213
+intF[1244] = 1
+goto_unless(intF[1244] == 1) @214
+SetSeEnabled(1)
+goto @215
+
+  @214
+goto_unless(!intF[1244]) @215
+SetSeEnabled(0)
+
+  @215
+sePlay(13)
+intF[1240] = 1
+goto_unless(intF[1240] == 1) @216
+SetKoeEnabled(1)
+goto @217
+
+  @216
+goto_unless(!intF[1240]) @217
+SetKoeEnabled(0)
+
+  @217
+intF[1301] = 600
+intF[1302] = 600 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 210
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 52
+intZ[intF[1301] + 77] = 53
+intZ[intF[1301] + 78] = 54
+intZ[intF[1301] + 79] = 55
+intZ[intF[1301] + 80] = 56
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1239]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 700
+intF[1302] = 700 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 211
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 57
+intZ[intF[1301] + 77] = 58
+intZ[intF[1301] + 78] = 59
+intZ[intF[1301] + 79] = 60
+intZ[intF[1301] + 80] = 61
+farcall(9501, 2)
+goto_unless(intF[1251] == 255) @218
+intL[0] = 256 / 2
+goto @219
+
+  @218
+intL[0] = intF[1251] / 2
+
+  @219
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intL[0]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 800
+intF[1302] = 800 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 212
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 62
+intZ[intF[1301] + 77] = 63
+intZ[intF[1301] + 78] = 64
+intZ[intF[1301] + 79] = 65
+intZ[intF[1301] + 80] = 66
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1243]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 900
+intF[1302] = 900 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 213
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 67
+intZ[intF[1301] + 77] = 68
+intZ[intF[1301] + 78] = 69
+intZ[intF[1301] + 79] = 70
+intZ[intF[1301] + 80] = 71
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1245]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 1000
+intF[1302] = 1000 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 214
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 72
+intZ[intF[1301] + 77] = 73
+intZ[intF[1301] + 78] = 74
+intZ[intF[1301] + 79] = 75
+intZ[intF[1301] + 80] = 76
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1241]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+FlushClick
+goto @325
+
+  @220
+goto_unless(intF[1211] == 17) @221
+goto @328
+goto @325
+
+  @221
+goto_unless(intF[1211] == 18) @224
+sePlay(13)
+intF[1238] = (intF[1238] + 1) % 2
+goto_unless(intF[1238] == 1) @222
+SetBgmEnabled(1)
+goto @223
+
+  @222
+goto_unless(!intF[1238]) @223
+SetBgmEnabled(0)
+
+  @223
+FlushClick
+goto @325
+
+  @224
+goto_unless(intF[1211] == 19) @227
+sePlay(13)
+intF[1250] = (intF[1250] + 1) % 2
+goto_unless(intF[1250] == 1) @225
+SetBgmKoeFade(1)
+goto @226
+
+  @225
+goto_unless(!intF[1250]) @226
+SetBgmKoeFade(0)
+
+  @226
+FlushClick
+goto @325
+
+  @227
+goto_unless(intF[1211] == 20) @230
+sePlay(13)
+intF[1242] = (intF[1242] + 1) % 2
+goto_unless(intF[1242] == 1) @228
+SetPcmEnabled(1)
+goto @229
+
+  @228
+goto_unless(!intF[1242]) @229
+SetPcmEnabled(0)
+
+  @229
+FlushClick
+goto @325
+
+  @230
+goto_unless(intF[1211] == 21) @233
+intF[1244] = (intF[1244] + 1) % 2
+goto_unless(intF[1244] == 1) @231
+SetSeEnabled(1)
+goto @232
+
+  @231
+goto_unless(!intF[1244]) @232
+SetSeEnabled(0)
+
+  @232
+sePlay(13)
+FlushClick
+goto @325
+
+  @233
+goto_unless(intF[1211] == 22) @236
+sePlay(13)
+intF[1240] = (intF[1240] + 1) % 2
+goto_unless(intF[1240] == 1) @234
+SetKoeEnabled(1)
+goto @235
+
+  @234
+goto_unless(!intF[1240]) @235
+SetKoeEnabled(0)
+
+  @235
+FlushClick
+goto @325
+
+  @236
+goto_unless(23 <= intF[1211] && intF[1211] <= 42) @298
+sePlay(13)
+goto_case(intF[1211]){ 23: @237; 24: @240; 25: @243; 26: @246; 27: @249; 28: @252; 29: @255; 30: @258; 31: @261; 32: @264; 33: @267; 34: @270; 35: @273; 36: @276; 37: @279; 38: @282; 39: @285; 40: @288; 41: @291; 42: @294; _: @297 }
+
+  @237
+intF[1253] = (intF[1253] + 1) % 2
+goto_unless(intF[1253] == 1) @238
+SetUseKoe(0, 1)
+goto @239
+
+  @238
+goto_unless(!intF[1253]) @239
+SetUseKoe(0, 0)
+
+  @239
+goto @297
+
+  @240
+intF[1254] = (intF[1254] + 1) % 2
+goto_unless(intF[1254] == 1) @241
+SetUseKoe(1, 1)
+goto @242
+
+  @241
+goto_unless(!intF[1254]) @242
+SetUseKoe(1, 0)
+
+  @242
+goto @297
+
+  @243
+intF[1255] = (intF[1255] + 1) % 2
+goto_unless(intF[1255] == 1) @244
+SetUseKoe(2, 1)
+goto @245
+
+  @244
+goto_unless(!intF[1255]) @245
+SetUseKoe(2, 0)
+
+  @245
+goto @297
+
+  @246
+intF[1256] = (intF[1256] + 1) % 2
+goto_unless(intF[1256] == 1) @247
+SetUseKoe(3, 1)
+goto @248
+
+  @247
+goto_unless(!intF[1256]) @248
+SetUseKoe(3, 0)
+
+  @248
+goto @297
+
+  @249
+intF[1257] = (intF[1257] + 1) % 2
+goto_unless(intF[1257] == 1) @250
+SetUseKoe(4, 1)
+goto @251
+
+  @250
+goto_unless(!intF[1257]) @251
+SetUseKoe(4, 0)
+
+  @251
+goto @297
+
+  @252
+intF[1258] = (intF[1258] + 1) % 2
+goto_unless(intF[1258] == 1) @253
+SetUseKoe(5, 1)
+goto @254
+
+  @253
+goto_unless(!intF[1258]) @254
+SetUseKoe(5, 0)
+
+  @254
+goto @297
+
+  @255
+intF[1259] = (intF[1259] + 1) % 2
+goto_unless(intF[1259] == 1) @256
+SetUseKoe(6, 1)
+goto @257
+
+  @256
+goto_unless(!intF[1259]) @257
+SetUseKoe(6, 0)
+
+  @257
+goto @297
+
+  @258
+intF[1260] = (intF[1260] + 1) % 2
+goto_unless(intF[1260] == 1) @259
+SetUseKoe(7, 1)
+goto @260
+
+  @259
+goto_unless(!intF[1260]) @260
+SetUseKoe(7, 0)
+
+  @260
+goto @297
+
+  @261
+intF[1261] = (intF[1261] + 1) % 2
+goto_unless(intF[1261] == 1) @262
+SetUseKoe(8, 1)
+goto @263
+
+  @262
+goto_unless(!intF[1261]) @263
+SetUseKoe(8, 0)
+
+  @263
+goto @297
+
+  @264
+intF[1262] = (intF[1262] + 1) % 2
+goto_unless(intF[1262] == 1) @265
+SetUseKoe(9, 1)
+goto @266
+
+  @265
+goto_unless(!intF[1262]) @266
+SetUseKoe(9, 0)
+
+  @266
+goto @297
+
+  @267
+intF[1263] = (intF[1263] + 1) % 2
+goto_unless(intF[1263] == 1) @268
+SetUseKoe(10, 1)
+goto @269
+
+  @268
+goto_unless(!intF[1263]) @269
+SetUseKoe(10, 0)
+
+  @269
+goto @297
+
+  @270
+intF[1264] = (intF[1264] + 1) % 2
+goto_unless(intF[1264] == 1) @271
+SetUseKoe(11, 1)
+goto @272
+
+  @271
+goto_unless(!intF[1264]) @272
+SetUseKoe(11, 0)
+
+  @272
+goto @297
+
+  @273
+intF[1265] = (intF[1265] + 1) % 2
+goto_unless(intF[1265] == 1) @274
+SetUseKoe(12, 1)
+goto @275
+
+  @274
+goto_unless(!intF[1265]) @275
+SetUseKoe(12, 0)
+
+  @275
+goto @297
+
+  @276
+intF[1266] = (intF[1266] + 1) % 2
+goto_unless(intF[1266] == 1) @277
+SetUseKoe(13, 1)
+goto @278
+
+  @277
+goto_unless(!intF[1266]) @278
+SetUseKoe(13, 0)
+
+  @278
+goto @297
+
+  @279
+intF[1267] = (intF[1267] + 1) % 2
+goto_unless(intF[1267] == 1) @280
+SetUseKoe(14, 1)
+goto @281
+
+  @280
+goto_unless(!intF[1267]) @281
+SetUseKoe(14, 0)
+
+  @281
+goto @297
+
+  @282
+intF[1268] = (intF[1268] + 1) % 2
+goto_unless(intF[1268] == 1) @283
+SetUseKoe(15, 1)
+goto @284
+
+  @283
+goto_unless(!intF[1268]) @284
+SetUseKoe(15, 0)
+
+  @284
+goto @297
+
+  @285
+intF[1269] = (intF[1269] + 1) % 2
+goto_unless(intF[1269] == 1) @286
+SetUseKoe(16, 1)
+goto @287
+
+  @286
+goto_unless(!intF[1269]) @287
+SetUseKoe(16, 0)
+
+  @287
+goto @297
+
+  @288
+intF[1270] = (intF[1270] + 1) % 2
+goto_unless(intF[1270] == 1) @289
+SetUseKoe(17, 1)
+goto @290
+
+  @289
+goto_unless(!intF[1270]) @290
+SetUseKoe(17, 0)
+
+  @290
+goto @297
+
+  @291
+intF[1271] = (intF[1271] + 1) % 2
+goto_unless(intF[1271] == 1) @292
+SetUseKoe(18, 1)
+goto @293
+
+  @292
+goto_unless(!intF[1271]) @293
+SetUseKoe(18, 0)
+
+  @293
+goto @297
+
+  @294
+intF[1272] = (intF[1272] + 1) % 2
+goto_unless(intF[1272] == 1) @295
+SetUseKoe(19, 1)
+goto @296
+
+  @295
+goto_unless(!intF[1272]) @296
+SetUseKoe(19, 0)
+
+  @296
+goto @297
+
+  @297
+FlushClick
+goto @325
+
+  @298
+goto_unless(intF[1211] == 43) @301
+sePlay(13)
+intF[1277] = (intF[1277] + 1) % 2
+SetWindowAttrF(intF[1277])
+goto_unless(!intF[1277]) @299
+OBJFRONTCHILDSET_COL_RATE(204, 113, 255)
+OBJFRONTCHILDSET_COL_R(204, 113, 255 - intF[1273])
+OBJFRONTCHILDSET_COL_G(204, 113, 255 - intF[1274])
+OBJFRONTCHILDSET_COL_B(204, 113, 255 - intF[1275])
+OBJFRONTCHILDSET_TR(204, 113, intF[1276])
+OBJFRONTCHILDSET_DISPMOD(204, 113, 2)
+goto @300
+
+  @299
+goto_unless(intF[1277] == 1) @300
+OBJFRONTCHILDSET_COL_RATE(204, 113, 255)
+OBJFRONTCHILDSET_COL_R(204, 113, intF[1273])
+OBJFRONTCHILDSET_COL_G(204, 113, intF[1274])
+OBJFRONTCHILDSET_COL_B(204, 113, intF[1275])
+OBJFRONTCHILDSET_TR(204, 113, intF[1276])
+OBJFRONTCHILDSET_DISPMOD(204, 113, 0)
+
+  @300
+FlushClick
+goto @325
+
+  @301
+goto_unless(intF[1211] == 44) @309
+sePlay(13)
+intF[1284] = (intF[1284] + 1) % 2
+goto_unless(intF[1284] == 1) @304
+goto_unless(intF[1285] == 1) @302
+intF[1286] = 2
+goto @303
+
+  @302
+goto_unless(!intF[1285]) @303
+intF[1286] = 1
+
+  @303
+goto @306
+
+  @304
+goto_unless(!intF[1284]) @306
+goto_unless(intF[1285] == 1) @305
+intF[1286] = 0
+goto @306
+
+  @305
+goto_unless(!intF[1285]) @306
+intF[1286] = 0
+
+  @306
+SetMessageNoWait(intF[1286])
+FlushClick
+intF[1303] = 1720
+goto_unless(intF[1284] == 1) @307
+intZ[intF[1303] + 19] = 2
+farcall(9502, 4)
+goto @308
+
+  @307
+goto_unless(!intF[1284]) @308
+intZ[intF[1303] + 19] = 0
+farcall(9502, 4)
+
+  @308
+farcall(9502, 7)
+goto @325
+
+  @309
+goto_unless(intF[1211] == 45) @312
+sePlay(13)
+intF[1290] = (intF[1290] + 1) % 2
+goto_unless(intF[1290] == 1) @310
+SetCursorMono(1)
+goto @311
+
+  @310
+goto_unless(!intF[1290]) @311
+SetCursorMono(0)
+
+  @311
+FlushClick
+goto @325
+
+  @312
+goto_unless(intF[1211] == 46) @315
+sePlay(13)
+intF[1291] = (intF[1291] + 1) % 2
+goto_unless(intF[1291] == 1) @313
+SetLowPriority(1)
+goto @314
+
+  @313
+goto_unless(!intF[1291]) @314
+SetLowPriority(0)
+
+  @314
+FlushClick
+goto @325
+
+  @315
+goto_unless(intF[1211] == 47) @318
+sePlay(13)
+intF[1292] = (intF[1292] + 1) % 2
+goto_unless(intF[1292] == 1) @316
+SetReduceDistortion(1)
+goto @317
+
+  @316
+goto_unless(!intF[1292]) @317
+SetReduceDistortion(0)
+
+  @317
+FlushClick
+goto @325
+
+  @318
+goto_unless(intF[1211] == 48) @321
+sePlay(13)
+intF[1294] = (intF[1294] + 1) % 2
+goto_unless(intF[1294] == 1) @319
+SET_SYSTEM_FLAG_MOUSEWHEEL(1)
+goto @320
+
+  @319
+goto_unless(!intF[1294]) @320
+SET_SYSTEM_FLAG_MOUSEWHEEL(0)
+
+  @320
+FlushClick
+goto @325
+
+  @321
+goto_unless(intF[1211] == 49) @322
+goto @328
+goto @325
+
+  @322
+goto_unless(intF[1211] == 50) @323
+goto @328
+goto @325
+
+  @323
+goto_unless(intF[1211] == 51) @324
+goto @328
+goto @325
+
+  @324
+goto_unless(intF[1211] == 53) @325
+sePlay(13)
+intG[1800] = (intG[1800] + 1) % 2
+intG[1801] = (intG[1801] + 1) % 2
+intG[1802] = (intG[1802] + 1) % 2
+FlushClick
+
+  @325
+goto @327
+
+  @326
+goto_unless(intF[1203] == 2) @327
+intF[1206] = -1
+FlushClick
+intF[1211] = 49
+goto @328
+
+  @327
+goto @2
+
+  @328
+goto_unless(!intF[1211]) @331
+sePlay(13)
+intF[1235] = (intF[1235] + 1) % 2
+gosub @455
+goto_unless(intF[1235] == 1) @329
+SetScreenMode(0)
+goto @330
+
+  @329
+goto_unless(!intF[1235]) @330
+SetScreenMode(1)
+
+  @330
+goto @1
+goto @351
+
+  @331
+goto_unless(intF[1211] == 1) @334
+sePlay(13)
+intF[1235] = (intF[1235] + 1) % 2
+gosub @455
+goto_unless(intF[1235] == 1) @332
+SetScreenMode(0)
+goto @333
+
+  @332
+goto_unless(!intF[1235]) @333
+SetScreenMode(1)
+
+  @333
+goto @1
+goto @351
+
+  @334
+goto_unless(intF[1211] == 2) @337
+sePlay(13)
+intF[1236] = (intF[1236] + 1) % 2
+goto_unless(intF[1236] == 1) @335
+SetShowObject1(1)
+goto @336
+
+  @335
+goto_unless(!intF[1236]) @336
+SetShowObject1(0)
+
+  @336
+gosub @455
+goto @1
+goto @351
+
+  @337
+goto_unless(intF[1211] == 3) @340
+sePlay(13)
+intF[1236] = (intF[1236] + 1) % 2
+goto_unless(intF[1236] == 1) @338
+SetShowObject1(1)
+goto @339
+
+  @338
+goto_unless(!intF[1236]) @339
+SetShowObject1(0)
+
+  @339
+gosub @455
+goto @1
+goto @351
+
+  @340
+goto_unless(intF[1211] == 4) @343
+sePlay(13)
+intF[1237] = (intF[1237] + 1) % 2
+goto_unless(intF[1237] == 1) @341
+SetSkipAnimations(0)
+goto @342
+
+  @341
+goto_unless(!intF[1237]) @342
+SetSkipAnimations(1)
+
+  @342
+gosub @455
+goto @1
+goto @351
+
+  @343
+goto_unless(intF[1211] == 5) @346
+sePlay(13)
+intF[1237] = (intF[1237] + 1) % 2
+goto_unless(intF[1237] == 1) @344
+SetSkipAnimations(0)
+goto @345
+
+  @344
+goto_unless(!intF[1237]) @345
+SetSkipAnimations(1)
+
+  @345
+gosub @455
+goto @1
+goto @351
+
+  @346
+goto_unless(intF[1211] == 10) @347
+sePlay(13)
+InvokeSyscom(9)
+goto @1
+goto @351
+
+  @347
+goto_unless(intF[1211] == 17) @348
+sePlay(13)
+CALL_SYSTEMMENU_MOVIESUPPORT
+goto @1
+goto @351
+
+  @348
+goto_unless(intF[1211] == 49) @349
+sePlay(13)
+goto @351
+
+  @349
+goto_unless(intF[1211] == 50) @350
+sePlay(13)
+intF[1483] = 1
+OPEN_FULLSCREEN_SETTING_WINDOW
+goto @1
+goto @351
+
+  @350
+goto_unless(intF[1211] == 51) @351
+sePlay(13)
+CALL_SYSTEMMENU_MMXSUPPORT
+goto @1
+
+  @351
+gosub @444
+goto_unless(intG[1210] == 1) @352
+intF[1400] = 1
+
+  @352
+rtl_with
+
+  @353
+intA[1000] = ScreenMode
+goto_unless(!intA[1000]) @354
+intF[1235] = 1
+goto @355
+
+  @354
+goto_unless(intA[1000] == 1) @355
+intF[1235] = 0
+
+  @355
+intA[1000] = ShowObject1
+goto_unless(!intA[1000]) @356
+intF[1236] = 0
+goto @357
+
+  @356
+goto_unless(intA[1000] == 1) @357
+intF[1236] = 1
+
+  @357
+intA[1000] = SkipAnimations
+goto_unless(!intA[1000]) @358
+intF[1237] = 1
+goto @359
+
+  @358
+goto_unless(intA[1000] == 1) @359
+intF[1237] = 0
+
+  @359
+intA[1000] = BgmEnabled
+goto_unless(!intA[1000]) @360
+intF[1238] = 0
+goto @361
+
+  @360
+goto_unless(intA[1000] == 1) @361
+intF[1238] = 1
+
+  @361
+intF[1239] = BgmVolMod
+intA[1000] = KoeEnabled
+goto_unless(!intA[1000]) @362
+intF[1240] = 0
+goto @363
+
+  @362
+goto_unless(intA[1000] == 1) @363
+intF[1240] = 1
+
+  @363
+intF[1241] = KoeVolMod
+intA[1000] = PcmEnabled
+goto_unless(!intA[1000]) @364
+intF[1242] = 0
+goto @365
+
+  @364
+goto_unless(intA[1000] == 1) @365
+intF[1242] = 1
+
+  @365
+intF[1243] = PcmVolMod
+intA[1000] = SeEnabled
+goto_unless(!intA[1000]) @366
+intF[1244] = 0
+goto @367
+
+  @366
+goto_unless(intA[1000] == 1) @367
+intF[1244] = 1
+
+  @367
+intF[1245] = SeVolMod
+intA[1000] = BgmKoeFade
+goto_unless(!intA[1000]) @368
+intF[1250] = 0
+goto @369
+
+  @368
+goto_unless(intA[1000] == 1) @369
+intF[1250] = 1
+
+  @369
+intF[1251] = BgmKoeFadeVol
+intA[1000] = UseKoe(0)
+goto_unless(!intA[1000]) @370
+intF[1253] = 0
+goto @371
+
+  @370
+goto_unless(intA[1000] == 1) @371
+intF[1253] = 1
+
+  @371
+intA[1000] = UseKoe(1)
+goto_unless(!intA[1000]) @372
+intF[1254] = 0
+goto @373
+
+  @372
+goto_unless(intA[1000] == 1) @373
+intF[1254] = 1
+
+  @373
+intA[1000] = UseKoe(2)
+goto_unless(!intA[1000]) @374
+intF[1255] = 0
+goto @375
+
+  @374
+goto_unless(intA[1000] == 1) @375
+intF[1255] = 1
+
+  @375
+intA[1000] = UseKoe(3)
+goto_unless(!intA[1000]) @376
+intF[1256] = 0
+goto @377
+
+  @376
+goto_unless(intA[1000] == 1) @377
+intF[1256] = 1
+
+  @377
+intA[1000] = UseKoe(4)
+goto_unless(!intA[1000]) @378
+intF[1257] = 0
+goto @379
+
+  @378
+goto_unless(intA[1000] == 1) @379
+intF[1257] = 1
+
+  @379
+intA[1000] = UseKoe(5)
+goto_unless(!intA[1000]) @380
+intF[1258] = 0
+goto @381
+
+  @380
+goto_unless(intA[1000] == 1) @381
+intF[1258] = 1
+
+  @381
+intA[1000] = UseKoe(6)
+goto_unless(!intA[1000]) @382
+intF[1259] = 0
+goto @383
+
+  @382
+goto_unless(intA[1000] == 1) @383
+intF[1259] = 1
+
+  @383
+intA[1000] = UseKoe(7)
+goto_unless(!intA[1000]) @384
+intF[1260] = 0
+goto @385
+
+  @384
+goto_unless(intA[1000] == 1) @385
+intF[1260] = 1
+
+  @385
+intA[1000] = UseKoe(8)
+goto_unless(!intA[1000]) @386
+intF[1261] = 0
+goto @387
+
+  @386
+goto_unless(intA[1000] == 1) @387
+intF[1261] = 1
+
+  @387
+intA[1000] = UseKoe(9)
+goto_unless(!intA[1000]) @388
+intF[1262] = 0
+goto @389
+
+  @388
+goto_unless(intA[1000] == 1) @389
+intF[1262] = 1
+
+  @389
+intA[1000] = UseKoe(10)
+goto_unless(!intA[1000]) @390
+intF[1263] = 0
+goto @391
+
+  @390
+goto_unless(intA[1000] == 1) @391
+intF[1263] = 1
+
+  @391
+intA[1000] = UseKoe(11)
+goto_unless(!intA[1000]) @392
+intF[1264] = 0
+goto @393
+
+  @392
+goto_unless(intA[1000] == 1) @393
+intF[1264] = 1
+
+  @393
+intA[1000] = UseKoe(12)
+goto_unless(!intA[1000]) @394
+intF[1265] = 0
+goto @395
+
+  @394
+goto_unless(intA[1000] == 1) @395
+intF[1265] = 1
+
+  @395
+intA[1000] = UseKoe(13)
+goto_unless(!intA[1000]) @396
+intF[1266] = 0
+goto @397
+
+  @396
+goto_unless(intA[1000] == 1) @397
+intF[1266] = 1
+
+  @397
+intA[1000] = UseKoe(14)
+goto_unless(!intA[1000]) @398
+intF[1267] = 0
+goto @399
+
+  @398
+goto_unless(intA[1000] == 1) @399
+intF[1267] = 1
+
+  @399
+intA[1000] = UseKoe(15)
+goto_unless(!intA[1000]) @400
+intF[1268] = 0
+goto @401
+
+  @400
+goto_unless(intA[1000] == 1) @401
+intF[1268] = 1
+
+  @401
+intA[1000] = UseKoe(16)
+goto_unless(!intA[1000]) @402
+intF[1269] = 0
+goto @403
+
+  @402
+goto_unless(intA[1000] == 1) @403
+intF[1269] = 1
+
+  @403
+intA[1000] = UseKoe(17)
+goto_unless(!intA[1000]) @404
+intF[1270] = 0
+goto @405
+
+  @404
+goto_unless(intA[1000] == 1) @405
+intF[1270] = 1
+
+  @405
+intA[1000] = UseKoe(18)
+goto_unless(!intA[1000]) @406
+intF[1271] = 0
+goto @407
+
+  @406
+goto_unless(intA[1000] == 1) @407
+intF[1271] = 1
+
+  @407
+intA[1000] = UseKoe(19)
+goto_unless(!intA[1000]) @408
+intF[1272] = 0
+goto @409
+
+  @408
+goto_unless(intA[1000] == 1) @409
+intF[1272] = 1
+
+  @409
+GetWindowAttr(intF[1273], intF[1274], intF[1275], intF[1276], intF[1277])
+intF[1283] = MessageSpeed
+intF[1286] = MessageNoWait
+goto_unless(!intF[1286]) @410
+intF[1284] = 0
+intF[1285] = intG[1112]
+goto @412
+
+  @410
+goto_unless(intF[1286] == 1) @411
+intF[1284] = 1
+intF[1285] = 0
+goto @412
+
+  @411
+goto_unless(intF[1286] == 2) @412
+intF[1284] = 1
+intF[1285] = 1
+
+  @412
+intA[1000] = (intF[1283] - 10) * 1000 / (100 - 10)
+intF[1283] = ((255 - 0) * intA[1000] + 500) / 1000
+intA[1000] = CursorMono
+goto_unless(!intA[1000]) @413
+intF[1290] = 0
+goto @414
+
+  @413
+goto_unless(intA[1000] == 1) @414
+intF[1290] = 1
+
+  @414
+intA[1000] = LowPriority
+goto_unless(!intA[1000]) @415
+intF[1291] = 0
+goto @416
+
+  @415
+goto_unless(intA[1000] == 1) @416
+intF[1291] = 1
+
+  @416
+intA[1000] = ReduceDistortion
+goto_unless(!intA[1000]) @417
+intF[1292] = 0
+goto @418
+
+  @417
+goto_unless(intA[1000] == 1) @418
+intF[1292] = 1
+
+  @418
+intF[1293] = SoundQuality
+intA[1000] = GET_SYSTEM_FLAG_MOUSEWHEEL
+goto_unless(!intA[1000]) @419
+intF[1294] = 0
+goto @420
+
+  @419
+goto_unless(intA[1000] == 1) @420
+intF[1294] = 1
+
+  @420
+ret
+
+  @421
+objClear(204)
+OBJFRONTCHILD(204, 119, '?', '?')
+objMove(204, 0, 0)
+objPattNo(204, 0)
+objShow(204, 1)
+OBJFRONTCHILDINITPARAM(204, 0)
+goto_unless(!intG[1600]) @422
+OBJFRONTCHILDLOAD(204, 0, 'MN_CF_BG00')
+goto @423
+
+  @422
+goto_unless(intG[1600] == 1) @423
+OBJFRONTCHILDLOAD(204, 0, 'MN_CF_BG01')
+
+  @423
+OBJFRONTCHILDSET_POS(204, 0, 0, 0)
+OBJFRONTCHILDSET_PATNO(204, 0, 0)
+OBJFRONTCHILDSET_DISP(204, 0, 1)
+OBJFRONTCHILDINITPARAM(204, 1)
+OBJFRONTCHILDLOAD(204, 1, 'MN_CF_BTN00')
+OBJFRONTCHILDSET_POS(204, 1, 210, 121)
+OBJFRONTCHILDSET_PATNO(204, 1, 0)
+OBJFRONTCHILDSET_DISP(204, 1, 1)
+OBJFRONTCHILDINITPARAM(204, 2)
+OBJFRONTCHILDLOAD(204, 2, 'MN_CF_BTN01')
+OBJFRONTCHILDSET_POS(204, 2, 352, 121)
+OBJFRONTCHILDSET_PATNO(204, 2, 0)
+OBJFRONTCHILDSET_DISP(204, 2, 1)
+OBJFRONTCHILDINITPARAM(204, 3)
+OBJFRONTCHILDLOAD(204, 3, 'MN_CF_BTN02')
+OBJFRONTCHILDSET_POS(204, 3, 288, 161)
+OBJFRONTCHILDSET_PATNO(204, 3, 0)
+OBJFRONTCHILDSET_DISP(204, 3, 1)
+OBJFRONTCHILDINITPARAM(204, 4)
+OBJFRONTCHILDLOAD(204, 4, 'MN_CF_BTN03')
+OBJFRONTCHILDSET_POS(204, 4, 430, 161)
+OBJFRONTCHILDSET_PATNO(204, 4, 0)
+OBJFRONTCHILDSET_DISP(204, 4, 1)
+OBJFRONTCHILDINITPARAM(204, 5)
+OBJFRONTCHILDLOAD(204, 5, 'MN_CF_BTN04')
+OBJFRONTCHILDSET_POS(204, 5, 288, 202)
+OBJFRONTCHILDSET_PATNO(204, 5, 0)
+OBJFRONTCHILDSET_DISP(204, 5, 1)
+OBJFRONTCHILDINITPARAM(204, 6)
+OBJFRONTCHILDLOAD(204, 6, 'MN_CF_BTN05')
+OBJFRONTCHILDSET_POS(204, 6, 430, 202)
+OBJFRONTCHILDSET_PATNO(204, 6, 0)
+OBJFRONTCHILDSET_DISP(204, 6, 1)
+OBJFRONTCHILDINITPARAM(204, 7)
+OBJFRONTCHILDLOAD(204, 7, 'MN_CF_BTN06')
+OBJFRONTCHILDSET_POS(204, 7, 288, 670)
+OBJFRONTCHILDSET_PATNO(204, 7, 0)
+OBJFRONTCHILDSET_DISP(204, 7, 1)
+OBJFRONTCHILDINITPARAM(204, 8)
+OBJFRONTCHILDLOAD(204, 8, 'MN_CF_BTN07')
+OBJFRONTCHILDSET_POS(204, 8, 430, 670)
+OBJFRONTCHILDSET_PATNO(204, 8, 0)
+OBJFRONTCHILDSET_DISP(204, 8, 1)
+OBJFRONTCHILDINITPARAM(204, 9)
+OBJFRONTCHILDLOAD(204, 9, 'MN_CF_BTN08')
+OBJFRONTCHILDSET_POS(204, 9, 1070, 430)
+OBJFRONTCHILDSET_PATNO(204, 9, 0)
+OBJFRONTCHILDSET_DISP(204, 9, 1)
+OBJFRONTCHILDINITPARAM(204, 10)
+OBJFRONTCHILDLOAD(204, 10, 'MN_CF_BTN09')
+OBJFRONTCHILDSET_POS(204, 10, 928, 618)
+OBJFRONTCHILDSET_PATNO(204, 10, 0)
+OBJFRONTCHILDSET_DISP(204, 10, 1)
+OBJFRONTCHILDINITPARAM(204, 11)
+OBJFRONTCHILDLOAD(204, 11, 'MN_CF_BTN10')
+OBJFRONTCHILDSET_POS(204, 11, 1070, 618)
+OBJFRONTCHILDSET_PATNO(204, 11, 0)
+OBJFRONTCHILDSET_DISP(204, 11, 1)
+OBJFRONTCHILDINITPARAM(204, 12)
+OBJFRONTCHILDLOAD(204, 12, 'MN_CF_BTN09')
+OBJFRONTCHILDSET_POS(204, 12, 430, 589)
+OBJFRONTCHILDSET_PATNO(204, 12, 0)
+OBJFRONTCHILDSET_DISP(204, 12, 1)
+OBJFRONTCHILDINITPARAM(204, 18)
+OBJFRONTCHILDLOAD(204, 18, 'MN_CF_BTN17')
+OBJFRONTCHILDSET_POS(204, 18, 852, 877)
+OBJFRONTCHILDSET_PATNO(204, 18, 0)
+OBJFRONTCHILDSET_DISP(204, 18, 1)
+OBJFRONTCHILDINITPARAM(204, 21)
+OBJFRONTCHILDLOAD(204, 21, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 21, 70, 304)
+OBJFRONTCHILDSET_PATNO(204, 21, 0)
+OBJFRONTCHILDSET_DISP(204, 21, 1)
+OBJFRONTCHILDINITPARAM(204, 22)
+OBJFRONTCHILDLOAD(204, 22, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 22, 178, 335)
+OBJFRONTCHILDSET_PATNO(204, 22, 0)
+OBJFRONTCHILDSET_DISP(204, 22, 1)
+OBJFRONTCHILDINITPARAM(204, 23)
+OBJFRONTCHILDLOAD(204, 23, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 23, 70, 409)
+OBJFRONTCHILDSET_PATNO(204, 23, 0)
+OBJFRONTCHILDSET_DISP(204, 23, 1)
+OBJFRONTCHILDINITPARAM(204, 24)
+OBJFRONTCHILDLOAD(204, 24, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 24, 70, 479)
+OBJFRONTCHILDSET_PATNO(204, 24, 0)
+OBJFRONTCHILDSET_DISP(204, 24, 1)
+OBJFRONTCHILDINITPARAM(204, 25)
+OBJFRONTCHILDLOAD(204, 25, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 25, 70, 548)
+OBJFRONTCHILDSET_PATNO(204, 25, 0)
+OBJFRONTCHILDSET_DISP(204, 25, 0)
+OBJFRONTCHILDINITPARAM(204, 26)
+OBJFRONTCHILDLOAD(204, 26, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 26, 84, 735)
+OBJFRONTCHILDSET_PATNO(204, 26, 0)
+OBJFRONTCHILDSET_DISP(204, 26, 1)
+OBJFRONTCHILDINITPARAM(204, 27)
+OBJFRONTCHILDLOAD(204, 27, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 27, 206, 735)
+OBJFRONTCHILDSET_PATNO(204, 27, 0)
+OBJFRONTCHILDSET_DISP(204, 27, 1)
+OBJFRONTCHILDINITPARAM(204, 28)
+OBJFRONTCHILDLOAD(204, 28, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 28, 329, 735)
+OBJFRONTCHILDSET_PATNO(204, 28, 0)
+OBJFRONTCHILDSET_DISP(204, 28, 1)
+OBJFRONTCHILDINITPARAM(204, 29)
+OBJFRONTCHILDLOAD(204, 29, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 29, 451, 735)
+OBJFRONTCHILDSET_PATNO(204, 29, 0)
+OBJFRONTCHILDSET_DISP(204, 29, 1)
+OBJFRONTCHILDINITPARAM(204, 30)
+OBJFRONTCHILDLOAD(204, 30, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 30, 84, 773)
+OBJFRONTCHILDSET_PATNO(204, 30, 0)
+OBJFRONTCHILDSET_DISP(204, 30, 1)
+OBJFRONTCHILDINITPARAM(204, 31)
+OBJFRONTCHILDLOAD(204, 31, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 31, 206, 773)
+OBJFRONTCHILDSET_PATNO(204, 31, 0)
+OBJFRONTCHILDSET_DISP(204, 31, 1)
+OBJFRONTCHILDINITPARAM(204, 32)
+OBJFRONTCHILDLOAD(204, 32, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 32, 329, 773)
+OBJFRONTCHILDSET_PATNO(204, 32, 0)
+OBJFRONTCHILDSET_DISP(204, 32, 1)
+OBJFRONTCHILDINITPARAM(204, 33)
+OBJFRONTCHILDLOAD(204, 33, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 33, 451, 773)
+OBJFRONTCHILDSET_PATNO(204, 33, 0)
+OBJFRONTCHILDSET_DISP(204, 33, 1)
+OBJFRONTCHILDINITPARAM(204, 34)
+OBJFRONTCHILDLOAD(204, 34, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 34, 84, 812)
+OBJFRONTCHILDSET_PATNO(204, 34, 0)
+OBJFRONTCHILDSET_DISP(204, 34, 1)
+OBJFRONTCHILDINITPARAM(204, 35)
+OBJFRONTCHILDLOAD(204, 35, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 35, 206, 812)
+OBJFRONTCHILDSET_PATNO(204, 35, 0)
+OBJFRONTCHILDSET_DISP(204, 35, 1)
+OBJFRONTCHILDINITPARAM(204, 36)
+OBJFRONTCHILDLOAD(204, 36, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 36, 329, 812)
+OBJFRONTCHILDSET_PATNO(204, 36, 0)
+OBJFRONTCHILDSET_DISP(204, 36, 1)
+OBJFRONTCHILDINITPARAM(204, 37)
+OBJFRONTCHILDLOAD(204, 37, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 37, 451, 812)
+OBJFRONTCHILDSET_PATNO(204, 37, 0)
+OBJFRONTCHILDSET_DISP(204, 37, 1)
+OBJFRONTCHILDINITPARAM(204, 38)
+OBJFRONTCHILDLOAD(204, 38, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 38, 84, 850)
+OBJFRONTCHILDSET_PATNO(204, 38, 0)
+OBJFRONTCHILDSET_DISP(204, 38, 1)
+OBJFRONTCHILDINITPARAM(204, 39)
+OBJFRONTCHILDLOAD(204, 39, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 39, 206, 850)
+OBJFRONTCHILDSET_PATNO(204, 39, 0)
+OBJFRONTCHILDSET_DISP(204, 39, 1)
+OBJFRONTCHILDINITPARAM(204, 40)
+OBJFRONTCHILDLOAD(204, 40, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 40, 329, 850)
+OBJFRONTCHILDSET_PATNO(204, 40, 0)
+OBJFRONTCHILDSET_DISP(204, 40, 1)
+OBJFRONTCHILDINITPARAM(204, 41)
+OBJFRONTCHILDLOAD(204, 41, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 41, 451, 850)
+OBJFRONTCHILDSET_PATNO(204, 41, 0)
+OBJFRONTCHILDSET_DISP(204, 41, 1)
+OBJFRONTCHILDINITPARAM(204, 42)
+OBJFRONTCHILDLOAD(204, 42, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 42, 84, 888)
+OBJFRONTCHILDSET_PATNO(204, 42, 0)
+OBJFRONTCHILDSET_DISP(204, 42, 1)
+OBJFRONTCHILDINITPARAM(204, 43)
+OBJFRONTCHILDLOAD(204, 43, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 43, 206, 888)
+OBJFRONTCHILDSET_PATNO(204, 43, 0)
+OBJFRONTCHILDSET_DISP(204, 43, 1)
+OBJFRONTCHILDINITPARAM(204, 44)
+OBJFRONTCHILDLOAD(204, 44, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 44, 328, 888)
+OBJFRONTCHILDSET_PATNO(204, 44, 0)
+OBJFRONTCHILDSET_DISP(204, 44, 1)
+OBJFRONTCHILDINITPARAM(204, 45)
+OBJFRONTCHILDLOAD(204, 45, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 45, 451, 888)
+OBJFRONTCHILDSET_PATNO(204, 45, 0)
+OBJFRONTCHILDSET_DISP(204, 45, 1)
+OBJFRONTCHILDINITPARAM(204, 46)
+OBJFRONTCHILDLOAD(204, 46, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 46, 1034, 110)
+OBJFRONTCHILDSET_PATNO(204, 46, 0)
+OBJFRONTCHILDSET_DISP(204, 46, 1)
+OBJFRONTCHILDINITPARAM(204, 47)
+OBJFRONTCHILDLOAD(204, 47, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 47, 710, 558)
+OBJFRONTCHILDSET_PATNO(204, 47, 0)
+OBJFRONTCHILDSET_DISP(204, 47, 1)
+OBJFRONTCHILDINITPARAM(204, 48)
+OBJFRONTCHILDLOAD(204, 48, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 48, 710, 716)
+OBJFRONTCHILDSET_PATNO(204, 48, 0)
+OBJFRONTCHILDSET_DISP(204, 48, 1)
+OBJFRONTCHILDINITPARAM(204, 49)
+OBJFRONTCHILDLOAD(204, 49, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 49, 710, 748)
+OBJFRONTCHILDSET_PATNO(204, 49, 0)
+OBJFRONTCHILDSET_DISP(204, 49, 1)
+OBJFRONTCHILDINITPARAM(204, 50)
+OBJFRONTCHILDLOAD(204, 50, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 50, 710, 790)
+OBJFRONTCHILDSET_PATNO(204, 50, 0)
+OBJFRONTCHILDSET_DISP(204, 50, 1)
+OBJFRONTCHILDINITPARAM(204, 51)
+OBJFRONTCHILDLOAD(204, 51, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 51, 710, 818)
+OBJFRONTCHILDSET_PATNO(204, 51, 0)
+OBJFRONTCHILDSET_DISP(204, 51, 1)
+OBJFRONTCHILDINITPARAM(204, 118)
+OBJFRONTCHILDLOAD(204, 118, 'MN_CF_CHECK00')
+OBJFRONTCHILDSET_POS(204, 118, 710, 845)
+OBJFRONTCHILDSET_PATNO(204, 118, 0)
+OBJFRONTCHILDSET_DISP(204, 118, 1)
+OBJFRONTCHILDINITPARAM(204, 52)
+OBJFRONTCHILDLOAD(204, 52, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 52, 236, 304)
+OBJFRONTCHILDSET_PATNO(204, 52, 0)
+OBJFRONTCHILDSET_DISP(204, 52, 1)
+OBJFRONTCHILDINITPARAM(204, 53)
+OBJFRONTCHILDLOAD(204, 53, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 53, 558, 304)
+OBJFRONTCHILDSET_PATNO(204, 53, 0)
+OBJFRONTCHILDSET_DISP(204, 53, 1)
+OBJFRONTCHILDINITPARAM(204, 54)
+OBJFRONTCHILDLOAD(204, 54, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 54, 258, 304)
+OBJFRONTCHILDSET_PATNO(204, 54, 0)
+OBJFRONTCHILDSET_DISP(204, 54, 1)
+OBJFRONTCHILDINITPARAM(204, 55)
+OBJFRONTCHILDLOAD(204, 55, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 55, 258, 304)
+OBJFRONTCHILDSET_PATNO(204, 55, 0)
+OBJFRONTCHILDSET_DISP(204, 55, 1)
+OBJFRONTCHILDINITPARAM(204, 56)
+OBJFRONTCHILDLOAD(204, 56, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 56, 258, 304 + 2)
+OBJFRONTCHILDSET_PATNO(204, 56, 0)
+OBJFRONTCHILDSET_DISP(204, 56, 1)
+OBJFRONTCHILDINITPARAM(204, 57)
+OBJFRONTCHILDLOAD(204, 57, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 57, 363, 334)
+OBJFRONTCHILDSET_PATNO(204, 57, 0)
+OBJFRONTCHILDSET_DISP(204, 57, 1)
+OBJFRONTCHILDINITPARAM(204, 58)
+OBJFRONTCHILDLOAD(204, 58, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 58, 558, 334)
+OBJFRONTCHILDSET_PATNO(204, 58, 0)
+OBJFRONTCHILDSET_DISP(204, 58, 1)
+OBJFRONTCHILDINITPARAM(204, 59)
+OBJFRONTCHILDLOAD(204, 59, 'MN_CF_SB04')
+OBJFRONTCHILDSET_POS(204, 59, 385, 334)
+OBJFRONTCHILDSET_PATNO(204, 59, 0)
+OBJFRONTCHILDSET_DISP(204, 59, 1)
+OBJFRONTCHILDINITPARAM(204, 60)
+OBJFRONTCHILDLOAD(204, 60, 'MN_CF_SB04')
+OBJFRONTCHILDSET_POS(204, 60, 385, 334)
+OBJFRONTCHILDSET_PATNO(204, 60, 0)
+OBJFRONTCHILDSET_DISP(204, 60, 1)
+OBJFRONTCHILDINITPARAM(204, 61)
+OBJFRONTCHILDLOAD(204, 61, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 61, 385, 334 + 2)
+OBJFRONTCHILDSET_PATNO(204, 61, 0)
+OBJFRONTCHILDSET_DISP(204, 61, 1)
+OBJFRONTCHILDINITPARAM(204, 62)
+OBJFRONTCHILDLOAD(204, 62, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 62, 236, 409)
+OBJFRONTCHILDSET_PATNO(204, 62, 0)
+OBJFRONTCHILDSET_DISP(204, 62, 1)
+OBJFRONTCHILDINITPARAM(204, 63)
+OBJFRONTCHILDLOAD(204, 63, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 63, 558, 409)
+OBJFRONTCHILDSET_PATNO(204, 63, 0)
+OBJFRONTCHILDSET_DISP(204, 63, 1)
+OBJFRONTCHILDINITPARAM(204, 64)
+OBJFRONTCHILDLOAD(204, 64, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 64, 258, 409)
+OBJFRONTCHILDSET_PATNO(204, 64, 0)
+OBJFRONTCHILDSET_DISP(204, 64, 1)
+OBJFRONTCHILDINITPARAM(204, 65)
+OBJFRONTCHILDLOAD(204, 65, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 65, 258, 409)
+OBJFRONTCHILDSET_PATNO(204, 65, 0)
+OBJFRONTCHILDSET_DISP(204, 65, 1)
+OBJFRONTCHILDINITPARAM(204, 66)
+OBJFRONTCHILDLOAD(204, 66, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 66, 258, 409 + 2)
+OBJFRONTCHILDSET_PATNO(204, 66, 0)
+OBJFRONTCHILDSET_DISP(204, 66, 1)
+OBJFRONTCHILDINITPARAM(204, 67)
+OBJFRONTCHILDLOAD(204, 67, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 67, 236, 479)
+OBJFRONTCHILDSET_PATNO(204, 67, 0)
+OBJFRONTCHILDSET_DISP(204, 67, 1)
+OBJFRONTCHILDINITPARAM(204, 68)
+OBJFRONTCHILDLOAD(204, 68, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 68, 558, 479)
+OBJFRONTCHILDSET_PATNO(204, 68, 0)
+OBJFRONTCHILDSET_DISP(204, 68, 1)
+OBJFRONTCHILDINITPARAM(204, 69)
+OBJFRONTCHILDLOAD(204, 69, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 69, 258, 479)
+OBJFRONTCHILDSET_PATNO(204, 69, 0)
+OBJFRONTCHILDSET_DISP(204, 69, 1)
+OBJFRONTCHILDINITPARAM(204, 70)
+OBJFRONTCHILDLOAD(204, 70, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 70, 258, 479)
+OBJFRONTCHILDSET_PATNO(204, 70, 0)
+OBJFRONTCHILDSET_DISP(204, 70, 1)
+OBJFRONTCHILDINITPARAM(204, 71)
+OBJFRONTCHILDLOAD(204, 71, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 71, 258, 479 + 2)
+OBJFRONTCHILDSET_PATNO(204, 71, 0)
+OBJFRONTCHILDSET_DISP(204, 71, 1)
+OBJFRONTCHILDINITPARAM(204, 72)
+OBJFRONTCHILDLOAD(204, 72, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 72, 236, 549)
+OBJFRONTCHILDSET_PATNO(204, 72, 0)
+OBJFRONTCHILDSET_DISP(204, 72, 1)
+OBJFRONTCHILDINITPARAM(204, 73)
+OBJFRONTCHILDLOAD(204, 73, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 73, 558, 549)
+OBJFRONTCHILDSET_PATNO(204, 73, 0)
+OBJFRONTCHILDSET_DISP(204, 73, 1)
+OBJFRONTCHILDINITPARAM(204, 74)
+OBJFRONTCHILDLOAD(204, 74, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 74, 258, 549)
+OBJFRONTCHILDSET_PATNO(204, 74, 0)
+OBJFRONTCHILDSET_DISP(204, 74, 1)
+OBJFRONTCHILDINITPARAM(204, 75)
+OBJFRONTCHILDLOAD(204, 75, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 75, 258, 549)
+OBJFRONTCHILDSET_PATNO(204, 75, 0)
+OBJFRONTCHILDSET_DISP(204, 75, 1)
+OBJFRONTCHILDINITPARAM(204, 76)
+OBJFRONTCHILDLOAD(204, 76, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 76, 258, 549 + 2)
+OBJFRONTCHILDSET_PATNO(204, 76, 0)
+OBJFRONTCHILDSET_DISP(204, 76, 1)
+OBJFRONTCHILDINITPARAM(204, 77)
+OBJFRONTCHILDLOAD(204, 77, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 77, 876, 150)
+OBJFRONTCHILDSET_PATNO(204, 77, 0)
+OBJFRONTCHILDSET_DISP(204, 77, 1)
+OBJFRONTCHILDINITPARAM(204, 78)
+OBJFRONTCHILDLOAD(204, 78, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 78, 1198, 150)
+OBJFRONTCHILDSET_PATNO(204, 78, 0)
+OBJFRONTCHILDSET_DISP(204, 78, 1)
+OBJFRONTCHILDINITPARAM(204, 79)
+OBJFRONTCHILDLOAD(204, 79, 'MN_CF_SB05')
+OBJFRONTCHILDSET_POS(204, 79, 898, 150)
+OBJFRONTCHILDSET_PATNO(204, 79, 0)
+OBJFRONTCHILDSET_DISP(204, 79, 1)
+OBJFRONTCHILDINITPARAM(204, 80)
+OBJFRONTCHILDLOAD(204, 80, 'MN_CF_SB05')
+OBJFRONTCHILDSET_POS(204, 80, 898, 150)
+OBJFRONTCHILDSET_PATNO(204, 80, 0)
+OBJFRONTCHILDSET_DISP(204, 80, 1)
+OBJFRONTCHILDINITPARAM(204, 81)
+OBJFRONTCHILDLOAD(204, 81, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 81, 898, 150 + 2)
+OBJFRONTCHILDSET_PATNO(204, 81, 0)
+OBJFRONTCHILDSET_DISP(204, 81, 1)
+OBJFRONTCHILDINITPARAM(204, 82)
+OBJFRONTCHILDLOAD(204, 82, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 82, 876, 183)
+OBJFRONTCHILDSET_PATNO(204, 82, 0)
+OBJFRONTCHILDSET_DISP(204, 82, 1)
+OBJFRONTCHILDINITPARAM(204, 83)
+OBJFRONTCHILDLOAD(204, 83, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 83, 1198, 183)
+OBJFRONTCHILDSET_PATNO(204, 83, 0)
+OBJFRONTCHILDSET_DISP(204, 83, 1)
+OBJFRONTCHILDINITPARAM(204, 84)
+OBJFRONTCHILDLOAD(204, 84, 'MN_CF_SB06')
+OBJFRONTCHILDSET_POS(204, 84, 898, 183)
+OBJFRONTCHILDSET_PATNO(204, 84, 0)
+OBJFRONTCHILDSET_DISP(204, 84, 1)
+OBJFRONTCHILDINITPARAM(204, 85)
+OBJFRONTCHILDLOAD(204, 85, 'MN_CF_SB06')
+OBJFRONTCHILDSET_POS(204, 85, 898, 183)
+OBJFRONTCHILDSET_PATNO(204, 85, 0)
+OBJFRONTCHILDSET_DISP(204, 85, 1)
+OBJFRONTCHILDINITPARAM(204, 86)
+OBJFRONTCHILDLOAD(204, 86, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 86, 898, 183 + 2)
+OBJFRONTCHILDSET_PATNO(204, 86, 0)
+OBJFRONTCHILDSET_DISP(204, 86, 1)
+OBJFRONTCHILDINITPARAM(204, 87)
+OBJFRONTCHILDLOAD(204, 87, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 87, 876, 216)
+OBJFRONTCHILDSET_PATNO(204, 87, 0)
+OBJFRONTCHILDSET_DISP(204, 87, 1)
+OBJFRONTCHILDINITPARAM(204, 88)
+OBJFRONTCHILDLOAD(204, 88, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 88, 1198, 216)
+OBJFRONTCHILDSET_PATNO(204, 88, 0)
+OBJFRONTCHILDSET_DISP(204, 88, 1)
+OBJFRONTCHILDINITPARAM(204, 89)
+OBJFRONTCHILDLOAD(204, 89, 'MN_CF_SB07')
+OBJFRONTCHILDSET_POS(204, 89, 898, 216)
+OBJFRONTCHILDSET_PATNO(204, 89, 0)
+OBJFRONTCHILDSET_DISP(204, 89, 1)
+OBJFRONTCHILDINITPARAM(204, 90)
+OBJFRONTCHILDLOAD(204, 90, 'MN_CF_SB07')
+OBJFRONTCHILDSET_POS(204, 90, 898, 216)
+OBJFRONTCHILDSET_PATNO(204, 90, 0)
+OBJFRONTCHILDSET_DISP(204, 90, 1)
+OBJFRONTCHILDINITPARAM(204, 91)
+OBJFRONTCHILDLOAD(204, 91, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 91, 898, 216 + 2)
+OBJFRONTCHILDSET_PATNO(204, 91, 0)
+OBJFRONTCHILDSET_DISP(204, 91, 1)
+OBJFRONTCHILDINITPARAM(204, 92)
+OBJFRONTCHILDLOAD(204, 92, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 92, 876, 249)
+OBJFRONTCHILDSET_PATNO(204, 92, 0)
+OBJFRONTCHILDSET_DISP(204, 92, 1)
+OBJFRONTCHILDINITPARAM(204, 93)
+OBJFRONTCHILDLOAD(204, 93, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 93, 1198, 249)
+OBJFRONTCHILDSET_PATNO(204, 93, 0)
+OBJFRONTCHILDSET_DISP(204, 93, 1)
+OBJFRONTCHILDINITPARAM(204, 94)
+OBJFRONTCHILDLOAD(204, 94, 'MN_CF_SB08')
+OBJFRONTCHILDSET_POS(204, 94, 898, 249)
+OBJFRONTCHILDSET_PATNO(204, 94, 0)
+OBJFRONTCHILDSET_DISP(204, 94, 1)
+OBJFRONTCHILDINITPARAM(204, 95)
+OBJFRONTCHILDLOAD(204, 95, 'MN_CF_SB08')
+OBJFRONTCHILDSET_POS(204, 95, 898, 249)
+OBJFRONTCHILDSET_PATNO(204, 95, 0)
+OBJFRONTCHILDSET_DISP(204, 95, 1)
+OBJFRONTCHILDINITPARAM(204, 96)
+OBJFRONTCHILDLOAD(204, 96, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 96, 898, 249 + 2)
+OBJFRONTCHILDSET_PATNO(204, 96, 0)
+OBJFRONTCHILDSET_DISP(204, 96, 1)
+OBJFRONTCHILDINITPARAM(204, 97)
+OBJFRONTCHILDLOAD(204, 97, 'MN_CF_SB00')
+OBJFRONTCHILDSET_POS(204, 97, 876, 536)
+OBJFRONTCHILDSET_PATNO(204, 97, 0)
+OBJFRONTCHILDSET_DISP(204, 97, 1)
+OBJFRONTCHILDINITPARAM(204, 98)
+OBJFRONTCHILDLOAD(204, 98, 'MN_CF_SB01')
+OBJFRONTCHILDSET_POS(204, 98, 1198, 536)
+OBJFRONTCHILDSET_PATNO(204, 98, 0)
+OBJFRONTCHILDSET_DISP(204, 98, 1)
+OBJFRONTCHILDINITPARAM(204, 99)
+OBJFRONTCHILDLOAD(204, 99, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 99, 898, 536)
+OBJFRONTCHILDSET_PATNO(204, 99, 0)
+OBJFRONTCHILDSET_DISP(204, 99, 1)
+OBJFRONTCHILDINITPARAM(204, 100)
+OBJFRONTCHILDLOAD(204, 100, 'MN_CF_SB03')
+OBJFRONTCHILDSET_POS(204, 100, 898, 536)
+OBJFRONTCHILDSET_PATNO(204, 100, 0)
+OBJFRONTCHILDSET_DISP(204, 100, 1)
+OBJFRONTCHILDINITPARAM(204, 101)
+OBJFRONTCHILDLOAD(204, 101, 'MN_CF_SB02')
+OBJFRONTCHILDSET_POS(204, 101, 898, 536 + 2)
+OBJFRONTCHILDSET_PATNO(204, 101, 0)
+OBJFRONTCHILDSET_DISP(204, 101, 1)
+OBJFRONTCHILDINITPARAM(204, 110)
+OBJFRONTCHILDLOAD(204, 110, 'MN_CF_CM01')
+OBJFRONTCHILDSET_POS(204, 110, 922, 580)
+OBJFRONTCHILDSET_PATNO(204, 110, 0)
+OBJFRONTCHILDSET_DISP(204, 110, 1)
+OBJFRONTCHILDINITPARAM(204, 111)
+OBJFRONTCHILDLOAD(204, 111, 'MN_CF_CM01')
+OBJFRONTCHILDSET_POS(204, 111, 922, 580)
+OBJFRONTCHILDSET_PATNO(204, 111, 1)
+OBJFRONTCHILDSET_DISP(204, 111, 1)
+OBJFRONTCHILDINITPARAM(204, 113)
+OBJFRONTCHILDLOAD(204, 113, 'MN_CF_FILL00')
+OBJFRONTCHILDSET_POS(204, 113, 700, 290)
+OBJFRONTCHILDSET_PATNO(204, 113, 0)
+OBJFRONTCHILDSET_DISP(204, 113, 1)
+OBJFRONTCHILDINITPARAM(204, 114)
+OBJFRONTCHILDLOAD(204, 114, 'MN_CF_BTN18')
+OBJFRONTCHILDSET_POS(204, 114, 1194, 933)
+OBJFRONTCHILDSET_PATNO(204, 114, 0)
+OBJFRONTCHILDSET_DISP(204, 114, 1)
+OBJFRONTCHILDINITPARAM(204, 115)
+OBJFRONTCHILDLOAD(204, 115, 'MN_CF_BATU00')
+OBJFRONTCHILDSET_POS(204, 115, 70, 548)
+OBJFRONTCHILDSET_PATNO(204, 115, 0)
+OBJFRONTCHILDSET_DISP(204, 115, 0)
+OBJFRONTCHILDINITPARAM(204, 116)
+OBJFRONTCHILDLOAD(204, 116, 'MN_CF_BATU01')
+OBJFRONTCHILDSET_POS(204, 116, 149, 538)
+OBJFRONTCHILDSET_PATNO(204, 116, 0)
+OBJFRONTCHILDSET_DISP(204, 116, 0)
+OBJFRONTCHILDINITPARAM(204, 117)
+OBJFRONTCHILDLOAD(204, 117, 'KURO')
+OBJFRONTCHILDSET_POS(204, 117, 0, 0)
+OBJFRONTCHILDSET_PATNO(204, 117, 0)
+OBJFRONTCHILDSET_DISP(204, 117, 0)
+OBJFRONTCHILDINITPARAM(204, 19)
+OBJFRONTCHILDLOAD(204, 19, 'MN_CF_BTN19')
+OBJFRONTCHILDSET_POS(204, 19, 494, 121)
+OBJFRONTCHILDSET_PATNO(204, 19, 0)
+OBJFRONTCHILDSET_DISP(204, 19, 1)
+OBJFRONTCHILDINITPARAM(204, 20)
+OBJFRONTCHILDLOAD(204, 20, 'MN_CF_BTN20')
+OBJFRONTCHILDSET_POS(204, 20, 710, 877)
+OBJFRONTCHILDSET_PATNO(204, 20, 0)
+OBJFRONTCHILDSET_DISP(204, 20, 1)
+goto_unless(intF[1235] == 1) @424
+OBJFRONTCHILDSET_PATNO(204, 1, 3)
+OBJFRONTCHILDSET_PATNO(204, 2, 0)
+goto @425
+
+  @424
+goto_unless(!intF[1235]) @425
+OBJFRONTCHILDSET_PATNO(204, 1, 0)
+OBJFRONTCHILDSET_PATNO(204, 2, 3)
+
+  @425
+goto_unless(intF[1236] == 1) @426
+OBJFRONTCHILDSET_PATNO(204, 3, 3)
+OBJFRONTCHILDSET_PATNO(204, 4, 0)
+goto @427
+
+  @426
+goto_unless(!intF[1236]) @427
+OBJFRONTCHILDSET_PATNO(204, 3, 0)
+OBJFRONTCHILDSET_PATNO(204, 4, 3)
+
+  @427
+goto_unless(intF[1237] == 1) @428
+OBJFRONTCHILDSET_PATNO(204, 5, 3)
+OBJFRONTCHILDSET_PATNO(204, 6, 0)
+goto @429
+
+  @428
+goto_unless(!intF[1237]) @429
+OBJFRONTCHILDSET_PATNO(204, 5, 0)
+OBJFRONTCHILDSET_PATNO(204, 6, 3)
+
+  @429
+OBJFRONTCHILDSET_PATNO(204, 21, 5 * intF[1238] + 0)
+OBJFRONTCHILDSET_PATNO(204, 22, 5 * intF[1250] + 0)
+OBJFRONTCHILDSET_PATNO(204, 23, 5 * intF[1242] + 0)
+OBJFRONTCHILDSET_PATNO(204, 24, 5 * intF[1244] + 0)
+OBJFRONTCHILDSET_PATNO(204, 25, 5 * intF[1240] + 0)
+OBJFRONTCHILDSET_DISP(204, 25, 1)
+OBJFRONTCHILDSET_PATNO(204, 26, 5 * intF[1253] + 0)
+OBJFRONTCHILDSET_PATNO(204, 27, 5 * intF[1254] + 0)
+OBJFRONTCHILDSET_PATNO(204, 28, 5 * intF[1255] + 0)
+OBJFRONTCHILDSET_PATNO(204, 29, 5 * intF[1256] + 0)
+OBJFRONTCHILDSET_PATNO(204, 30, 5 * intF[1257] + 0)
+OBJFRONTCHILDSET_PATNO(204, 31, 5 * intF[1258] + 0)
+OBJFRONTCHILDSET_PATNO(204, 32, 5 * intF[1259] + 0)
+OBJFRONTCHILDSET_PATNO(204, 33, 5 * intF[1260] + 0)
+OBJFRONTCHILDSET_PATNO(204, 34, 5 * intF[1261] + 0)
+OBJFRONTCHILDSET_PATNO(204, 35, 5 * intF[1262] + 0)
+OBJFRONTCHILDSET_PATNO(204, 36, 5 * intF[1263] + 0)
+OBJFRONTCHILDSET_PATNO(204, 37, 5 * intF[1264] + 0)
+OBJFRONTCHILDSET_PATNO(204, 38, 5 * intF[1265] + 0)
+OBJFRONTCHILDSET_PATNO(204, 39, 5 * intF[1266] + 0)
+OBJFRONTCHILDSET_PATNO(204, 40, 5 * intF[1267] + 0)
+OBJFRONTCHILDSET_PATNO(204, 41, 5 * intF[1268] + 0)
+OBJFRONTCHILDSET_PATNO(204, 42, 5 * intF[1269] + 0)
+OBJFRONTCHILDSET_PATNO(204, 43, 5 * intF[1270] + 0)
+OBJFRONTCHILDSET_PATNO(204, 44, 5 * intF[1271] + 0)
+OBJFRONTCHILDSET_PATNO(204, 45, 5 * intF[1272] + 0)
+OBJFRONTCHILDSET_PATNO(204, 46, 5 * intF[1277] + 0)
+OBJFRONTCHILDSET_PATNO(204, 47, 5 * intF[1284] + 0)
+OBJFRONTCHILDSET_PATNO(204, 48, 5 * intF[1290] + 0)
+OBJFRONTCHILDSET_PATNO(204, 49, 5 * intF[1291] + 0)
+OBJFRONTCHILDSET_PATNO(204, 50, 5 * intF[1292] + 0)
+OBJFRONTCHILDSET_PATNO(204, 51, 5 * intF[1294] + 0)
+OBJFRONTCHILDSET_PATNO(204, 118, 5 * intG[1800] + 0)
+OBJFRONTCHILDSET_DISP(204, 115, 0)
+goto_unless(!intF[1277]) @430
+OBJFRONTCHILDSET_COL_RATE(204, 113, 255)
+OBJFRONTCHILDSET_COL_R(204, 113, 255 - intF[1273])
+OBJFRONTCHILDSET_COL_G(204, 113, 255 - intF[1274])
+OBJFRONTCHILDSET_COL_B(204, 113, 255 - intF[1275])
+OBJFRONTCHILDSET_TR(204, 113, intF[1276])
+OBJFRONTCHILDSET_DISPMOD(204, 113, 2)
+goto @431
+
+  @430
+goto_unless(intF[1277] == 1) @431
+OBJFRONTCHILDSET_COL_RATE(204, 113, 255)
+OBJFRONTCHILDSET_COL_R(204, 113, intF[1273])
+OBJFRONTCHILDSET_COL_G(204, 113, intF[1274])
+OBJFRONTCHILDSET_COL_B(204, 113, intF[1275])
+OBJFRONTCHILDSET_TR(204, 113, intF[1276])
+OBJFRONTCHILDSET_DISPMOD(204, 113, 0)
+
+  @431
+intF[1301] = 600
+intF[1302] = 600 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 210
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 52
+intZ[intF[1301] + 77] = 53
+intZ[intF[1301] + 78] = 54
+intZ[intF[1301] + 79] = 55
+intZ[intF[1301] + 80] = 56
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1239]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 700
+intF[1302] = 700 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 211
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 57
+intZ[intF[1301] + 77] = 58
+intZ[intF[1301] + 78] = 59
+intZ[intF[1301] + 79] = 60
+intZ[intF[1301] + 80] = 61
+farcall(9501, 2)
+goto_unless(intF[1251] == 255) @432
+intL[0] = 256 / 2
+goto @433
+
+  @432
+intL[0] = intF[1251] / 2
+
+  @433
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intL[0]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 800
+intF[1302] = 800 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 212
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 62
+intZ[intF[1301] + 77] = 63
+intZ[intF[1301] + 78] = 64
+intZ[intF[1301] + 79] = 65
+intZ[intF[1301] + 80] = 66
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1243]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 900
+intF[1302] = 900 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 213
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 67
+intZ[intF[1301] + 77] = 68
+intZ[intF[1301] + 78] = 69
+intZ[intF[1301] + 79] = 70
+intZ[intF[1301] + 80] = 71
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1245]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 1000
+intF[1302] = 1000 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 214
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 72
+intZ[intF[1301] + 77] = 73
+intZ[intF[1301] + 78] = 74
+intZ[intF[1301] + 79] = 75
+intZ[intF[1301] + 80] = 76
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1241]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 1100
+intF[1302] = 1100 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 215
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 77
+intZ[intF[1301] + 77] = 78
+intZ[intF[1301] + 78] = 79
+intZ[intF[1301] + 79] = 80
+intZ[intF[1301] + 80] = 81
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1273]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 1200
+intF[1302] = 1200 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 216
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 82
+intZ[intF[1301] + 77] = 83
+intZ[intF[1301] + 78] = 84
+intZ[intF[1301] + 79] = 85
+intZ[intF[1301] + 80] = 86
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1274]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 1300
+intF[1302] = 1300 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 217
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 87
+intZ[intF[1301] + 77] = 88
+intZ[intF[1301] + 78] = 89
+intZ[intF[1301] + 79] = 90
+intZ[intF[1301] + 80] = 91
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1275]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 1400
+intF[1302] = 1400 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 218
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 92
+intZ[intF[1301] + 77] = 93
+intZ[intF[1301] + 78] = 94
+intZ[intF[1301] + 79] = 95
+intZ[intF[1301] + 80] = 96
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1276]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1301] = 1500
+intF[1302] = 1500 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 219
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 204
+intZ[intF[1301] + 76] = 97
+intZ[intF[1301] + 77] = 98
+intZ[intF[1301] + 78] = 99
+intZ[intF[1301] + 79] = 100
+intZ[intF[1301] + 80] = 101
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 32
+intZ[intF[1301] + 83] = intF[1283]
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+intF[1303] = 1600
+farcall(9502, 0)
+intZ[intF[1303] + 15] = 210
+farcall(9502, 1)
+intZ[intF[1303] + 16] = 204
+intZ[intF[1303] + 17] = 102
+intZ[intF[1303] + 18] = 103
+farcall(9502, 3)
+intZ[intF[1303] + 19] = 1
+farcall(9502, 4)
+intZ[intF[1303] + 20] = 8
+farcall(9502, 5)
+intZ[intF[1303] + 21] = 1000
+intZ[intF[1303] + 22] = 1000
+farcall(9502, 6)
+farcall(9502, 7)
+intZ[intF[1303] + 11] = intF[1239] * 10 / 255
+farcall(9502, 10)
+intF[1303] = 1630
+farcall(9502, 0)
+intZ[intF[1303] + 15] = 211
+farcall(9502, 1)
+intZ[intF[1303] + 16] = 204
+intZ[intF[1303] + 17] = 104
+intZ[intF[1303] + 18] = 105
+farcall(9502, 3)
+intZ[intF[1303] + 19] = 1
+farcall(9502, 4)
+intZ[intF[1303] + 20] = 8
+farcall(9502, 5)
+intZ[intF[1303] + 21] = 1000
+intZ[intF[1303] + 22] = 1000
+farcall(9502, 6)
+farcall(9502, 7)
+intZ[intF[1303] + 11] = intF[1243] * 10 / 255
+farcall(9502, 10)
+intF[1303] = 1660
+farcall(9502, 0)
+intZ[intF[1303] + 15] = 212
+farcall(9502, 1)
+intZ[intF[1303] + 16] = 204
+intZ[intF[1303] + 17] = 106
+intZ[intF[1303] + 18] = 107
+farcall(9502, 3)
+intZ[intF[1303] + 19] = 1
+farcall(9502, 4)
+intZ[intF[1303] + 20] = 8
+farcall(9502, 5)
+intZ[intF[1303] + 21] = 1000
+intZ[intF[1303] + 22] = 1000
+farcall(9502, 6)
+farcall(9502, 7)
+intZ[intF[1303] + 11] = intF[1245] * 10 / 255
+farcall(9502, 10)
+intF[1303] = 1690
+farcall(9502, 0)
+intZ[intF[1303] + 15] = 213
+farcall(9502, 1)
+intZ[intF[1303] + 16] = 204
+intZ[intF[1303] + 17] = 108
+intZ[intF[1303] + 18] = 109
+farcall(9502, 3)
+intZ[intF[1303] + 19] = 1
+farcall(9502, 4)
+intZ[intF[1303] + 20] = 8
+farcall(9502, 5)
+intZ[intF[1303] + 21] = 1000
+intZ[intF[1303] + 22] = 1000
+farcall(9502, 6)
+farcall(9502, 7)
+intZ[intF[1303] + 11] = intF[1241] * 10 / 255
+farcall(9502, 10)
+intF[1303] = 1720
+farcall(9502, 0)
+intZ[intF[1303] + 15] = 214
+farcall(9502, 1)
+intZ[intF[1303] + 16] = 204
+intZ[intF[1303] + 17] = 110
+intZ[intF[1303] + 18] = 111
+farcall(9502, 3)
+goto_unless(intF[1284] == 1) @434
+intZ[intF[1303] + 19] = 2
+farcall(9502, 4)
+goto @435
+
+  @434
+goto_unless(!intF[1284]) @435
+intZ[intF[1303] + 19] = 0
+farcall(9502, 4)
+
+  @435
+intZ[intF[1303] + 20] = 12
+farcall(9502, 5)
+intA[1000] = (intF[1283] - 0) * 1000 / (255 - 0)
+intF[1288] = ((100 - 10) * intA[1000] + 500) / 1000 + 10
+intZ[intF[1303] + 21] = intF[1288] * 21
+intZ[intF[1303] + 22] = 400
+farcall(9502, 6)
+farcall(9502, 7)
+farcall(9502, 10)
+goto_unless(!intG[1210] || intF[1480] == 1 || intF[1481] == 1) @443
+FlushClick
+intC[0] = 200
+goto_unless(intF[1480] == 1 || intF[1481] == 1) @436
+intC[0] = 1000
+
+  @436
+InitExFrames({0, 0, 10000, intC[0]})
+
+  @437
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @438
+intF[1212] = 1
+FlushClick
+goto @439
+
+  @438
+intF[1212] = 0
+
+  @439
+goto_unless(intF[1212] == 1) @440
+intC[0] = 0
+intC[1] = 10000
+
+  @440
+intL[0] = index_series(intC[1], 0, 0, {0, 10000, 255, 0})
+objAlpha(204, intL[0])
+refresh
+goto_unless(!intC[0]) @441
+goto @442
+
+  @441
+goto @437
+
+  @442
+
+  @443
+ret
+
+  @444
+goto_unless(intF[1480] == 1) @445
+
+  @445
+goto_unless(intF[1481] == 1) @446
+
+  @446
+goto_unless(!intG[1210] || intF[1480] == 1 || intF[1481] == 1) @454
+FlushClick
+intC[0] = 200
+goto_unless(intF[1480] == 1 || intF[1481] == 1) @447
+intC[0] = 1000
+
+  @447
+InitExFrames({0, 0, 10000, intC[0]})
+
+  @448
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @449
+intF[1212] = 1
+FlushClick
+goto @450
+
+  @449
+intF[1212] = 0
+
+  @450
+goto_unless(intF[1212] == 1) @451
+intC[0] = 0
+intC[1] = 10000
+
+  @451
+intL[0] = index_series(intC[1], 0, 255, {0, 10000, 0, 0})
+objAlpha(204, intL[0])
+refresh
+goto_unless(!intC[0]) @452
+goto @453
+
+  @452
+goto @448
+
+  @453
+objAlpha(204, 255)
+
+  @454
+objShow(204, 0)
+objDelete(204)
+ret
+
+  @455
+
+  @456
+GetCursorPos(intF[1200], intF[1201], intF[1202], intF[1203])
+goto_unless(intF[1202] == 2) @457
+goto @458
+
+  @457
+intF[1303] = 1720
+farcall(9502, 8)
+farcall(9502, 10)
+refresh
+goto @456
+
+  @458
+ret
+eof
+halt

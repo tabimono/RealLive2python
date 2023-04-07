@@ -1,0 +1,450 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN0555.TXT'
+#resource 'SEEN0555.utf'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+goto_unless(!0) @1
+strS[1000] = 'KURO'
+goto @3
+
+  @1
+goto_unless(0 == 1) @2
+strS[1000] = 'SIRO'
+goto @3
+
+  @2
+strS[1000] = 'KURO'
+
+  @3
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strclear(strS[1001])
+intF[1104] = 0
+strclear(strS[1002])
+intF[1105] = 0
+strclear(strS[1003])
+intF[1106] = 0
+intF[1113] = 0
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+
+  @4
+bgmFadeOut(3000)
+#res<0000>
+intA[1000] = 20 * 115
+intA[1001] = intA[1000] / 100
+goto_unless(50 <= intA[1000] % 100) @5
+intA[1001] += 1
+
+  @5
+#res<0001>
+pause
+bgmLoop('BGM09A')
+intZ[317] = 1
+#res<0002>
+pause
+#res<0003>
+pause
+intF[1089] = select(#res<0004>, #res<0005>)
+goto_unless(!intF[1089]) @6
+bgmFadeOut(2000)
+#res<0006>
+wavPlay('END')
+pause
+goto @27
+goto @7
+
+  @6
+goto_unless(intF[1089] == 1) @7
+
+  @7
+#res<0007>
+pause
+intF[1089] = select(#res<0008>, #res<0009>)
+goto_unless(!intF[1089]) @8
+bgmFadeOut(2000)
+#res<0010>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+goto @9
+
+  @8
+goto_unless(intF[1089] == 1) @9
+
+  @9
+#res<0011>
+pause
+intF[1089] = select(#res<0012>, #res<0013>)
+goto_unless(!intF[1089]) @10
+goto @11
+
+  @10
+goto_unless(intF[1089] == 1) @11
+bgmFadeOut(2000)
+#res<0014>
+pause
+bgmLoop('BGM16A')
+intZ[324] = 1
+#res<0015>
+pause
+#res<0016>
+pause
+bgmFadeOut(2000)
+#res<0017>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+
+  @11
+bgmFadeOut(2000)
+#res<0018>
+pause
+#res<0019>
+wavPlay('GABU')
+#res<0020>
+pause
+intF[1089] = select(#res<0021>, #res<0022>)
+goto_unless(!intF[1089]) @12
+goto @13
+
+  @12
+goto_unless(intF[1089] == 1) @13
+#res<0023>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+
+  @13
+bgmLoop('BGM28')
+intZ[327] = 1
+#res<0024>
+pause
+#res<0025>
+wavPlay('BUNG')
+wait(200)
+wavPlay('BUNG')
+wait(200)
+wavPlay('BUNG')
+pause
+#res<0026>
+pause
+#res<0027>
+pause
+intF[1089] = select(#res<0028>, #res<0029>)
+goto_unless(!intF[1089]) @14
+goto @15
+
+  @14
+goto_unless(intF[1089] == 1) @15
+bgmFadeOut(2000)
+#res<0030>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+
+  @15
+bgmFadeOut(2000)
+#res<0031>
+wavPlay('NAKAMA')
+wait(1500)
+pause
+bgmLoop('BGM28')
+intZ[327] = 1
+#res<0032>
+pause
+#res<0033>
+pause
+intF[1089] = select(#res<0034>, #res<0035>)
+goto_unless(!intF[1089]) @16
+bgmFadeOut(2000)
+#res<0036>
+pause
+#res<0037>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+goto @17
+
+  @16
+goto_unless(intF[1089] == 1) @17
+
+  @17
+#res<0038>
+pause
+#res<0039>
+pause
+#res<0040>
+pause
+#res<0041>
+pause
+#res<0042>
+pause
+#res<0043>
+pause
+intF[1089] = select(#res<0044>, #res<0045>)
+goto_unless(!intF[1089]) @18
+goto @21
+
+  @18
+goto_unless(intF[1089] == 1) @21
+#res<0046>
+pause
+intF[1089] = select(#res<0047>, #res<0048>, #res<0049>)
+goto_unless(!intF[1089]) @19
+bgmFadeOut(2000)
+#res<0050>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+goto @21
+
+  @19
+goto_unless(intF[1089] == 1) @20
+#res<0051>
+pause
+bgmFadeOut(2000)
+#res<0052>
+wavPlay('NAKAMA')
+wait(1500)
+pause
+goto @27
+goto @21
+
+  @20
+goto_unless(intF[1089] == 2) @21
+bgmFadeOut(2000)
+#res<0053>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+
+  @21
+bgmFadeOut(2000)
+#res<0054>
+wavPlay('UOO')
+wait(2000)
+par
+#res<0055>
+wavPlay('SHOURI')
+wait(1500)
+pause
+#res<0056>
+pause
+#res<0057>
+wavPlay('NAKAMA')
+wait(1500)
+pause
+bgmLoop('BGM15')
+intZ[320] = 1
+#res<0058>
+pause
+intF[1089] = select(#res<0059>, #res<0060>)
+goto_unless(!intF[1089]) @22
+bgmFadeOut(2000)
+#res<0061>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+goto @23
+
+  @22
+goto_unless(intF[1089] == 1) @23
+
+  @23
+bgmFadeOut(2000)
+#res<0062>
+pause
+bgmLoop('BGM28')
+intZ[327] = 1
+#res<0063>
+wavPlay('BUNG')
+wait(200)
+wavPlay('BUNG')
+wait(200)
+wavPlay('BUNG')
+pause
+#res<0064>
+pause
+#res<0065>
+pause
+intF[1089] = select(#res<0066>, #res<0067>)
+goto_unless(!intF[1089]) @24
+bgmFadeOut(2000)
+#res<0068>
+wavPlay('NAKAMA')
+wait(1500)
+pause
+#res<0069>
+wavPlay('END')
+wait(1500)
+pause
+goto @27
+goto @25
+
+  @24
+goto_unless(intF[1089] == 1) @25
+
+  @25
+bgmFadeOut(2000)
+#res<0070>
+pause
+bgmLoop('BGM28')
+intZ[327] = 1
+#res<0071>
+wavPlay('BUNG')
+wait(200)
+wavPlay('BUNG')
+wait(200)
+wavPlay('BUNG')
+pause
+#res<0072>
+pause
+bgmFadeOut(2000)
+#res<0073>
+wavPlay('NAKAMA')
+wait(1500)
+msgHide
+strS[1000] = 'BG046'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @26
+strclear(strS[1000])
+
+  @26
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 20
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0074>
+pause
+#res<0075>
+pause
+bgmLoop('BGM08B')
+intZ[313] = 1
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH19B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 55500360, 7)
+#res<0076>
+pause
+#res<0077>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'CGSH12B'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9600, 0, 55500380, 7)
+#res<0078>
+pause
+farcall_with(9600, 0, 55500400, 7)
+#res<0079>
+pause
+#res<0080>
+pause
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+farcall_with(9820, 1, 'ACH_GAMEBOOK', 20)
+rtl
+
+  @27
+intF[1089] = select(#res<0081>, #res<0082>)
+goto_unless(!intF[1089]) @28
+goto @4
+goto @30
+
+  @28
+goto_unless(intF[1089] == 1) @30
+strS[1000] = 'BG046'
+intA[1000] = strcmp(strS[1000], 'NONE')
+goto_unless(!intA[1000]) @29
+strclear(strS[1000])
+
+  @29
+intF[1107] = 1
+SET_WAIP_WINDOWCLOSE_ON
+SET_GRPCOM_WINDOWCLOSE_ON
+intF[1101] = 0
+intF[1102] = 0
+intF[1103] = 0
+strS[1001] = 'NONE'
+intF[1104] = 0
+strS[1002] = 'NONE'
+intF[1105] = 0
+strS[1003] = 'NONE'
+intF[1106] = 0
+intF[1113] = intF[1112]
+farcall(9050, 0)
+intF[1107] = 0
+SET_WAIP_WINDOWCLOSE_OFF
+SET_GRPCOM_WINDOWCLOSE_OFF
+#res<0083>
+pause
+rtl
+
+  @30
+eof
+halt

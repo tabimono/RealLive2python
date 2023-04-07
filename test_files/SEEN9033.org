@@ -1,0 +1,6536 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9033.TXT'
+#resource 'SEEN9033.utf'
+
+#kidoku_type 2
+
+  @1
+setrng(intA[100], intA[115], 0)
+setrng(intA[200], intA[215], 0)
+setrng(intA[300], intA[315], 0)
+intA[400] = 0
+intA[400] = cgGetViewedPcnt
+goto_unless(!intG[1008]) @63
+intA[1000] = cgStatus('FGNG01A')
+goto_unless(intA[1000] == 1) @2
+intA[100] = 1
+
+  @2
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGNG01B')
+goto_unless(intA[1000] == 1) @3
+intA[100] = 1
+
+  @3
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGNG01C')
+goto_unless(intA[1000] == 1) @4
+intA[100] = 1
+
+  @4
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGNG01D')
+goto_unless(intA[1000] == 1) @5
+intA[100] = 1
+
+  @5
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGNG01E')
+goto_unless(intA[1000] == 1) @6
+intA[100] = 1
+
+  @6
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGNG02A')
+goto_unless(intA[1000] == 1) @7
+intA[101] = 1
+
+  @7
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGNG02B')
+goto_unless(intA[1000] == 1) @8
+intA[101] = 1
+
+  @8
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGNG02C')
+goto_unless(intA[1000] == 1) @9
+intA[101] = 1
+
+  @9
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGNG02D')
+goto_unless(intA[1000] == 1) @10
+intA[101] = 1
+
+  @10
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGNG02E')
+goto_unless(intA[1000] == 1) @11
+intA[101] = 1
+
+  @11
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGNG02F')
+goto_unless(intA[1000] == 1) @12
+intA[101] = 1
+
+  @12
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGNG03')
+goto_unless(intA[1000] == 1) @13
+intA[102] = 1
+
+  @13
+intA[202] += intA[1000]
+intA[302] += 1
+intA[1000] = cgStatus('FGNG05')
+goto_unless(intA[1000] == 1) @14
+intA[103] = 1
+
+  @14
+intA[203] += intA[1000]
+intA[303] += 1
+intA[1000] = cgStatus('FGNG07A')
+goto_unless(intA[1000] == 1) @15
+intA[104] = 1
+
+  @15
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGNG07B')
+goto_unless(intA[1000] == 1) @16
+intA[104] = 1
+
+  @16
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('BG029C')
+goto_unless(intA[1000] == 1) @17
+intA[105] = 1
+
+  @17
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGNG08')
+goto_unless(intA[1000] == 1) @18
+intA[106] = 1
+
+  @18
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGNG11')
+goto_unless(intA[1000] == 1) @19
+intA[106] = 1
+
+  @19
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGNG10A')
+goto_unless(intA[1000] == 1) @20
+intA[107] = 1
+
+  @20
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGNG10B')
+goto_unless(intA[1000] == 1) @21
+intA[107] = 1
+
+  @21
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGNG10C')
+goto_unless(intA[1000] == 1) @22
+intA[107] = 1
+
+  @22
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGNG10D')
+goto_unless(intA[1000] == 1) @23
+intA[107] = 1
+
+  @23
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGNG10E')
+goto_unless(intA[1000] == 1) @24
+intA[107] = 1
+
+  @24
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGNG15E')
+goto_unless(intA[1000] == 1) @25
+intA[108] = 1
+
+  @25
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGNG15A')
+goto_unless(intA[1000] == 1) @26
+intA[108] = 1
+
+  @26
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGNG15B')
+goto_unless(intA[1000] == 1) @27
+intA[108] = 1
+
+  @27
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGNG15C')
+goto_unless(intA[1000] == 1) @28
+intA[108] = 1
+
+  @28
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGNG15D')
+goto_unless(intA[1000] == 1) @29
+intA[108] = 1
+
+  @29
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGNG16')
+goto_unless(intA[1000] == 1) @30
+intA[109] = 1
+
+  @30
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGNG17B')
+goto_unless(intA[1000] == 1) @31
+intA[110] = 1
+
+  @31
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGNG17A')
+goto_unless(intA[1000] == 1) @32
+intA[110] = 1
+
+  @32
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGNG17D')
+goto_unless(intA[1000] == 1) @33
+intA[110] = 1
+
+  @33
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGNG20')
+goto_unless(intA[1000] == 1) @34
+intA[111] = 1
+
+  @34
+intA[211] += intA[1000]
+intA[311] += 1
+intA[1000] = cgStatus('FGKY01A')
+goto_unless(intA[1000] == 1) @35
+intA[112] = 1
+
+  @35
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGKY01B')
+goto_unless(intA[1000] == 1) @36
+intA[112] = 1
+
+  @36
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGKY01C')
+goto_unless(intA[1000] == 1) @37
+intA[112] = 1
+
+  @37
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGKY02J')
+goto_unless(intA[1000] == 1) @38
+intA[113] = 1
+
+  @38
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02L')
+goto_unless(intA[1000] == 1) @39
+intA[113] = 1
+
+  @39
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02K')
+goto_unless(intA[1000] == 1) @40
+intA[113] = 1
+
+  @40
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02D')
+goto_unless(intA[1000] == 1) @41
+intA[113] = 1
+
+  @41
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02F')
+goto_unless(intA[1000] == 1) @42
+intA[113] = 1
+
+  @42
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02E')
+goto_unless(intA[1000] == 1) @43
+intA[113] = 1
+
+  @43
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02G')
+goto_unless(intA[1000] == 1) @44
+intA[113] = 1
+
+  @44
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02I')
+goto_unless(intA[1000] == 1) @45
+intA[113] = 1
+
+  @45
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02H')
+goto_unless(intA[1000] == 1) @46
+intA[113] = 1
+
+  @46
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02A')
+goto_unless(intA[1000] == 1) @47
+intA[113] = 1
+
+  @47
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02C')
+goto_unless(intA[1000] == 1) @48
+intA[113] = 1
+
+  @48
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY02B')
+goto_unless(intA[1000] == 1) @49
+intA[113] = 1
+
+  @49
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKY04A')
+goto_unless(intA[1000] == 1) @50
+intA[114] = 1
+
+  @50
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04B')
+goto_unless(intA[1000] == 1) @51
+intA[114] = 1
+
+  @51
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04C')
+goto_unless(intA[1000] == 1) @52
+intA[114] = 1
+
+  @52
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04D')
+goto_unless(intA[1000] == 1) @53
+intA[114] = 1
+
+  @53
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04E')
+goto_unless(intA[1000] == 1) @54
+intA[114] = 1
+
+  @54
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04F')
+goto_unless(intA[1000] == 1) @55
+intA[114] = 1
+
+  @55
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04G')
+goto_unless(intA[1000] == 1) @56
+intA[114] = 1
+
+  @56
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04H')
+goto_unless(intA[1000] == 1) @57
+intA[114] = 1
+
+  @57
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04I')
+goto_unless(intA[1000] == 1) @58
+intA[114] = 1
+
+  @58
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY04J')
+goto_unless(intA[1000] == 1) @59
+intA[114] = 1
+
+  @59
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKY03C')
+goto_unless(intA[1000] == 1) @60
+intA[115] = 1
+
+  @60
+intA[215] += intA[1000]
+intA[315] += 1
+intA[1000] = cgStatus('FGKY03B')
+goto_unless(intA[1000] == 1) @61
+intA[115] = 1
+
+  @61
+intA[215] += intA[1000]
+intA[315] += 1
+intA[1000] = cgStatus('FGKY03A')
+goto_unless(intA[1000] == 1) @62
+intA[115] = 1
+
+  @62
+intA[215] += intA[1000]
+intA[315] += 1
+goto @180
+
+  @63
+goto_unless(intG[1008] == 1) @107
+intA[1000] = cgStatus('FGKY05C')
+goto_unless(intA[1000] == 1) @64
+intA[100] = 1
+
+  @64
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGKY05B')
+goto_unless(intA[1000] == 1) @65
+intA[100] = 1
+
+  @65
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGKY05A')
+goto_unless(intA[1000] == 1) @66
+intA[100] = 1
+
+  @66
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGKY06A')
+goto_unless(intA[1000] == 1) @67
+intA[101] = 1
+
+  @67
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGKY06B')
+goto_unless(intA[1000] == 1) @68
+intA[101] = 1
+
+  @68
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGKY06C')
+goto_unless(intA[1000] == 1) @69
+intA[101] = 1
+
+  @69
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGKY07A')
+goto_unless(intA[1000] == 1) @70
+intA[102] = 1
+
+  @70
+intA[202] += intA[1000]
+intA[302] += 1
+intA[1000] = cgStatus('FGKY07B')
+goto_unless(intA[1000] == 1) @71
+intA[102] = 1
+
+  @71
+intA[202] += intA[1000]
+intA[302] += 1
+intA[1000] = cgStatus('FGKY08')
+goto_unless(intA[1000] == 1) @72
+intA[103] = 1
+
+  @72
+intA[203] += intA[1000]
+intA[303] += 1
+intA[1000] = cgStatus('FGKY09A')
+goto_unless(intA[1000] == 1) @73
+intA[104] = 1
+
+  @73
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGKY09B')
+goto_unless(intA[1000] == 1) @74
+intA[104] = 1
+
+  @74
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGKY10A')
+goto_unless(intA[1000] == 1) @75
+intA[105] = 1
+
+  @75
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGKY10B')
+goto_unless(intA[1000] == 1) @76
+intA[105] = 1
+
+  @76
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGKY10C')
+goto_unless(intA[1000] == 1) @77
+intA[105] = 1
+
+  @77
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGKY11A')
+goto_unless(intA[1000] == 1) @78
+intA[106] = 1
+
+  @78
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGKY11B')
+goto_unless(intA[1000] == 1) @79
+intA[106] = 1
+
+  @79
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGKT01A')
+goto_unless(intA[1000] == 1) @80
+intA[107] = 1
+
+  @80
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGKT01B')
+goto_unless(intA[1000] == 1) @81
+intA[107] = 1
+
+  @81
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGKT01C')
+goto_unless(intA[1000] == 1) @82
+intA[107] = 1
+
+  @82
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGKT02A')
+goto_unless(intA[1000] == 1) @83
+intA[108] = 1
+
+  @83
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGKT02B')
+goto_unless(intA[1000] == 1) @84
+intA[108] = 1
+
+  @84
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGKT02C')
+goto_unless(intA[1000] == 1) @85
+intA[108] = 1
+
+  @85
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGKT02D')
+goto_unless(intA[1000] == 1) @86
+intA[108] = 1
+
+  @86
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGKT02E')
+goto_unless(intA[1000] == 1) @87
+intA[108] = 1
+
+  @87
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGKT02F')
+goto_unless(intA[1000] == 1) @88
+intA[108] = 1
+
+  @88
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGKT03A')
+goto_unless(intA[1000] == 1) @89
+intA[109] = 1
+
+  @89
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGKT03B')
+goto_unless(intA[1000] == 1) @90
+intA[109] = 1
+
+  @90
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGKT03C')
+goto_unless(intA[1000] == 1) @91
+intA[109] = 1
+
+  @91
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGKT03A2')
+goto_unless(intA[1000] == 1) @92
+intA[109] = 1
+
+  @92
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGKT03B2')
+goto_unless(intA[1000] == 1) @93
+intA[109] = 1
+
+  @93
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGKT03C2')
+goto_unless(intA[1000] == 1) @94
+intA[109] = 1
+
+  @94
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGKT05')
+goto_unless(intA[1000] == 1) @95
+intA[110] = 1
+
+  @95
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGKT06A')
+goto_unless(intA[1000] == 1) @96
+intA[111] = 1
+
+  @96
+intA[211] += intA[1000]
+intA[311] += 1
+intA[1000] = cgStatus('FGKT06B')
+goto_unless(intA[1000] == 1) @97
+intA[111] = 1
+
+  @97
+intA[211] += intA[1000]
+intA[311] += 1
+intA[1000] = cgStatus('FGKT07A')
+goto_unless(intA[1000] == 1) @98
+intA[112] = 1
+
+  @98
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGKT07B')
+goto_unless(intA[1000] == 1) @99
+intA[112] = 1
+
+  @99
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGKT07C')
+goto_unless(intA[1000] == 1) @100
+intA[112] = 1
+
+  @100
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGKT10A')
+goto_unless(intA[1000] == 1) @101
+intA[113] = 1
+
+  @101
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKT10B')
+goto_unless(intA[1000] == 1) @102
+intA[113] = 1
+
+  @102
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGKT11')
+goto_unless(intA[1000] == 1) @103
+intA[114] = 1
+
+  @103
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGKT09A')
+goto_unless(intA[1000] == 1) @104
+intA[115] = 1
+
+  @104
+intA[215] += intA[1000]
+intA[315] += 1
+intA[1000] = cgStatus('FGKT09B')
+goto_unless(intA[1000] == 1) @105
+intA[115] = 1
+
+  @105
+intA[215] += intA[1000]
+intA[315] += 1
+intA[1000] = cgStatus('FGKT09C')
+goto_unless(intA[1000] == 1) @106
+intA[115] = 1
+
+  @106
+intA[215] += intA[1000]
+intA[315] += 1
+goto @180
+
+  @107
+goto_unless(intG[1008] == 2) @148
+intA[1000] = cgStatus('KTC01_00')
+goto_unless(intA[1000] == 1) @108
+intA[100] = 1
+
+  @108
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGKT08A')
+goto_unless(intA[1000] == 1) @109
+intA[101] = 1
+
+  @109
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGKT08B')
+goto_unless(intA[1000] == 1) @110
+intA[101] = 1
+
+  @110
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGKT08C')
+goto_unless(intA[1000] == 1) @111
+intA[101] = 1
+
+  @111
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('BG051O')
+goto_unless(intA[1000] == 1) @112
+intA[102] = 1
+
+  @112
+intA[202] += intA[1000]
+intA[302] += 1
+intA[1000] = cgStatus('FGFU01A')
+goto_unless(intA[1000] == 1) @113
+intA[103] = 1
+
+  @113
+intA[203] += intA[1000]
+intA[303] += 1
+intA[1000] = cgStatus('FGFU01B')
+goto_unless(intA[1000] == 1) @114
+intA[103] = 1
+
+  @114
+intA[203] += intA[1000]
+intA[303] += 1
+intA[1000] = cgStatus('FGFU03A')
+goto_unless(intA[1000] == 1) @115
+intA[104] = 1
+
+  @115
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGFU03B')
+goto_unless(intA[1000] == 1) @116
+intA[104] = 1
+
+  @116
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGFU03C')
+goto_unless(intA[1000] == 1) @117
+intA[104] = 1
+
+  @117
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGFU03D')
+goto_unless(intA[1000] == 1) @118
+intA[104] = 1
+
+  @118
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGFU04B')
+goto_unless(intA[1000] == 1) @119
+intA[105] = 1
+
+  @119
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGFU04A')
+goto_unless(intA[1000] == 1) @120
+intA[105] = 1
+
+  @120
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGFU05')
+goto_unless(intA[1000] == 1) @121
+intA[106] = 1
+
+  @121
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGFU06A')
+goto_unless(intA[1000] == 1) @122
+intA[106] = 1
+
+  @122
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGFU06B')
+goto_unless(intA[1000] == 1) @123
+intA[106] = 1
+
+  @123
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGFU07A')
+goto_unless(intA[1000] == 1) @124
+intA[107] = 1
+
+  @124
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGFU07B')
+goto_unless(intA[1000] == 1) @125
+intA[107] = 1
+
+  @125
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGFU08A')
+goto_unless(intA[1000] == 1) @126
+intA[108] = 1
+
+  @126
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGFU08B')
+goto_unless(intA[1000] == 1) @127
+intA[108] = 1
+
+  @127
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGFU02A')
+goto_unless(intA[1000] == 1) @128
+intA[109] = 1
+
+  @128
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGFU02B')
+goto_unless(intA[1000] == 1) @129
+intA[109] = 1
+
+  @129
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGTM01A')
+goto_unless(intA[1000] == 1) @130
+intA[110] = 1
+
+  @130
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01B')
+goto_unless(intA[1000] == 1) @131
+intA[110] = 1
+
+  @131
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01D')
+goto_unless(intA[1000] == 1) @132
+intA[110] = 1
+
+  @132
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01C')
+goto_unless(intA[1000] == 1) @133
+intA[110] = 1
+
+  @133
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01G')
+goto_unless(intA[1000] == 1) @134
+intA[110] = 1
+
+  @134
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01F')
+goto_unless(intA[1000] == 1) @135
+intA[110] = 1
+
+  @135
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01I')
+goto_unless(intA[1000] == 1) @136
+intA[110] = 1
+
+  @136
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01H')
+goto_unless(intA[1000] == 1) @137
+intA[110] = 1
+
+  @137
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM01J')
+goto_unless(intA[1000] == 1) @138
+intA[110] = 1
+
+  @138
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGTM02')
+goto_unless(intA[1000] == 1) @139
+intA[111] = 1
+
+  @139
+intA[211] += intA[1000]
+intA[311] += 1
+intA[1000] = cgStatus('FGTM03A')
+goto_unless(intA[1000] == 1) @140
+intA[112] = 1
+
+  @140
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGTM06A')
+goto_unless(intA[1000] == 1) @141
+intA[113] = 1
+
+  @141
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGTM06B')
+goto_unless(intA[1000] == 1) @142
+intA[113] = 1
+
+  @142
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGTM06C')
+goto_unless(intA[1000] == 1) @143
+intA[113] = 1
+
+  @143
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGTM06D')
+goto_unless(intA[1000] == 1) @144
+intA[113] = 1
+
+  @144
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGTM07A')
+goto_unless(intA[1000] == 1) @145
+intA[114] = 1
+
+  @145
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGTM07B')
+goto_unless(intA[1000] == 1) @146
+intA[114] = 1
+
+  @146
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGTM08')
+goto_unless(intA[1000] == 1) @147
+intA[115] = 1
+
+  @147
+intA[215] += intA[1000]
+intA[315] += 1
+goto @180
+
+  @148
+goto_unless(intG[1008] == 3) @175
+intA[1000] = cgStatus('FGYK01A')
+goto_unless(intA[1000] == 1) @149
+intA[100] = 1
+
+  @149
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGYK01B')
+goto_unless(intA[1000] == 1) @150
+intA[100] = 1
+
+  @150
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGYK01C')
+goto_unless(intA[1000] == 1) @151
+intA[100] = 1
+
+  @151
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('FGYK02')
+goto_unless(intA[1000] == 1) @152
+intA[101] = 1
+
+  @152
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('FGYK03')
+goto_unless(intA[1000] == 1) @153
+intA[102] = 1
+
+  @153
+intA[202] += intA[1000]
+intA[302] += 1
+intA[1000] = cgStatus('FGSB01A')
+goto_unless(intA[1000] == 1) @154
+intA[103] = 1
+
+  @154
+intA[203] += intA[1000]
+intA[303] += 1
+intA[1000] = cgStatus('FGSB01B')
+goto_unless(intA[1000] == 1) @155
+intA[103] = 1
+
+  @155
+intA[203] += intA[1000]
+intA[303] += 1
+intA[1000] = cgStatus('FGSB09')
+goto_unless(intA[1000] == 1) @156
+intA[104] = 1
+
+  @156
+intA[204] += intA[1000]
+intA[304] += 1
+intA[1000] = cgStatus('FGSB07A')
+goto_unless(intA[1000] == 1) @157
+intA[105] = 1
+
+  @157
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGSB07C')
+goto_unless(intA[1000] == 1) @158
+intA[105] = 1
+
+  @158
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGSB07B')
+goto_unless(intA[1000] == 1) @159
+intA[105] = 1
+
+  @159
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGSB07D')
+goto_unless(intA[1000] == 1) @160
+intA[105] = 1
+
+  @160
+intA[205] += intA[1000]
+intA[305] += 1
+intA[1000] = cgStatus('FGSB03')
+goto_unless(intA[1000] == 1) @161
+intA[106] = 1
+
+  @161
+intA[206] += intA[1000]
+intA[306] += 1
+intA[1000] = cgStatus('FGSB02')
+goto_unless(intA[1000] == 1) @162
+intA[107] = 1
+
+  @162
+intA[207] += intA[1000]
+intA[307] += 1
+intA[1000] = cgStatus('FGSB12A')
+goto_unless(intA[1000] == 1) @163
+intA[108] = 1
+
+  @163
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGSB12B')
+goto_unless(intA[1000] == 1) @164
+intA[108] = 1
+
+  @164
+intA[208] += intA[1000]
+intA[308] += 1
+intA[1000] = cgStatus('FGSB06')
+goto_unless(intA[1000] == 1) @165
+intA[109] = 1
+
+  @165
+intA[209] += intA[1000]
+intA[309] += 1
+intA[1000] = cgStatus('FGSB13A')
+goto_unless(intA[1000] == 1) @166
+intA[110] = 1
+
+  @166
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGSB13B')
+goto_unless(intA[1000] == 1) @167
+intA[110] = 1
+
+  @167
+intA[210] += intA[1000]
+intA[310] += 1
+intA[1000] = cgStatus('FGSB10')
+goto_unless(intA[1000] == 1) @168
+intA[111] = 1
+
+  @168
+intA[211] += intA[1000]
+intA[311] += 1
+intA[1000] = cgStatus('FGSB20')
+goto_unless(intA[1000] == 1) @169
+intA[112] = 1
+
+  @169
+intA[212] += intA[1000]
+intA[312] += 1
+intA[1000] = cgStatus('FGSB11A')
+goto_unless(intA[1000] == 1) @170
+intA[113] = 1
+
+  @170
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGSB11B')
+goto_unless(intA[1000] == 1) @171
+intA[113] = 1
+
+  @171
+intA[213] += intA[1000]
+intA[313] += 1
+intA[1000] = cgStatus('FGNG18A')
+goto_unless(intA[1000] == 1) @172
+intA[114] = 1
+
+  @172
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGNG18B')
+goto_unless(intA[1000] == 1) @173
+intA[114] = 1
+
+  @173
+intA[214] += intA[1000]
+intA[314] += 1
+intA[1000] = cgStatus('FGNG19')
+goto_unless(intA[1000] == 1) @174
+intA[115] = 1
+
+  @174
+intA[215] += intA[1000]
+intA[315] += 1
+goto @180
+
+  @175
+goto_unless(intG[1008] == 4) @180
+intA[1000] = cgStatus('ED2_01')
+goto_unless(intA[1000] == 1) @176
+intA[100] = 1
+
+  @176
+intA[200] += intA[1000]
+intA[300] += 1
+intA[1000] = cgStatus('ED2_02')
+goto_unless(intA[1000] == 1) @177
+intA[101] = 1
+
+  @177
+intA[201] += intA[1000]
+intA[301] += 1
+intA[1000] = cgStatus('ED4_01')
+goto_unless(intA[1000] == 1) @178
+intA[102] = 1
+
+  @178
+intA[202] += intA[1000]
+intA[302] += 1
+intA[1000] = cgStatus('ED4_02')
+goto_unless(intA[1000] == 1) @179
+intA[103] = 1
+
+  @179
+intA[203] += intA[1000]
+intA[303] += 1
+
+  @180
+ret
+
+#entrypoint 000 // Z00
+
+intA[500] = 1
+intA[501] = 0
+intA[502] = 0
+intF[1139] = 1
+goto @181
+
+  @181
+HideSyscom
+DrawManual
+title(#res<0000>)
+gosub @1
+goto_unless(intF[1139] == 1) @182
+intF[1139] = 0
+goto @183
+goto @183
+
+  @182
+goto_unless(!intF[1139]) @183
+goto @211
+
+  @183
+goto_unless(!intG[1008] || intG[1008] == 1 || intG[1008] == 2 || intG[1008] == 3) @184
+grpBuffer('SCGM00', 0)
+goto @185
+
+  @184
+goto_unless(intG[1008] == 4) @185
+grpBuffer('SCGM01', 0)
+
+  @185
+objClear(0)
+objClear(1)
+objClear(2)
+objClear(3)
+objClear(4)
+objClear(5)
+objClear(6)
+objClear(7)
+objClear(8)
+objClear(9)
+objClear(10)
+objClear(11)
+objClear(12)
+objClear(13)
+objClear(14)
+objClear(15)
+objClear(20)
+objClear(21)
+objClear(22)
+objClear(23)
+objClear(24)
+objClear(25)
+objClear(26)
+objClear(27)
+objClear(28)
+objClear(29)
+objClear(30)
+objClear(31)
+objClear(32)
+objClear(33)
+objClear(34)
+objClear(35)
+objClear(40)
+objClear(41)
+objClear(42)
+objClear(50)
+objClear(51)
+objClear(52)
+objClear(53)
+objClear(54)
+objClear(60)
+objClear(70)
+objClear(79)
+goto_unless(!intG[1008]) @186
+objOfFile(0, 'SCGMA00')
+objOfFile(1, 'SCGMA01')
+objOfFile(2, 'SCGMA02')
+objOfFile(3, 'SCGMA03')
+objOfFile(4, 'SCGMA04')
+objOfFile(5, 'SCGMA05')
+objOfFile(6, 'SCGMA06')
+objOfFile(7, 'SCGMA07')
+objOfFile(8, 'SCGMA08')
+objOfFile(9, 'SCGMA09')
+objOfFile(10, 'SCGMA10')
+objOfFile(11, 'SCGMA11')
+objOfFile(12, 'SCGMA12')
+objOfFile(13, 'SCGMA13')
+objOfFile(14, 'SCGMA14')
+objOfFile(15, 'SCGMA15')
+goto @190
+
+  @186
+goto_unless(intG[1008] == 1) @187
+objOfFile(0, 'SCGMB00')
+objOfFile(1, 'SCGMB01')
+objOfFile(2, 'SCGMB02')
+objOfFile(3, 'SCGMB03')
+objOfFile(4, 'SCGMB04')
+objOfFile(5, 'SCGMB05')
+objOfFile(6, 'SCGMB06')
+objOfFile(7, 'SCGMB07')
+objOfFile(8, 'SCGMB08')
+objOfFile(9, 'SCGMB09')
+objOfFile(10, 'SCGMB10')
+objOfFile(11, 'SCGMB11')
+objOfFile(12, 'SCGMB12')
+objOfFile(13, 'SCGMB13')
+objOfFile(14, 'SCGMB14')
+objOfFile(15, 'SCGMB15')
+goto @190
+
+  @187
+goto_unless(intG[1008] == 2) @188
+objOfFile(0, 'SCGMC00')
+objOfFile(1, 'SCGMC01')
+objOfFile(2, 'SCGMC02')
+objOfFile(3, 'SCGMC03')
+objOfFile(4, 'SCGMC04')
+objOfFile(5, 'SCGMC05')
+objOfFile(6, 'SCGMC06')
+objOfFile(7, 'SCGMC07')
+objOfFile(8, 'SCGMC08')
+objOfFile(9, 'SCGMC09')
+objOfFile(10, 'SCGMC10')
+objOfFile(11, 'SCGMC11')
+objOfFile(12, 'SCGMC12')
+objOfFile(13, 'SCGMC13')
+objOfFile(14, 'SCGMC14')
+objOfFile(15, 'SCGMC15')
+goto @190
+
+  @188
+goto_unless(intG[1008] == 3) @189
+objOfFile(0, 'SCGMD00')
+objOfFile(1, 'SCGMD01')
+objOfFile(2, 'SCGMD02')
+objOfFile(3, 'SCGMD03')
+objOfFile(4, 'SCGMD04')
+objOfFile(5, 'SCGMD05')
+objOfFile(6, 'SCGMD06')
+objOfFile(7, 'SCGMD07')
+objOfFile(8, 'SCGMD08')
+objOfFile(9, 'SCGMD09')
+objOfFile(10, 'SCGMD10')
+objOfFile(11, 'SCGMD11')
+objOfFile(12, 'SCGMD12')
+objOfFile(13, 'SCGMD13')
+objOfFile(14, 'SCGMD14')
+objOfFile(15, 'SCGMD15')
+goto @190
+
+  @189
+goto_unless(intG[1008] == 4) @190
+objOfFile(0, 'SCGME00')
+objOfFile(1, 'SCGME01')
+objOfFile(2, 'SCGME02')
+objOfFile(3, 'SCGME03')
+
+  @190
+objOfFile(20, 'SCGM10')
+objOfFile(21, 'SCGM10')
+objOfFile(22, 'SCGM10')
+objOfFile(23, 'SCGM10')
+objOfFile(24, 'SCGM10')
+objOfFile(25, 'SCGM10')
+objOfFile(26, 'SCGM10')
+objOfFile(27, 'SCGM10')
+objOfFile(28, 'SCGM10')
+objOfFile(29, 'SCGM10')
+objOfFile(30, 'SCGM10')
+objOfFile(31, 'SCGM10')
+objOfFile(32, 'SCGM10')
+objOfFile(33, 'SCGM10')
+objOfFile(34, 'SCGM10')
+objOfFile(35, 'SCGM10')
+objOfFile(40, 'SCGM20')
+objOfFile(41, 'SCGM20')
+objOfFile(42, 'SCGM20')
+objOfFile(50, 'SCGM30')
+objOfFile(51, 'SCGM31')
+objOfFile(52, 'SCGM32')
+objOfFile(53, 'SCGM33')
+objOfFile(54, 'SCGM34')
+objOfFile(60, 'SCGM40')
+objOfFile(70, 'SCGM50')
+objOfFile(79, 'SIRO')
+objMove(0, 310, 156)
+objMove(1, 550, 156)
+objMove(2, 790, 156)
+objMove(3, 1030, 156)
+objMove(4, 310, 336)
+objMove(5, 550, 336)
+objMove(6, 790, 336)
+objMove(7, 1030, 336)
+objMove(8, 310, 516)
+objMove(9, 550, 516)
+objMove(10, 790, 516)
+objMove(11, 1030, 516)
+objMove(12, 310, 696)
+objMove(13, 550, 696)
+objMove(14, 790, 696)
+objMove(15, 1030, 696)
+objMove(20, 310 + 145, 156 + 143)
+objMove(21, 550 + 145, 156 + 143)
+objMove(22, 790 + 145, 156 + 143)
+objMove(23, 1030 + 145, 156 + 143)
+objMove(24, 310 + 145, 336 + 143)
+objMove(25, 550 + 145, 336 + 143)
+objMove(26, 790 + 145, 336 + 143)
+objMove(27, 1030 + 145, 336 + 143)
+objMove(28, 310 + 145, 516 + 143)
+objMove(29, 550 + 145, 516 + 143)
+objMove(30, 790 + 145, 516 + 143)
+objMove(31, 1030 + 145, 516 + 143)
+objMove(32, 310 + 145, 696 + 143)
+objMove(33, 550 + 145, 696 + 143)
+objMove(34, 790 + 145, 696 + 143)
+objMove(35, 1030 + 145, 696 + 143)
+goto_unless(intA[400] < 10) @191
+objMove(40, 0, 0)
+objMove(41, 0, 0)
+objMove(42, 1212, 92)
+goto @193
+
+  @191
+goto_unless(intA[400] < 100) @192
+objMove(40, 0, 0)
+objMove(41, 1187, 92)
+objMove(42, 1212, 92)
+goto @193
+
+  @192
+goto_unless(intA[400] == 100) @193
+objMove(40, 1162, 92)
+objMove(41, 1187, 92)
+objMove(42, 1212, 92)
+
+  @193
+objMove(50, 741, 908)
+objMove(51, 798, 908)
+objMove(52, 855, 908)
+objMove(53, 912, 908)
+objMove(54, 969, 908)
+objMove(60, 1054, 908)
+objMove(70, 1144, 908)
+objMove(79, 0, 0)
+objPattNo(0, 0)
+objPattNo(1, 0)
+objPattNo(2, 0)
+objPattNo(3, 0)
+objPattNo(4, 0)
+objPattNo(5, 0)
+objPattNo(6, 0)
+objPattNo(7, 0)
+objPattNo(8, 0)
+objPattNo(9, 0)
+objPattNo(10, 0)
+objPattNo(11, 0)
+objPattNo(12, 0)
+objPattNo(13, 0)
+objPattNo(14, 0)
+objPattNo(15, 0)
+setarray(intA[0], 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78)
+objPattNo(20, intA[0 + intA[300]] + intA[200])
+objPattNo(21, intA[0 + intA[301]] + intA[201])
+objPattNo(22, intA[0 + intA[302]] + intA[202])
+objPattNo(23, intA[0 + intA[303]] + intA[203])
+objPattNo(24, intA[0 + intA[304]] + intA[204])
+objPattNo(25, intA[0 + intA[305]] + intA[205])
+objPattNo(26, intA[0 + intA[306]] + intA[206])
+objPattNo(27, intA[0 + intA[307]] + intA[207])
+objPattNo(28, intA[0 + intA[308]] + intA[208])
+objPattNo(29, intA[0 + intA[309]] + intA[209])
+objPattNo(30, intA[0 + intA[310]] + intA[210])
+objPattNo(31, intA[0 + intA[311]] + intA[211])
+objPattNo(32, intA[0 + intA[312]] + intA[212])
+objPattNo(33, intA[0 + intA[313]] + intA[213])
+objPattNo(34, intA[0 + intA[314]] + intA[214])
+objPattNo(35, intA[0 + intA[315]] + intA[215])
+goto_unless(intA[400] < 10) @194
+objPattNo(40, 0)
+objPattNo(41, 0)
+objPattNo(42, intA[400] % 10)
+goto @196
+
+  @194
+goto_unless(intA[400] < 100) @195
+objPattNo(40, 0)
+objPattNo(41, intA[400] / 10)
+objPattNo(42, intA[400] % 10)
+goto @196
+
+  @195
+goto_unless(intA[400] == 100) @196
+objPattNo(40, 1)
+objPattNo(41, 0)
+objPattNo(42, 0)
+
+  @196
+goto_unless(!intG[1008]) @197
+objPattNo(50, 1)
+objPattNo(51, 0)
+objPattNo(52, 0)
+objPattNo(53, 0)
+objPattNo(54, 0)
+goto @201
+
+  @197
+goto_unless(intG[1008] == 1) @198
+objPattNo(50, 0)
+objPattNo(51, 1)
+objPattNo(52, 0)
+objPattNo(53, 0)
+objPattNo(54, 0)
+goto @201
+
+  @198
+goto_unless(intG[1008] == 2) @199
+objPattNo(50, 0)
+objPattNo(51, 0)
+objPattNo(52, 1)
+objPattNo(53, 0)
+objPattNo(54, 0)
+goto @201
+
+  @199
+goto_unless(intG[1008] == 3) @200
+objPattNo(50, 0)
+objPattNo(51, 0)
+objPattNo(52, 0)
+objPattNo(53, 1)
+objPattNo(54, 0)
+goto @201
+
+  @200
+goto_unless(intG[1008] == 4) @201
+objPattNo(50, 0)
+objPattNo(51, 0)
+objPattNo(52, 0)
+objPattNo(53, 0)
+objPattNo(54, 1)
+
+  @201
+objPattNo(60, 0)
+objPattNo(70, 0)
+objPattNo(79, 0)
+objShow(0, intA[100])
+objShow(1, intA[101])
+objShow(2, intA[102])
+objShow(3, intA[103])
+objShow(4, intA[104])
+objShow(5, intA[105])
+objShow(6, intA[106])
+objShow(7, intA[107])
+objShow(8, intA[108])
+objShow(9, intA[109])
+objShow(10, intA[110])
+objShow(11, intA[111])
+objShow(12, intA[112])
+objShow(13, intA[113])
+objShow(14, intA[114])
+objShow(15, intA[115])
+objShow(20, intA[100])
+objShow(21, intA[101])
+objShow(22, intA[102])
+objShow(23, intA[103])
+objShow(24, intA[104])
+objShow(25, intA[105])
+objShow(26, intA[106])
+objShow(27, intA[107])
+objShow(28, intA[108])
+objShow(29, intA[109])
+objShow(30, intA[110])
+objShow(31, intA[111])
+objShow(32, intA[112])
+objShow(33, intA[113])
+objShow(34, intA[114])
+objShow(35, intA[115])
+goto_unless(intA[400] < 10) @202
+objShow(40, 0)
+objShow(41, 0)
+objShow(42, 1)
+goto @204
+
+  @202
+goto_unless(intA[400] < 100) @203
+objShow(40, 0)
+objShow(41, 1)
+objShow(42, 1)
+goto @204
+
+  @203
+goto_unless(intA[400] == 100) @204
+objShow(40, 1)
+objShow(41, 1)
+objShow(42, 1)
+
+  @204
+objShow(50, 1)
+objShow(51, 1)
+objShow(52, 1)
+objShow(53, 1)
+objShow(54, 1)
+objShow(60, 1)
+objShow(70, 1)
+objShow(79, 1)
+FlushClick
+intC[0] = 1000
+InitExFrames({0, 255, 0, intC[0]})
+
+  @205
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @206
+intF[1212] = 1
+FlushClick
+goto @207
+
+  @206
+intF[1212] = 0
+
+  @207
+goto_unless(intF[1212] == 1) @208
+intC[0] = 0
+intC[1] = 0
+
+  @208
+objAlpha(79, intC[1])
+refresh
+goto_unless(!intC[0]) @209
+goto @210
+
+  @209
+goto @205
+
+  @210
+goto @243
+
+  @211
+goto_unless(!intG[1008] || intG[1008] == 1 || intG[1008] == 2 || intG[1008] == 3) @212
+grpBuffer('SCGM00', 1)
+goto @213
+
+  @212
+goto_unless(intG[1008] == 4) @213
+grpBuffer('SCGM01', 1)
+
+  @213
+objBgClear(0)
+objBgClear(1)
+objBgClear(2)
+objBgClear(3)
+objBgClear(4)
+objBgClear(5)
+objBgClear(6)
+objBgClear(7)
+objBgClear(8)
+objBgClear(9)
+objBgClear(10)
+objBgClear(11)
+objBgClear(12)
+objBgClear(13)
+objBgClear(14)
+objBgClear(15)
+objBgClear(20)
+objBgClear(21)
+objBgClear(22)
+objBgClear(23)
+objBgClear(24)
+objBgClear(25)
+objBgClear(26)
+objBgClear(27)
+objBgClear(28)
+objBgClear(29)
+objBgClear(30)
+objBgClear(31)
+objBgClear(32)
+objBgClear(33)
+objBgClear(34)
+objBgClear(35)
+objBgClear(40)
+objBgClear(41)
+objBgClear(42)
+objBgClear(50)
+objBgClear(51)
+objBgClear(52)
+objBgClear(53)
+objBgClear(54)
+objBgClear(60)
+objBgClear(70)
+objBgClear(79)
+goto_unless(!intG[1008]) @214
+objBgOfFile(0, 'SCGMA00')
+objBgOfFile(1, 'SCGMA01')
+objBgOfFile(2, 'SCGMA02')
+objBgOfFile(3, 'SCGMA03')
+objBgOfFile(4, 'SCGMA04')
+objBgOfFile(5, 'SCGMA05')
+objBgOfFile(6, 'SCGMA06')
+objBgOfFile(7, 'SCGMA07')
+objBgOfFile(8, 'SCGMA08')
+objBgOfFile(9, 'SCGMA09')
+objBgOfFile(10, 'SCGMA10')
+objBgOfFile(11, 'SCGMA11')
+objBgOfFile(12, 'SCGMA12')
+objBgOfFile(13, 'SCGMA13')
+objBgOfFile(14, 'SCGMA14')
+objBgOfFile(15, 'SCGMA15')
+goto @218
+
+  @214
+goto_unless(intG[1008] == 1) @215
+objBgOfFile(0, 'SCGMB00')
+objBgOfFile(1, 'SCGMB01')
+objBgOfFile(2, 'SCGMB02')
+objBgOfFile(3, 'SCGMB03')
+objBgOfFile(4, 'SCGMB04')
+objBgOfFile(5, 'SCGMB05')
+objBgOfFile(6, 'SCGMB06')
+objBgOfFile(7, 'SCGMB07')
+objBgOfFile(8, 'SCGMB08')
+objBgOfFile(9, 'SCGMB09')
+objBgOfFile(10, 'SCGMB10')
+objBgOfFile(11, 'SCGMB11')
+objBgOfFile(12, 'SCGMB12')
+objBgOfFile(13, 'SCGMB13')
+objBgOfFile(14, 'SCGMB14')
+objBgOfFile(15, 'SCGMB15')
+goto @218
+
+  @215
+goto_unless(intG[1008] == 2) @216
+objBgOfFile(0, 'SCGMC00')
+objBgOfFile(1, 'SCGMC01')
+objBgOfFile(2, 'SCGMC02')
+objBgOfFile(3, 'SCGMC03')
+objBgOfFile(4, 'SCGMC04')
+objBgOfFile(5, 'SCGMC05')
+objBgOfFile(6, 'SCGMC06')
+objBgOfFile(7, 'SCGMC07')
+objBgOfFile(8, 'SCGMC08')
+objBgOfFile(9, 'SCGMC09')
+objBgOfFile(10, 'SCGMC10')
+objBgOfFile(11, 'SCGMC11')
+objBgOfFile(12, 'SCGMC12')
+objBgOfFile(13, 'SCGMC13')
+objBgOfFile(14, 'SCGMC14')
+objBgOfFile(15, 'SCGMC15')
+goto @218
+
+  @216
+goto_unless(intG[1008] == 3) @217
+objBgOfFile(0, 'SCGMD00')
+objBgOfFile(1, 'SCGMD01')
+objBgOfFile(2, 'SCGMD02')
+objBgOfFile(3, 'SCGMD03')
+objBgOfFile(4, 'SCGMD04')
+objBgOfFile(5, 'SCGMD05')
+objBgOfFile(6, 'SCGMD06')
+objBgOfFile(7, 'SCGMD07')
+objBgOfFile(8, 'SCGMD08')
+objBgOfFile(9, 'SCGMD09')
+objBgOfFile(10, 'SCGMD10')
+objBgOfFile(11, 'SCGMD11')
+objBgOfFile(12, 'SCGMD12')
+objBgOfFile(13, 'SCGMD13')
+objBgOfFile(14, 'SCGMD14')
+objBgOfFile(15, 'SCGMD15')
+goto @218
+
+  @217
+goto_unless(intG[1008] == 4) @218
+objBgOfFile(0, 'SCGME00')
+objBgOfFile(1, 'SCGME01')
+objBgOfFile(2, 'SCGME02')
+objBgOfFile(3, 'SCGME03')
+
+  @218
+objBgOfFile(20, 'SCGM10')
+objBgOfFile(21, 'SCGM10')
+objBgOfFile(22, 'SCGM10')
+objBgOfFile(23, 'SCGM10')
+objBgOfFile(24, 'SCGM10')
+objBgOfFile(25, 'SCGM10')
+objBgOfFile(26, 'SCGM10')
+objBgOfFile(27, 'SCGM10')
+objBgOfFile(28, 'SCGM10')
+objBgOfFile(29, 'SCGM10')
+objBgOfFile(30, 'SCGM10')
+objBgOfFile(31, 'SCGM10')
+objBgOfFile(32, 'SCGM10')
+objBgOfFile(33, 'SCGM10')
+objBgOfFile(34, 'SCGM10')
+objBgOfFile(35, 'SCGM10')
+objBgOfFile(40, 'SCGM20')
+objBgOfFile(41, 'SCGM20')
+objBgOfFile(42, 'SCGM20')
+objBgOfFile(50, 'SCGM30')
+objBgOfFile(51, 'SCGM31')
+objBgOfFile(52, 'SCGM32')
+objBgOfFile(53, 'SCGM33')
+objBgOfFile(54, 'SCGM34')
+objBgOfFile(60, 'SCGM40')
+objBgOfFile(70, 'SCGM50')
+objBgOfFile(79, 'SIRO')
+objBgMove(0, 310, 156)
+objBgMove(1, 550, 156)
+objBgMove(2, 790, 156)
+objBgMove(3, 1030, 156)
+objBgMove(4, 310, 336)
+objBgMove(5, 550, 336)
+objBgMove(6, 790, 336)
+objBgMove(7, 1030, 336)
+objBgMove(8, 310, 516)
+objBgMove(9, 550, 516)
+objBgMove(10, 790, 516)
+objBgMove(11, 1030, 516)
+objBgMove(12, 310, 696)
+objBgMove(13, 550, 696)
+objBgMove(14, 790, 696)
+objBgMove(15, 1030, 696)
+objBgMove(20, 310 + 145, 156 + 143)
+objBgMove(21, 550 + 145, 156 + 143)
+objBgMove(22, 790 + 145, 156 + 143)
+objBgMove(23, 1030 + 145, 156 + 143)
+objBgMove(24, 310 + 145, 336 + 143)
+objBgMove(25, 550 + 145, 336 + 143)
+objBgMove(26, 790 + 145, 336 + 143)
+objBgMove(27, 1030 + 145, 336 + 143)
+objBgMove(28, 310 + 145, 516 + 143)
+objBgMove(29, 550 + 145, 516 + 143)
+objBgMove(30, 790 + 145, 516 + 143)
+objBgMove(31, 1030 + 145, 516 + 143)
+objBgMove(32, 310 + 145, 696 + 143)
+objBgMove(33, 550 + 145, 696 + 143)
+objBgMove(34, 790 + 145, 696 + 143)
+objBgMove(35, 1030 + 145, 696 + 143)
+goto_unless(intA[400] < 10) @219
+objBgMove(40, 0, 0)
+objBgMove(41, 0, 0)
+objBgMove(42, 1212, 92)
+goto @221
+
+  @219
+goto_unless(intA[400] < 100) @220
+objBgMove(40, 0, 0)
+objBgMove(41, 1187, 92)
+objBgMove(42, 1212, 92)
+goto @221
+
+  @220
+goto_unless(intA[400] == 100) @221
+objBgMove(40, 1162, 92)
+objBgMove(41, 1187, 92)
+objBgMove(42, 1212, 92)
+
+  @221
+objBgMove(50, 741, 908)
+objBgMove(51, 798, 908)
+objBgMove(52, 855, 908)
+objBgMove(53, 912, 908)
+objBgMove(54, 969, 908)
+objBgMove(60, 1054, 908)
+objBgMove(70, 1144, 908)
+objBgMove(79, 0, 0)
+objBgPattNo(0, 0)
+objBgPattNo(1, 0)
+objBgPattNo(2, 0)
+objBgPattNo(3, 0)
+objBgPattNo(4, 0)
+objBgPattNo(5, 0)
+objBgPattNo(6, 0)
+objBgPattNo(7, 0)
+objBgPattNo(8, 0)
+objBgPattNo(9, 0)
+objBgPattNo(10, 0)
+objBgPattNo(11, 0)
+objBgPattNo(12, 0)
+objBgPattNo(13, 0)
+objBgPattNo(14, 0)
+objBgPattNo(15, 0)
+setarray(intA[0], 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78)
+objBgPattNo(20, intA[0 + intA[300]] + intA[200])
+objBgPattNo(21, intA[0 + intA[301]] + intA[201])
+objBgPattNo(22, intA[0 + intA[302]] + intA[202])
+objBgPattNo(23, intA[0 + intA[303]] + intA[203])
+objBgPattNo(24, intA[0 + intA[304]] + intA[204])
+objBgPattNo(25, intA[0 + intA[305]] + intA[205])
+objBgPattNo(26, intA[0 + intA[306]] + intA[206])
+objBgPattNo(27, intA[0 + intA[307]] + intA[207])
+objBgPattNo(28, intA[0 + intA[308]] + intA[208])
+objBgPattNo(29, intA[0 + intA[309]] + intA[209])
+objBgPattNo(30, intA[0 + intA[310]] + intA[210])
+objBgPattNo(31, intA[0 + intA[311]] + intA[211])
+objBgPattNo(32, intA[0 + intA[312]] + intA[212])
+objBgPattNo(33, intA[0 + intA[313]] + intA[213])
+objBgPattNo(34, intA[0 + intA[314]] + intA[214])
+objBgPattNo(35, intA[0 + intA[315]] + intA[215])
+goto_unless(intA[400] < 10) @222
+objBgPattNo(40, 0)
+objBgPattNo(41, 0)
+objBgPattNo(42, intA[400] % 10)
+goto @224
+
+  @222
+goto_unless(intA[400] < 100) @223
+objBgPattNo(40, 0)
+objBgPattNo(41, intA[400] / 10)
+objBgPattNo(42, intA[400] % 10)
+goto @224
+
+  @223
+goto_unless(intA[400] == 100) @224
+objBgPattNo(40, 1)
+objBgPattNo(41, 0)
+objBgPattNo(42, 0)
+
+  @224
+goto_unless(!intG[1008]) @225
+objBgPattNo(50, 1)
+objBgPattNo(51, 0)
+objBgPattNo(52, 0)
+objBgPattNo(53, 0)
+objBgPattNo(54, 0)
+goto @229
+
+  @225
+goto_unless(intG[1008] == 1) @226
+objBgPattNo(50, 0)
+objBgPattNo(51, 1)
+objBgPattNo(52, 0)
+objBgPattNo(53, 0)
+objBgPattNo(54, 0)
+goto @229
+
+  @226
+goto_unless(intG[1008] == 2) @227
+objBgPattNo(50, 0)
+objBgPattNo(51, 0)
+objBgPattNo(52, 1)
+objBgPattNo(53, 0)
+objBgPattNo(54, 0)
+goto @229
+
+  @227
+goto_unless(intG[1008] == 3) @228
+objBgPattNo(50, 0)
+objBgPattNo(51, 0)
+objBgPattNo(52, 0)
+objBgPattNo(53, 1)
+objBgPattNo(54, 0)
+goto @229
+
+  @228
+goto_unless(intG[1008] == 4) @229
+objBgPattNo(50, 0)
+objBgPattNo(51, 0)
+objBgPattNo(52, 0)
+objBgPattNo(53, 0)
+objBgPattNo(54, 1)
+
+  @229
+objBgPattNo(60, 0)
+objBgPattNo(70, 0)
+objBgPattNo(79, 0)
+objBgShow(0, intA[100])
+objBgShow(1, intA[101])
+objBgShow(2, intA[102])
+objBgShow(3, intA[103])
+objBgShow(4, intA[104])
+objBgShow(5, intA[105])
+objBgShow(6, intA[106])
+objBgShow(7, intA[107])
+objBgShow(8, intA[108])
+objBgShow(9, intA[109])
+objBgShow(10, intA[110])
+objBgShow(11, intA[111])
+objBgShow(12, intA[112])
+objBgShow(13, intA[113])
+objBgShow(14, intA[114])
+objBgShow(15, intA[115])
+objBgShow(20, intA[100])
+objBgShow(21, intA[101])
+objBgShow(22, intA[102])
+objBgShow(23, intA[103])
+objBgShow(24, intA[104])
+objBgShow(25, intA[105])
+objBgShow(26, intA[106])
+objBgShow(27, intA[107])
+objBgShow(28, intA[108])
+objBgShow(29, intA[109])
+objBgShow(30, intA[110])
+objBgShow(31, intA[111])
+objBgShow(32, intA[112])
+objBgShow(33, intA[113])
+objBgShow(34, intA[114])
+objBgShow(35, intA[115])
+goto_unless(intA[400] < 10) @230
+objBgShow(40, 0)
+objBgShow(41, 0)
+objBgShow(42, 1)
+goto @232
+
+  @230
+goto_unless(intA[400] < 100) @231
+objBgShow(40, 0)
+objBgShow(41, 1)
+objBgShow(42, 1)
+goto @232
+
+  @231
+goto_unless(intA[400] == 100) @232
+objBgShow(40, 1)
+objBgShow(41, 1)
+objBgShow(42, 1)
+
+  @232
+objBgShow(50, 1)
+objBgShow(51, 1)
+objBgShow(52, 1)
+objBgShow(53, 1)
+objBgShow(54, 1)
+objBgShow(60, 1)
+objBgShow(70, 1)
+objBgShow(79, 1)
+objBgAlpha(79, 0)
+intA[1000] = ScreenMode
+goto_unless(!intA[1000]) @233
+intF[1235] = 1
+goto @234
+
+  @233
+goto_unless(intA[1000] == 1) @234
+intF[1235] = 0
+
+  @234
+intA[1000] = ShowObject1
+goto_unless(!intA[1000]) @235
+intF[1236] = 0
+goto @236
+
+  @235
+goto_unless(intA[1000] == 1) @236
+intF[1236] = 1
+
+  @236
+intA[1000] = SkipAnimations
+goto_unless(!intA[1000]) @237
+intF[1237] = 1
+goto @238
+
+  @237
+goto_unless(intA[1000] == 1) @238
+intF[1237] = 0
+
+  @238
+goto_unless(1 == 1) @239
+SetSkipAnimations(0)
+goto @240
+
+  @239
+goto_unless(!1) @240
+SetSkipAnimations(1)
+
+  @240
+grpOpenBg('?', 0)
+goto_unless(intF[1237] == 1) @241
+SetSkipAnimations(0)
+goto @242
+
+  @241
+goto_unless(!intF[1237]) @242
+SetSkipAnimations(1)
+
+  @242
+goto @243
+
+  @243
+
+  @244
+intF[1204] = 999
+intF[1205] = intF[1204]
+intF[1206] = -1
+intF[1207] = 0
+intF[1208] = 0
+intF[1209] = 0
+intF[1210] = 0
+intF[1211] = 0
+setrng_stepped(intE[0], 1, 30, 0)
+FlushClick
+
+  @245
+GetCursorPos(intF[1200], intF[1201], intF[1202], intF[1203])
+intF[1205] = intF[1204]
+intF[1204] = 999
+goto_unless(intF[1204] == 999) @246
+objGetPos(0, intA[1000], intA[1001])
+objGetDims(0, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @246
+goto_unless(intA[100] == 1) @246
+intF[1204] = 0
+
+  @246
+goto_unless(intF[1204] == 999) @247
+objGetPos(1, intA[1000], intA[1001])
+objGetDims(1, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @247
+goto_unless(intA[101] == 1) @247
+intF[1204] = 1
+
+  @247
+goto_unless(intF[1204] == 999) @248
+objGetPos(2, intA[1000], intA[1001])
+objGetDims(2, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @248
+goto_unless(intA[102] == 1) @248
+intF[1204] = 2
+
+  @248
+goto_unless(intF[1204] == 999) @249
+objGetPos(3, intA[1000], intA[1001])
+objGetDims(3, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @249
+goto_unless(intA[103] == 1) @249
+intF[1204] = 3
+
+  @249
+goto_unless(intF[1204] == 999) @250
+objGetPos(4, intA[1000], intA[1001])
+objGetDims(4, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @250
+goto_unless(intA[104] == 1) @250
+intF[1204] = 4
+
+  @250
+goto_unless(intF[1204] == 999) @251
+objGetPos(5, intA[1000], intA[1001])
+objGetDims(5, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @251
+goto_unless(intA[105] == 1) @251
+intF[1204] = 5
+
+  @251
+goto_unless(intF[1204] == 999) @252
+objGetPos(6, intA[1000], intA[1001])
+objGetDims(6, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @252
+goto_unless(intA[106] == 1) @252
+intF[1204] = 6
+
+  @252
+goto_unless(intF[1204] == 999) @253
+objGetPos(7, intA[1000], intA[1001])
+objGetDims(7, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @253
+goto_unless(intA[107] == 1) @253
+intF[1204] = 7
+
+  @253
+goto_unless(intF[1204] == 999) @254
+objGetPos(8, intA[1000], intA[1001])
+objGetDims(8, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @254
+goto_unless(intA[108] == 1) @254
+intF[1204] = 8
+
+  @254
+goto_unless(intF[1204] == 999) @255
+objGetPos(9, intA[1000], intA[1001])
+objGetDims(9, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @255
+goto_unless(intA[109] == 1) @255
+intF[1204] = 9
+
+  @255
+goto_unless(intF[1204] == 999) @256
+objGetPos(10, intA[1000], intA[1001])
+objGetDims(10, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @256
+goto_unless(intA[110] == 1) @256
+intF[1204] = 10
+
+  @256
+goto_unless(intF[1204] == 999) @257
+objGetPos(11, intA[1000], intA[1001])
+objGetDims(11, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @257
+goto_unless(intA[111] == 1) @257
+intF[1204] = 11
+
+  @257
+goto_unless(intF[1204] == 999) @258
+objGetPos(12, intA[1000], intA[1001])
+objGetDims(12, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @258
+goto_unless(intA[112] == 1) @258
+intF[1204] = 12
+
+  @258
+goto_unless(intF[1204] == 999) @259
+objGetPos(13, intA[1000], intA[1001])
+objGetDims(13, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @259
+goto_unless(intA[113] == 1) @259
+intF[1204] = 13
+
+  @259
+goto_unless(intF[1204] == 999) @260
+objGetPos(14, intA[1000], intA[1001])
+objGetDims(14, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @260
+goto_unless(intA[114] == 1) @260
+intF[1204] = 14
+
+  @260
+goto_unless(intF[1204] == 999) @261
+objGetPos(15, intA[1000], intA[1001])
+objGetDims(15, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @261
+goto_unless(intA[115] == 1) @261
+intF[1204] = 15
+
+  @261
+goto_unless(intF[1204] == 999) @262
+objGetPos(50, intA[1000], intA[1001])
+objGetDims(50, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @262
+goto_unless(intG[1008]) @262
+intF[1204] = 16
+
+  @262
+goto_unless(intF[1204] == 999) @263
+objGetPos(51, intA[1000], intA[1001])
+objGetDims(51, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @263
+goto_unless(intG[1008] != 1) @263
+intF[1204] = 17
+
+  @263
+goto_unless(intF[1204] == 999) @264
+objGetPos(52, intA[1000], intA[1001])
+objGetDims(52, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @264
+goto_unless(intG[1008] != 2) @264
+intF[1204] = 18
+
+  @264
+goto_unless(intF[1204] == 999) @265
+objGetPos(53, intA[1000], intA[1001])
+objGetDims(53, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @265
+goto_unless(intG[1008] != 3) @265
+intF[1204] = 19
+
+  @265
+goto_unless(intF[1204] == 999) @266
+objGetPos(54, intA[1000], intA[1001])
+objGetDims(54, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @266
+goto_unless(intG[1008] != 4) @266
+intF[1204] = 20
+
+  @266
+goto_unless(intF[1204] == 999) @267
+objGetPos(60, intA[1000], intA[1001])
+objGetDims(60, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @267
+intF[1204] = 21
+
+  @267
+goto_unless(intF[1204] == 999) @268
+objGetPos(70, intA[1000], intA[1001])
+objGetDims(70, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @268
+intF[1204] = 22
+
+  @268
+goto_unless(!intF[1202]) @272
+goto_unless(intF[1204] != 999) @270
+goto_unless(intF[1207] != 2 || intF[1204] != intF[1205]) @269
+sePlay(10)
+
+  @269
+intF[1207] = 2
+goto @271
+
+  @270
+intF[1207] = 0
+
+  @271
+goto @282
+
+  @272
+goto_unless(intF[1202] == 1) @278
+goto_unless(intF[1206] != -1) @276
+goto_unless(intF[1204] == intF[1206] && intF[1204] != 999) @274
+goto_unless(intF[1207] != 3) @273
+sePlay(10)
+
+  @273
+intF[1207] = 3
+goto @275
+
+  @274
+intF[1207] = 0
+
+  @275
+goto @277
+
+  @276
+intF[1207] = 3
+intF[1206] = intF[1204]
+
+  @277
+goto @282
+
+  @278
+goto_unless(intF[1202] == 2) @282
+goto_unless(intF[1206] != -1) @281
+goto_unless(intF[1204] == intF[1206] && intF[1204] != 999) @279
+intF[1207] = 2
+intF[1210] = 1
+goto @280
+
+  @279
+intF[1207] = 0
+
+  @280
+intF[1206] = -1
+
+  @281
+FlushClick
+
+  @282
+setrng_stepped(intE[0], 1, 30, 0)
+goto_unless(intF[1204] != 999) @283
+intE[0 + intF[1204]] = intF[1207]
+
+  @283
+objPattNo(0, intE[0])
+objPattNo(1, intE[1])
+objPattNo(2, intE[2])
+objPattNo(3, intE[3])
+objPattNo(4, intE[4])
+objPattNo(5, intE[5])
+objPattNo(6, intE[6])
+objPattNo(7, intE[7])
+objPattNo(8, intE[8])
+objPattNo(9, intE[9])
+objPattNo(10, intE[10])
+objPattNo(11, intE[11])
+objPattNo(12, intE[12])
+objPattNo(13, intE[13])
+objPattNo(14, intE[14])
+objPattNo(15, intE[15])
+objPattNo(50, intE[16])
+objPattNo(51, intE[17])
+objPattNo(52, intE[18])
+objPattNo(53, intE[19])
+objPattNo(54, intE[20])
+objPattNo(60, intE[21])
+objPattNo(70, intE[22])
+goto_unless(!intG[1008]) @284
+objPattNo(50, 1)
+goto @288
+
+  @284
+goto_unless(intG[1008] == 1) @285
+objPattNo(51, 1)
+goto @288
+
+  @285
+goto_unless(intG[1008] == 2) @286
+objPattNo(52, 1)
+goto @288
+
+  @286
+goto_unless(intG[1008] == 3) @287
+objPattNo(53, 1)
+goto @288
+
+  @287
+goto_unless(intG[1008] == 4) @288
+objPattNo(54, 1)
+
+  @288
+refresh
+goto_unless(intF[1210] == 1) @289
+intF[1210] = 0
+intF[1211] = intF[1204]
+goto @291
+goto @290
+
+  @289
+goto_unless(intF[1203] == 2) @290
+intF[1211] = 21
+goto @291
+
+  @290
+goto @245
+
+  @291
+goto_unless(0 <= intF[1211] && intF[1211] < 16) @559
+sePlay(13)
+goto_unless(!intG[1008]) @370
+goto_case(intF[1211]){ 0: @292; 1: @298; 2: @305; 3: @307; 4: @309; 5: @312; 6: @314; 7: @317; 8: @323; 9: @329; 10: @331; 11: @335; 12: @337; 13: @341; 14: @354; 15: @365; _: @369 }
+
+  @292
+intA[1000] = cgStatus('FGNG01A')
+goto_unless(intA[1000] == 1) @293
+gosub @544
+grpBuffer('FGNG01A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @293
+goto @545
+
+  @293
+intA[1000] = cgStatus('FGNG01B')
+goto_unless(intA[1000] == 1) @294
+gosub @544
+grpBuffer('FGNG01B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @294
+goto @545
+
+  @294
+intA[1000] = cgStatus('FGNG01C')
+goto_unless(intA[1000] == 1) @295
+gosub @544
+grpBuffer('FGNG01C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @295
+goto @545
+
+  @295
+intA[1000] = cgStatus('FGNG01D')
+goto_unless(intA[1000] == 1) @296
+gosub @544
+grpBuffer('FGNG01D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @296
+goto @545
+
+  @296
+intA[1000] = cgStatus('FGNG01E')
+goto_unless(intA[1000] == 1) @297
+gosub @544
+grpBuffer('FGNG01E', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @297
+goto @545
+
+  @297
+goto @369
+
+  @298
+intA[1000] = cgStatus('FGNG02A')
+goto_unless(intA[1000] == 1) @299
+gosub @544
+grpBuffer('FGNG02A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @299
+goto @545
+
+  @299
+intA[1000] = cgStatus('FGNG02B')
+goto_unless(intA[1000] == 1) @300
+gosub @544
+grpBuffer('FGNG02B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @300
+goto @545
+
+  @300
+intA[1000] = cgStatus('FGNG02C')
+goto_unless(intA[1000] == 1) @301
+gosub @544
+grpBuffer('FGNG02C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @301
+goto @545
+
+  @301
+intA[1000] = cgStatus('FGNG02D')
+goto_unless(intA[1000] == 1) @302
+gosub @544
+grpBuffer('FGNG02D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @302
+goto @545
+
+  @302
+intA[1000] = cgStatus('FGNG02E')
+goto_unless(intA[1000] == 1) @303
+gosub @544
+grpBuffer('FGNG02E', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @303
+goto @545
+
+  @303
+intA[1000] = cgStatus('FGNG02F')
+goto_unless(intA[1000] == 1) @304
+gosub @544
+grpBuffer('FGNG02F', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @304
+goto @545
+
+  @304
+goto @369
+
+  @305
+intA[1000] = cgStatus('FGNG03')
+goto_unless(intA[1000] == 1) @306
+gosub @544
+grpBuffer('FGNG03', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @306
+goto @545
+
+  @306
+goto @369
+
+  @307
+intA[1000] = cgStatus('FGNG05')
+goto_unless(intA[1000] == 1) @308
+gosub @544
+grpBuffer('FGNG05', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @308
+goto @545
+
+  @308
+goto @369
+
+  @309
+intA[1000] = cgStatus('FGNG07A')
+goto_unless(intA[1000] == 1) @310
+gosub @544
+grpBuffer('FGNG07A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @310
+goto @545
+
+  @310
+intA[1000] = cgStatus('FGNG07B')
+goto_unless(intA[1000] == 1) @311
+gosub @544
+grpBuffer('FGNG07B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @311
+goto @545
+
+  @311
+goto @369
+
+  @312
+intA[1000] = cgStatus('BG029C')
+goto_unless(intA[1000] == 1) @313
+gosub @544
+grpBuffer('BG029C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @313
+goto @545
+
+  @313
+goto @369
+
+  @314
+intA[1000] = cgStatus('FGNG08')
+goto_unless(intA[1000] == 1) @315
+gosub @544
+grpBuffer('FGNG08', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @315
+goto @545
+
+  @315
+intA[1000] = cgStatus('FGNG11')
+goto_unless(intA[1000] == 1) @316
+gosub @544
+grpBuffer('FGNG11', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @316
+goto @545
+
+  @316
+goto @369
+
+  @317
+intA[1000] = cgStatus('FGNG10A')
+goto_unless(intA[1000] == 1) @318
+gosub @544
+grpBuffer('FGNG10A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @318
+goto @545
+
+  @318
+intA[1000] = cgStatus('FGNG10B')
+goto_unless(intA[1000] == 1) @319
+gosub @544
+grpBuffer('FGNG10B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @319
+goto @545
+
+  @319
+intA[1000] = cgStatus('FGNG10C')
+goto_unless(intA[1000] == 1) @320
+gosub @544
+grpBuffer('FGNG10C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @320
+goto @545
+
+  @320
+intA[1000] = cgStatus('FGNG10D')
+goto_unless(intA[1000] == 1) @321
+gosub @544
+grpBuffer('FGNG10D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @321
+goto @545
+
+  @321
+intA[1000] = cgStatus('FGNG10E')
+goto_unless(intA[1000] == 1) @322
+gosub @544
+grpBuffer('FGNG10E', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @322
+goto @545
+
+  @322
+goto @369
+
+  @323
+intA[1000] = cgStatus('FGNG15E')
+goto_unless(intA[1000] == 1) @324
+gosub @544
+grpBuffer('FGNG15E', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @324
+goto @545
+
+  @324
+intA[1000] = cgStatus('FGNG15A')
+goto_unless(intA[1000] == 1) @325
+gosub @544
+grpBuffer('FGNG15A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @325
+goto @545
+
+  @325
+intA[1000] = cgStatus('FGNG15B')
+goto_unless(intA[1000] == 1) @326
+gosub @544
+grpBuffer('FGNG15B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @326
+goto @545
+
+  @326
+intA[1000] = cgStatus('FGNG15C')
+goto_unless(intA[1000] == 1) @327
+gosub @544
+grpBuffer('FGNG15C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @327
+goto @545
+
+  @327
+intA[1000] = cgStatus('FGNG15D')
+goto_unless(intA[1000] == 1) @328
+gosub @544
+grpBuffer('FGNG15D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @328
+goto @545
+
+  @328
+goto @369
+
+  @329
+intA[1000] = cgStatus('FGNG16')
+goto_unless(intA[1000] == 1) @330
+gosub @544
+grpBuffer('FGNG16', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @330
+goto @545
+
+  @330
+goto @369
+
+  @331
+intA[1000] = cgStatus('FGNG17B')
+goto_unless(intA[1000] == 1) @332
+gosub @544
+grpBuffer('FGNG17B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @332
+goto @545
+
+  @332
+intA[1000] = cgStatus('FGNG17A')
+goto_unless(intA[1000] == 1) @333
+gosub @544
+grpBuffer('FGNG17A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @333
+goto @545
+
+  @333
+intA[1000] = cgStatus('FGNG17D')
+goto_unless(intA[1000] == 1) @334
+gosub @544
+grpBuffer('FGNG17D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @334
+goto @545
+
+  @334
+goto @369
+
+  @335
+intA[1000] = cgStatus('FGNG20')
+goto_unless(intA[1000] == 1) @336
+gosub @544
+grpBuffer('FGNG20', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @336
+goto @545
+
+  @336
+goto @369
+
+  @337
+intA[1000] = cgStatus('FGKY01A')
+goto_unless(intA[1000] == 1) @338
+gosub @544
+grpBuffer('FGKY01A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @338
+goto @545
+
+  @338
+intA[1000] = cgStatus('FGKY01B')
+goto_unless(intA[1000] == 1) @339
+gosub @544
+grpBuffer('FGKY01B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @339
+goto @545
+
+  @339
+intA[1000] = cgStatus('FGKY01C')
+goto_unless(intA[1000] == 1) @340
+gosub @544
+grpBuffer('FGKY01C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @340
+goto @545
+
+  @340
+goto @369
+
+  @341
+intA[1000] = cgStatus('FGKY02J')
+goto_unless(intA[1000] == 1) @342
+gosub @544
+grpBuffer('FGKY02J', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @342
+goto @545
+
+  @342
+intA[1000] = cgStatus('FGKY02L')
+goto_unless(intA[1000] == 1) @343
+gosub @544
+grpBuffer('FGKY02L', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @343
+goto @545
+
+  @343
+intA[1000] = cgStatus('FGKY02K')
+goto_unless(intA[1000] == 1) @344
+gosub @544
+grpBuffer('FGKY02K', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @344
+goto @545
+
+  @344
+intA[1000] = cgStatus('FGKY02D')
+goto_unless(intA[1000] == 1) @345
+gosub @544
+grpBuffer('FGKY02D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @345
+goto @545
+
+  @345
+intA[1000] = cgStatus('FGKY02F')
+goto_unless(intA[1000] == 1) @346
+gosub @544
+grpBuffer('FGKY02F', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @346
+goto @545
+
+  @346
+intA[1000] = cgStatus('FGKY02E')
+goto_unless(intA[1000] == 1) @347
+gosub @544
+grpBuffer('FGKY02E', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @347
+goto @545
+
+  @347
+intA[1000] = cgStatus('FGKY02G')
+goto_unless(intA[1000] == 1) @348
+gosub @544
+grpBuffer('FGKY02G', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @348
+goto @545
+
+  @348
+intA[1000] = cgStatus('FGKY02I')
+goto_unless(intA[1000] == 1) @349
+gosub @544
+grpBuffer('FGKY02I', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @349
+goto @545
+
+  @349
+intA[1000] = cgStatus('FGKY02H')
+goto_unless(intA[1000] == 1) @350
+gosub @544
+grpBuffer('FGKY02H', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @350
+goto @545
+
+  @350
+intA[1000] = cgStatus('FGKY02A')
+goto_unless(intA[1000] == 1) @351
+gosub @544
+grpBuffer('FGKY02A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @351
+goto @545
+
+  @351
+intA[1000] = cgStatus('FGKY02C')
+goto_unless(intA[1000] == 1) @352
+gosub @544
+grpBuffer('FGKY02C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @352
+goto @545
+
+  @352
+intA[1000] = cgStatus('FGKY02B')
+goto_unless(intA[1000] == 1) @353
+gosub @544
+grpBuffer('FGKY02B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @353
+goto @545
+
+  @353
+goto @369
+
+  @354
+intA[1000] = cgStatus('FGKY04A')
+goto_unless(intA[1000] == 1) @355
+gosub @544
+grpBuffer('FGKY04A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @355
+goto @545
+
+  @355
+intA[1000] = cgStatus('FGKY04B')
+goto_unless(intA[1000] == 1) @356
+gosub @544
+grpBuffer('FGKY04B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @356
+goto @545
+
+  @356
+intA[1000] = cgStatus('FGKY04C')
+goto_unless(intA[1000] == 1) @357
+gosub @544
+grpBuffer('FGKY04C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @357
+goto @545
+
+  @357
+intA[1000] = cgStatus('FGKY04D')
+goto_unless(intA[1000] == 1) @358
+gosub @544
+grpBuffer('FGKY04D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @358
+goto @545
+
+  @358
+intA[1000] = cgStatus('FGKY04E')
+goto_unless(intA[1000] == 1) @359
+gosub @544
+grpBuffer('FGKY04E', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @359
+goto @545
+
+  @359
+intA[1000] = cgStatus('FGKY04F')
+goto_unless(intA[1000] == 1) @360
+gosub @544
+grpBuffer('FGKY04F', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @360
+goto @545
+
+  @360
+intA[1000] = cgStatus('FGKY04G')
+goto_unless(intA[1000] == 1) @361
+gosub @544
+grpBuffer('FGKY04G', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @361
+goto @545
+
+  @361
+intA[1000] = cgStatus('FGKY04H')
+goto_unless(intA[1000] == 1) @362
+gosub @544
+grpBuffer('FGKY04H', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @362
+goto @545
+
+  @362
+intA[1000] = cgStatus('FGKY04I')
+goto_unless(intA[1000] == 1) @363
+gosub @544
+grpBuffer('FGKY04I', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @363
+goto @545
+
+  @363
+intA[1000] = cgStatus('FGKY04J')
+goto_unless(intA[1000] == 1) @364
+gosub @544
+grpBuffer('FGKY04J', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @364
+goto @545
+
+  @364
+goto @369
+
+  @365
+intA[1000] = cgStatus('FGKY03C')
+goto_unless(intA[1000] == 1) @366
+gosub @544
+grpBuffer('FGKY03C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @366
+goto @545
+
+  @366
+intA[1000] = cgStatus('FGKY03B')
+goto_unless(intA[1000] == 1) @367
+gosub @544
+grpBuffer('FGKY03B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @367
+goto @545
+
+  @367
+intA[1000] = cgStatus('FGKY03A')
+goto_unless(intA[1000] == 1) @368
+gosub @544
+grpBuffer('FGKY03A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @368
+goto @545
+
+  @368
+goto @369
+
+  @369
+goto @543
+
+  @370
+goto_unless(intG[1008] == 1) @431
+goto_case(intF[1211]){ 0: @371; 1: @375; 2: @379; 3: @382; 4: @384; 5: @387; 6: @391; 7: @394; 8: @398; 9: @405; 10: @412; 11: @414; 12: @417; 13: @421; 14: @424; 15: @426; _: @430 }
+
+  @371
+intA[1000] = cgStatus('FGKY05C')
+goto_unless(intA[1000] == 1) @372
+gosub @544
+grpBuffer('FGKY05C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @372
+goto @545
+
+  @372
+intA[1000] = cgStatus('FGKY05B')
+goto_unless(intA[1000] == 1) @373
+gosub @544
+grpBuffer('FGKY05B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @373
+goto @545
+
+  @373
+intA[1000] = cgStatus('FGKY05A')
+goto_unless(intA[1000] == 1) @374
+gosub @544
+grpBuffer('FGKY05A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @374
+goto @545
+
+  @374
+goto @430
+
+  @375
+intA[1000] = cgStatus('FGKY06A')
+goto_unless(intA[1000] == 1) @376
+gosub @544
+grpBuffer('FGKY06A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @376
+goto @545
+
+  @376
+intA[1000] = cgStatus('FGKY06B')
+goto_unless(intA[1000] == 1) @377
+gosub @544
+grpBuffer('FGKY06B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @377
+goto @545
+
+  @377
+intA[1000] = cgStatus('FGKY06C')
+goto_unless(intA[1000] == 1) @378
+gosub @544
+grpBuffer('FGKY06C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @378
+goto @545
+
+  @378
+goto @430
+
+  @379
+intA[1000] = cgStatus('FGKY07A')
+goto_unless(intA[1000] == 1) @380
+gosub @544
+grpBuffer('FGKY07A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @380
+goto @545
+
+  @380
+intA[1000] = cgStatus('FGKY07B')
+goto_unless(intA[1000] == 1) @381
+gosub @544
+grpBuffer('FGKY07B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @381
+goto @545
+
+  @381
+goto @430
+
+  @382
+intA[1000] = cgStatus('FGKY08')
+goto_unless(intA[1000] == 1) @383
+gosub @544
+grpBuffer('FGKY08', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @383
+goto @545
+
+  @383
+goto @430
+
+  @384
+intA[1000] = cgStatus('FGKY09A')
+goto_unless(intA[1000] == 1) @385
+gosub @544
+grpBuffer('FGKY09A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @385
+goto @545
+
+  @385
+intA[1000] = cgStatus('FGKY09B')
+goto_unless(intA[1000] == 1) @386
+gosub @544
+grpBuffer('FGKY09B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @386
+goto @545
+
+  @386
+goto @430
+
+  @387
+intA[1000] = cgStatus('FGKY10A')
+goto_unless(intA[1000] == 1) @388
+gosub @544
+grpBuffer('FGKY10A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @388
+goto @545
+
+  @388
+intA[1000] = cgStatus('FGKY10B')
+goto_unless(intA[1000] == 1) @389
+gosub @544
+grpBuffer('FGKY10B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @389
+goto @545
+
+  @389
+intA[1000] = cgStatus('FGKY10C')
+goto_unless(intA[1000] == 1) @390
+gosub @544
+grpBuffer('FGKY10C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @390
+goto @545
+
+  @390
+goto @430
+
+  @391
+intA[1000] = cgStatus('FGKY11A')
+goto_unless(intA[1000] == 1) @392
+gosub @544
+grpBuffer('FGKY11A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @392
+goto @545
+
+  @392
+intA[1000] = cgStatus('FGKY11B')
+goto_unless(intA[1000] == 1) @393
+gosub @544
+grpBuffer('FGKY11B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @393
+goto @545
+
+  @393
+goto @430
+
+  @394
+intA[1000] = cgStatus('FGKT01A')
+goto_unless(intA[1000] == 1) @395
+gosub @544
+grpBuffer('FGKT01A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @395
+goto @545
+
+  @395
+intA[1000] = cgStatus('FGKT01B')
+goto_unless(intA[1000] == 1) @396
+gosub @544
+grpBuffer('FGKT01B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @396
+goto @545
+
+  @396
+intA[1000] = cgStatus('FGKT01C')
+goto_unless(intA[1000] == 1) @397
+gosub @544
+grpBuffer('FGKT01C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @397
+goto @545
+
+  @397
+goto @430
+
+  @398
+intA[1000] = cgStatus('FGKT02A')
+goto_unless(intA[1000] == 1) @399
+gosub @544
+grpBuffer('FGKT02A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @399
+goto @545
+
+  @399
+intA[1000] = cgStatus('FGKT02B')
+goto_unless(intA[1000] == 1) @400
+gosub @544
+grpBuffer('FGKT02B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @400
+goto @545
+
+  @400
+intA[1000] = cgStatus('FGKT02C')
+goto_unless(intA[1000] == 1) @401
+gosub @544
+grpBuffer('FGKT02C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @401
+goto @545
+
+  @401
+intA[1000] = cgStatus('FGKT02D')
+goto_unless(intA[1000] == 1) @402
+gosub @544
+grpBuffer('FGKT02D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @402
+goto @545
+
+  @402
+intA[1000] = cgStatus('FGKT02E')
+goto_unless(intA[1000] == 1) @403
+gosub @544
+grpBuffer('FGKT02E', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @403
+goto @545
+
+  @403
+intA[1000] = cgStatus('FGKT02F')
+goto_unless(intA[1000] == 1) @404
+gosub @544
+grpBuffer('FGKT02F', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @404
+goto @545
+
+  @404
+goto @430
+
+  @405
+intA[1000] = cgStatus('FGKT03A')
+goto_unless(intA[1000] == 1) @406
+gosub @544
+grpBuffer('FGKT03A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @406
+goto @545
+
+  @406
+intA[1000] = cgStatus('FGKT03B')
+goto_unless(intA[1000] == 1) @407
+gosub @544
+grpBuffer('FGKT03B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @407
+goto @545
+
+  @407
+intA[1000] = cgStatus('FGKT03C')
+goto_unless(intA[1000] == 1) @408
+gosub @544
+grpBuffer('FGKT03C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @408
+goto @545
+
+  @408
+intA[1000] = cgStatus('FGKT03A2')
+goto_unless(intA[1000] == 1) @409
+gosub @544
+grpBuffer('FGKT03A2', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @409
+goto @545
+
+  @409
+intA[1000] = cgStatus('FGKT03B2')
+goto_unless(intA[1000] == 1) @410
+gosub @544
+grpBuffer('FGKT03B2', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @410
+goto @545
+
+  @410
+intA[1000] = cgStatus('FGKT03C2')
+goto_unless(intA[1000] == 1) @411
+gosub @544
+grpBuffer('FGKT03C2', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @411
+goto @545
+
+  @411
+goto @430
+
+  @412
+intA[1000] = cgStatus('FGKT05')
+goto_unless(intA[1000] == 1) @413
+gosub @544
+grpBuffer('FGKT05', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @413
+goto @545
+
+  @413
+goto @430
+
+  @414
+intA[1000] = cgStatus('FGKT06A')
+goto_unless(intA[1000] == 1) @415
+gosub @544
+grpBuffer('FGKT06A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @415
+goto @545
+
+  @415
+intA[1000] = cgStatus('FGKT06B')
+goto_unless(intA[1000] == 1) @416
+gosub @544
+grpBuffer('FGKT06B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @416
+goto @545
+
+  @416
+goto @430
+
+  @417
+intA[1000] = cgStatus('FGKT07A')
+goto_unless(intA[1000] == 1) @418
+gosub @544
+grpBuffer('FGKT07A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @418
+goto @545
+
+  @418
+intA[1000] = cgStatus('FGKT07B')
+goto_unless(intA[1000] == 1) @419
+gosub @544
+grpBuffer('FGKT07B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @419
+goto @545
+
+  @419
+intA[1000] = cgStatus('FGKT07C')
+goto_unless(intA[1000] == 1) @420
+gosub @544
+grpBuffer('FGKT07C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @420
+goto @545
+
+  @420
+goto @430
+
+  @421
+intA[1000] = cgStatus('FGKT10A')
+goto_unless(intA[1000] == 1) @422
+gosub @544
+grpBuffer('FGKT10A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @422
+goto @545
+
+  @422
+intA[1000] = cgStatus('FGKT10B')
+goto_unless(intA[1000] == 1) @423
+gosub @544
+grpBuffer('FGKT10B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @423
+goto @545
+
+  @423
+goto @430
+
+  @424
+intA[1000] = cgStatus('FGKT11')
+goto_unless(intA[1000] == 1) @425
+gosub @544
+grpBuffer('FGKT11', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @425
+goto @545
+
+  @425
+goto @430
+
+  @426
+intA[1000] = cgStatus('FGKT09A')
+goto_unless(intA[1000] == 1) @427
+gosub @544
+grpBuffer('FGKT09A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @427
+goto @545
+
+  @427
+intA[1000] = cgStatus('FGKT09B')
+goto_unless(intA[1000] == 1) @428
+gosub @544
+grpBuffer('FGKT09B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @428
+goto @545
+
+  @428
+intA[1000] = cgStatus('FGKT09C')
+goto_unless(intA[1000] == 1) @429
+gosub @544
+grpBuffer('FGKT09C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @429
+goto @545
+
+  @429
+goto @430
+
+  @430
+goto @543
+
+  @431
+goto_unless(intG[1008] == 2) @489
+goto_case(intF[1211]){ 0: @432; 1: @434; 2: @438; 3: @440; 4: @443; 5: @448; 6: @451; 7: @455; 8: @458; 9: @461; 10: @464; 11: @474; 12: @476; 13: @478; 14: @483; 15: @486; _: @488 }
+
+  @432
+intA[1000] = cgStatus('KTC01_00')
+goto_unless(intA[1000] == 1) @433
+gosub @544
+grpBuffer('KTC01_00', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @433
+goto @545
+
+  @433
+goto @488
+
+  @434
+intA[1000] = cgStatus('FGKT08A')
+goto_unless(intA[1000] == 1) @435
+gosub @544
+grpBuffer('FGKT08A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @435
+goto @545
+
+  @435
+intA[1000] = cgStatus('FGKT08B')
+goto_unless(intA[1000] == 1) @436
+gosub @544
+grpBuffer('FGKT08B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @436
+goto @545
+
+  @436
+intA[1000] = cgStatus('FGKT08C')
+goto_unless(intA[1000] == 1) @437
+gosub @544
+grpBuffer('FGKT08C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @437
+goto @545
+
+  @437
+goto @488
+
+  @438
+intA[1000] = cgStatus('BG051O')
+goto_unless(intA[1000] == 1) @439
+gosub @544
+grpBuffer('BG051O', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @439
+goto @545
+
+  @439
+goto @488
+
+  @440
+intA[1000] = cgStatus('FGFU01A')
+goto_unless(intA[1000] == 1) @441
+gosub @544
+grpBuffer('FGFU01A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @441
+goto @545
+
+  @441
+intA[1000] = cgStatus('FGFU01B')
+goto_unless(intA[1000] == 1) @442
+gosub @544
+grpBuffer('FGFU01B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @442
+goto @545
+
+  @442
+goto @488
+
+  @443
+intA[1000] = cgStatus('FGFU03A')
+goto_unless(intA[1000] == 1) @444
+gosub @544
+grpBuffer('FGFU03A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @444
+goto @545
+
+  @444
+intA[1000] = cgStatus('FGFU03B')
+goto_unless(intA[1000] == 1) @445
+gosub @544
+grpBuffer('FGFU03B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @445
+goto @545
+
+  @445
+intA[1000] = cgStatus('FGFU03C')
+goto_unless(intA[1000] == 1) @446
+gosub @544
+grpBuffer('FGFU03C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @446
+goto @545
+
+  @446
+intA[1000] = cgStatus('FGFU03D')
+goto_unless(intA[1000] == 1) @447
+gosub @544
+grpBuffer('FGFU03D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @447
+goto @545
+
+  @447
+goto @488
+
+  @448
+intA[1000] = cgStatus('FGFU04B')
+goto_unless(intA[1000] == 1) @449
+gosub @544
+grpBuffer('FGFU04B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @449
+goto @545
+
+  @449
+intA[1000] = cgStatus('FGFU04A')
+goto_unless(intA[1000] == 1) @450
+gosub @544
+grpBuffer('FGFU04A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @450
+goto @545
+
+  @450
+goto @488
+
+  @451
+intA[1000] = cgStatus('FGFU05')
+goto_unless(intA[1000] == 1) @452
+gosub @544
+grpBuffer('FGFU05', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @452
+goto @545
+
+  @452
+intA[1000] = cgStatus('FGFU06A')
+goto_unless(intA[1000] == 1) @453
+gosub @544
+grpBuffer('FGFU06A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @453
+goto @545
+
+  @453
+intA[1000] = cgStatus('FGFU06B')
+goto_unless(intA[1000] == 1) @454
+gosub @544
+grpBuffer('FGFU06B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @454
+goto @545
+
+  @454
+goto @488
+
+  @455
+intA[1000] = cgStatus('FGFU07A')
+goto_unless(intA[1000] == 1) @456
+gosub @544
+grpBuffer('FGFU07A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @456
+goto @545
+
+  @456
+intA[1000] = cgStatus('FGFU07B')
+goto_unless(intA[1000] == 1) @457
+gosub @544
+grpBuffer('FGFU07B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @457
+goto @545
+
+  @457
+goto @488
+
+  @458
+intA[1000] = cgStatus('FGFU08A')
+goto_unless(intA[1000] == 1) @459
+gosub @544
+grpBuffer('FGFU08A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @459
+goto @545
+
+  @459
+intA[1000] = cgStatus('FGFU08B')
+goto_unless(intA[1000] == 1) @460
+gosub @544
+grpBuffer('FGFU08B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @460
+goto @545
+
+  @460
+goto @488
+
+  @461
+intA[1000] = cgStatus('FGFU02A')
+goto_unless(intA[1000] == 1) @462
+gosub @544
+grpBuffer('FGFU02A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @462
+goto @545
+
+  @462
+intA[1000] = cgStatus('FGFU02B')
+goto_unless(intA[1000] == 1) @463
+gosub @544
+grpBuffer('FGFU02B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @463
+goto @545
+
+  @463
+goto @488
+
+  @464
+intA[1000] = cgStatus('FGTM01A')
+goto_unless(intA[1000] == 1) @465
+gosub @544
+grpBuffer('FGTM01A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @465
+goto @545
+
+  @465
+intA[1000] = cgStatus('FGTM01B')
+goto_unless(intA[1000] == 1) @466
+gosub @544
+grpBuffer('FGTM01B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @466
+goto @545
+
+  @466
+intA[1000] = cgStatus('FGTM01D')
+goto_unless(intA[1000] == 1) @467
+gosub @544
+grpBuffer('FGTM01D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @467
+goto @545
+
+  @467
+intA[1000] = cgStatus('FGTM01C')
+goto_unless(intA[1000] == 1) @468
+gosub @544
+grpBuffer('FGTM01C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @468
+goto @545
+
+  @468
+intA[1000] = cgStatus('FGTM01G')
+goto_unless(intA[1000] == 1) @469
+gosub @544
+grpBuffer('FGTM01G', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @469
+goto @545
+
+  @469
+intA[1000] = cgStatus('FGTM01F')
+goto_unless(intA[1000] == 1) @470
+gosub @544
+grpBuffer('FGTM01F', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @470
+goto @545
+
+  @470
+intA[1000] = cgStatus('FGTM01I')
+goto_unless(intA[1000] == 1) @471
+gosub @544
+grpBuffer('FGTM01I', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @471
+goto @545
+
+  @471
+intA[1000] = cgStatus('FGTM01H')
+goto_unless(intA[1000] == 1) @472
+gosub @544
+grpBuffer('FGTM01H', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @472
+goto @545
+
+  @472
+intA[1000] = cgStatus('FGTM01J')
+goto_unless(intA[1000] == 1) @473
+gosub @544
+grpBuffer('FGTM01J', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @473
+goto @545
+
+  @473
+goto @488
+
+  @474
+intA[1000] = cgStatus('FGTM02')
+goto_unless(intA[1000] == 1) @475
+gosub @544
+grpBuffer('FGTM02', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @475
+goto @545
+
+  @475
+goto @488
+
+  @476
+intA[1000] = cgStatus('FGTM03A')
+goto_unless(intA[1000] == 1) @477
+gosub @544
+grpBuffer('FGTM03A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @477
+goto @545
+
+  @477
+goto @488
+
+  @478
+intA[1000] = cgStatus('FGTM06A')
+goto_unless(intA[1000] == 1) @479
+gosub @544
+grpBuffer('FGTM06A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @479
+goto @545
+
+  @479
+intA[1000] = cgStatus('FGTM06B')
+goto_unless(intA[1000] == 1) @480
+gosub @544
+grpBuffer('FGTM06B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @480
+goto @545
+
+  @480
+intA[1000] = cgStatus('FGTM06C')
+goto_unless(intA[1000] == 1) @481
+gosub @544
+grpBuffer('FGTM06C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @481
+goto @545
+
+  @481
+intA[1000] = cgStatus('FGTM06D')
+goto_unless(intA[1000] == 1) @482
+gosub @544
+grpBuffer('FGTM06D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @482
+goto @545
+
+  @482
+goto @488
+
+  @483
+intA[1000] = cgStatus('FGTM07A')
+goto_unless(intA[1000] == 1) @484
+gosub @544
+grpBuffer('FGTM07A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @484
+goto @545
+
+  @484
+intA[1000] = cgStatus('FGTM07B')
+goto_unless(intA[1000] == 1) @485
+gosub @544
+grpBuffer('FGTM07B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @485
+goto @545
+
+  @485
+goto @488
+
+  @486
+intA[1000] = cgStatus('FGTM08')
+goto_unless(intA[1000] == 1) @487
+gosub @544
+grpBuffer('FGTM08', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @487
+goto @545
+
+  @487
+goto @488
+
+  @488
+goto @543
+
+  @489
+goto_unless(intG[1008] == 3) @533
+goto_case(intF[1211]){ 0: @490; 1: @494; 2: @496; 3: @498; 4: @501; 5: @503; 6: @508; 7: @510; 8: @512; 9: @515; 10: @517; 11: @520; 12: @522; 13: @524; 14: @527; 15: @530; _: @532 }
+
+  @490
+intA[1000] = cgStatus('FGYK01A')
+goto_unless(intA[1000] == 1) @491
+gosub @544
+grpBuffer('FGYK01A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @491
+goto @545
+
+  @491
+intA[1000] = cgStatus('FGYK01B')
+goto_unless(intA[1000] == 1) @492
+gosub @544
+grpBuffer('FGYK01B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @492
+goto @545
+
+  @492
+intA[1000] = cgStatus('FGYK01C')
+goto_unless(intA[1000] == 1) @493
+gosub @544
+grpBuffer('FGYK01C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @493
+goto @545
+
+  @493
+goto @532
+
+  @494
+intA[1000] = cgStatus('FGYK02')
+goto_unless(intA[1000] == 1) @495
+gosub @544
+grpBuffer('FGYK02', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @495
+goto @545
+
+  @495
+goto @532
+
+  @496
+intA[1000] = cgStatus('FGYK03')
+goto_unless(intA[1000] == 1) @497
+gosub @544
+grpBuffer('FGYK03', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @497
+goto @545
+
+  @497
+goto @532
+
+  @498
+intA[1000] = cgStatus('FGSB01A')
+goto_unless(intA[1000] == 1) @499
+gosub @544
+grpBuffer('FGSB01A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @499
+goto @545
+
+  @499
+intA[1000] = cgStatus('FGSB01B')
+goto_unless(intA[1000] == 1) @500
+gosub @544
+grpBuffer('FGSB01B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @500
+goto @545
+
+  @500
+goto @532
+
+  @501
+intA[1000] = cgStatus('FGSB09')
+goto_unless(intA[1000] == 1) @502
+gosub @544
+grpBuffer('FGSB09', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @502
+goto @545
+
+  @502
+goto @532
+
+  @503
+intA[1000] = cgStatus('FGSB07A')
+goto_unless(intA[1000] == 1) @504
+gosub @544
+grpBuffer('FGSB07A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @504
+goto @545
+
+  @504
+intA[1000] = cgStatus('FGSB07C')
+goto_unless(intA[1000] == 1) @505
+gosub @544
+grpBuffer('FGSB07C', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @505
+goto @545
+
+  @505
+intA[1000] = cgStatus('FGSB07B')
+goto_unless(intA[1000] == 1) @506
+gosub @544
+grpBuffer('FGSB07B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @506
+goto @545
+
+  @506
+intA[1000] = cgStatus('FGSB07D')
+goto_unless(intA[1000] == 1) @507
+gosub @544
+grpBuffer('FGSB07D', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @507
+goto @545
+
+  @507
+goto @532
+
+  @508
+intA[1000] = cgStatus('FGSB03')
+goto_unless(intA[1000] == 1) @509
+gosub @544
+grpBuffer('FGSB03', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @509
+goto @545
+
+  @509
+goto @532
+
+  @510
+intA[1000] = cgStatus('FGSB02')
+goto_unless(intA[1000] == 1) @511
+gosub @544
+grpBuffer('FGSB02', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @511
+goto @545
+
+  @511
+goto @532
+
+  @512
+intA[1000] = cgStatus('FGSB12A')
+goto_unless(intA[1000] == 1) @513
+gosub @544
+grpBuffer('FGSB12A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @513
+goto @545
+
+  @513
+intA[1000] = cgStatus('FGSB12B')
+goto_unless(intA[1000] == 1) @514
+gosub @544
+grpBuffer('FGSB12B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @514
+goto @545
+
+  @514
+goto @532
+
+  @515
+intA[1000] = cgStatus('FGSB06')
+goto_unless(intA[1000] == 1) @516
+gosub @544
+grpBuffer('FGSB06', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @516
+goto @545
+
+  @516
+goto @532
+
+  @517
+intA[1000] = cgStatus('FGSB13A')
+goto_unless(intA[1000] == 1) @518
+gosub @544
+grpBuffer('FGSB13A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @518
+goto @545
+
+  @518
+intA[1000] = cgStatus('FGSB13B')
+goto_unless(intA[1000] == 1) @519
+gosub @544
+grpBuffer('FGSB13B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @519
+goto @545
+
+  @519
+goto @532
+
+  @520
+intA[1000] = cgStatus('FGSB10')
+goto_unless(intA[1000] == 1) @521
+gosub @544
+grpBuffer('FGSB10', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @521
+goto @545
+
+  @521
+goto @532
+
+  @522
+intA[1000] = cgStatus('FGSB20')
+goto_unless(intA[1000] == 1) @523
+gosub @544
+grpBuffer('FGSB20', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @523
+goto @545
+
+  @523
+goto @532
+
+  @524
+intA[1000] = cgStatus('FGSB11A')
+goto_unless(intA[1000] == 1) @525
+gosub @544
+grpBuffer('FGSB11A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @525
+goto @545
+
+  @525
+intA[1000] = cgStatus('FGSB11B')
+goto_unless(intA[1000] == 1) @526
+gosub @544
+grpBuffer('FGSB11B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @526
+goto @545
+
+  @526
+goto @532
+
+  @527
+intA[1000] = cgStatus('FGNG18A')
+goto_unless(intA[1000] == 1) @528
+gosub @544
+grpBuffer('FGNG18A', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @528
+goto @545
+
+  @528
+intA[1000] = cgStatus('FGNG18B')
+goto_unless(intA[1000] == 1) @529
+gosub @544
+grpBuffer('FGNG18B', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @529
+goto @545
+
+  @529
+goto @532
+
+  @530
+intA[1000] = cgStatus('FGNG19')
+goto_unless(intA[1000] == 1) @531
+gosub @544
+grpBuffer('FGNG19', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @531
+goto @545
+
+  @531
+goto @532
+
+  @532
+goto @543
+
+  @533
+goto_unless(intG[1008] == 4) @543
+goto_case(intF[1211]){ 0: @534; 1: @536; 2: @538; 3: @540; _: @542 }
+
+  @534
+intA[1000] = cgStatus('ED2_01')
+goto_unless(intA[1000] == 1) @535
+gosub @544
+grpBuffer('ED2_01', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @535
+goto @545
+
+  @535
+goto @542
+
+  @536
+intA[1000] = cgStatus('ED2_02')
+goto_unless(intA[1000] == 1) @537
+gosub @544
+grpBuffer('ED2_02', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @537
+goto @545
+
+  @537
+goto @542
+
+  @538
+intA[1000] = cgStatus('ED4_01')
+goto_unless(intA[1000] == 1) @539
+gosub @544
+grpBuffer('ED4_01', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @539
+goto @545
+
+  @539
+goto @542
+
+  @540
+intA[1000] = cgStatus('ED4_02')
+goto_unless(intA[1000] == 1) @541
+gosub @544
+grpBuffer('ED4_02', 1)
+grpOpenBg('?', 0)
+intA[1000] = GetClick(intA[1001], intA[1002])
+goto_unless(intA[1000] == -1) @541
+goto @545
+
+  @541
+goto @542
+
+  @542
+
+  @543
+goto @545
+
+  @544
+objCopyFgToBg(0)
+objCopyFgToBg(1)
+objCopyFgToBg(2)
+objCopyFgToBg(3)
+objCopyFgToBg(4)
+objCopyFgToBg(5)
+objCopyFgToBg(6)
+objCopyFgToBg(7)
+objCopyFgToBg(8)
+objCopyFgToBg(9)
+objCopyFgToBg(10)
+objCopyFgToBg(11)
+objCopyFgToBg(12)
+objCopyFgToBg(13)
+objCopyFgToBg(14)
+objCopyFgToBg(15)
+objCopyFgToBg(20)
+objCopyFgToBg(21)
+objCopyFgToBg(22)
+objCopyFgToBg(23)
+objCopyFgToBg(24)
+objCopyFgToBg(25)
+objCopyFgToBg(26)
+objCopyFgToBg(27)
+objCopyFgToBg(28)
+objCopyFgToBg(29)
+objCopyFgToBg(30)
+objCopyFgToBg(31)
+objCopyFgToBg(32)
+objCopyFgToBg(33)
+objCopyFgToBg(34)
+objCopyFgToBg(35)
+objCopyFgToBg(40)
+objCopyFgToBg(41)
+objCopyFgToBg(42)
+objCopyFgToBg(50)
+objCopyFgToBg(51)
+objCopyFgToBg(52)
+objCopyFgToBg(53)
+objCopyFgToBg(54)
+objCopyFgToBg(60)
+objCopyFgToBg(70)
+objCopyFgToBg(79)
+objBgShow(0, 0)
+objBgShow(1, 0)
+objBgShow(2, 0)
+objBgShow(3, 0)
+objBgShow(4, 0)
+objBgShow(5, 0)
+objBgShow(6, 0)
+objBgShow(7, 0)
+objBgShow(8, 0)
+objBgShow(9, 0)
+objBgShow(10, 0)
+objBgShow(11, 0)
+objBgShow(12, 0)
+objBgShow(13, 0)
+objBgShow(14, 0)
+objBgShow(15, 0)
+objBgShow(20, 0)
+objBgShow(21, 0)
+objBgShow(22, 0)
+objBgShow(23, 0)
+objBgShow(24, 0)
+objBgShow(25, 0)
+objBgShow(26, 0)
+objBgShow(27, 0)
+objBgShow(28, 0)
+objBgShow(29, 0)
+objBgShow(30, 0)
+objBgShow(31, 0)
+objBgShow(32, 0)
+objBgShow(33, 0)
+objBgShow(34, 0)
+objBgShow(35, 0)
+objBgShow(40, 0)
+objBgShow(41, 0)
+objBgShow(42, 0)
+objBgShow(50, 0)
+objBgShow(51, 0)
+objBgShow(52, 0)
+objBgShow(53, 0)
+objBgShow(54, 0)
+objBgShow(60, 0)
+objBgShow(70, 0)
+objBgShow(79, 0)
+ret
+
+  @545
+goto_unless(!intG[1008] || intG[1008] == 1 || intG[1008] == 2 || intG[1008] == 3) @546
+grpBuffer('SCGM00', 1)
+goto @547
+
+  @546
+goto_unless(intG[1008] == 4) @547
+grpBuffer('SCGM01', 1)
+
+  @547
+objCopyFgToBg(0)
+objCopyFgToBg(1)
+objCopyFgToBg(2)
+objCopyFgToBg(3)
+objCopyFgToBg(4)
+objCopyFgToBg(5)
+objCopyFgToBg(6)
+objCopyFgToBg(7)
+objCopyFgToBg(8)
+objCopyFgToBg(9)
+objCopyFgToBg(10)
+objCopyFgToBg(11)
+objCopyFgToBg(12)
+objCopyFgToBg(13)
+objCopyFgToBg(14)
+objCopyFgToBg(15)
+objCopyFgToBg(20)
+objCopyFgToBg(21)
+objCopyFgToBg(22)
+objCopyFgToBg(23)
+objCopyFgToBg(24)
+objCopyFgToBg(25)
+objCopyFgToBg(26)
+objCopyFgToBg(27)
+objCopyFgToBg(28)
+objCopyFgToBg(29)
+objCopyFgToBg(30)
+objCopyFgToBg(31)
+objCopyFgToBg(32)
+objCopyFgToBg(33)
+objCopyFgToBg(34)
+objCopyFgToBg(35)
+objCopyFgToBg(40)
+objCopyFgToBg(41)
+objCopyFgToBg(42)
+objCopyFgToBg(50)
+objCopyFgToBg(51)
+objCopyFgToBg(52)
+objCopyFgToBg(53)
+objCopyFgToBg(54)
+objCopyFgToBg(60)
+objCopyFgToBg(70)
+objCopyFgToBg(79)
+objBgPattNo(0, 0)
+objBgPattNo(1, 0)
+objBgPattNo(2, 0)
+objBgPattNo(3, 0)
+objBgPattNo(4, 0)
+objBgPattNo(5, 0)
+objBgPattNo(6, 0)
+objBgPattNo(7, 0)
+objBgPattNo(8, 0)
+objBgPattNo(9, 0)
+objBgPattNo(10, 0)
+objBgPattNo(11, 0)
+objBgPattNo(12, 0)
+objBgPattNo(13, 0)
+objBgPattNo(14, 0)
+objBgPattNo(15, 0)
+setarray(intA[0], 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78)
+objBgPattNo(20, intA[0 + intA[300]] + intA[200])
+objBgPattNo(21, intA[0 + intA[301]] + intA[201])
+objBgPattNo(22, intA[0 + intA[302]] + intA[202])
+objBgPattNo(23, intA[0 + intA[303]] + intA[203])
+objBgPattNo(24, intA[0 + intA[304]] + intA[204])
+objBgPattNo(25, intA[0 + intA[305]] + intA[205])
+objBgPattNo(26, intA[0 + intA[306]] + intA[206])
+objBgPattNo(27, intA[0 + intA[307]] + intA[207])
+objBgPattNo(28, intA[0 + intA[308]] + intA[208])
+objBgPattNo(29, intA[0 + intA[309]] + intA[209])
+objBgPattNo(30, intA[0 + intA[310]] + intA[210])
+objBgPattNo(31, intA[0 + intA[311]] + intA[211])
+objBgPattNo(32, intA[0 + intA[312]] + intA[212])
+objBgPattNo(33, intA[0 + intA[313]] + intA[213])
+objBgPattNo(34, intA[0 + intA[314]] + intA[214])
+objBgPattNo(35, intA[0 + intA[315]] + intA[215])
+goto_unless(intA[400] < 10) @548
+objBgPattNo(40, 0)
+objBgPattNo(41, 0)
+objBgPattNo(42, intA[400] % 10)
+goto @550
+
+  @548
+goto_unless(intA[400] < 100) @549
+objBgPattNo(40, 0)
+objBgPattNo(41, intA[400] / 10)
+objBgPattNo(42, intA[400] % 10)
+goto @550
+
+  @549
+goto_unless(intA[400] == 100) @550
+objBgPattNo(40, 1)
+objBgPattNo(41, 0)
+objBgPattNo(42, 0)
+
+  @550
+goto_unless(!intG[1008]) @551
+objBgPattNo(50, 1)
+objBgPattNo(51, 0)
+objBgPattNo(52, 0)
+objBgPattNo(53, 0)
+objBgPattNo(54, 0)
+goto @555
+
+  @551
+goto_unless(intG[1008] == 1) @552
+objBgPattNo(50, 0)
+objBgPattNo(51, 1)
+objBgPattNo(52, 0)
+objBgPattNo(53, 0)
+objBgPattNo(54, 0)
+goto @555
+
+  @552
+goto_unless(intG[1008] == 2) @553
+objBgPattNo(50, 0)
+objBgPattNo(51, 0)
+objBgPattNo(52, 1)
+objBgPattNo(53, 0)
+objBgPattNo(54, 0)
+goto @555
+
+  @553
+goto_unless(intG[1008] == 3) @554
+objBgPattNo(50, 0)
+objBgPattNo(51, 0)
+objBgPattNo(52, 0)
+objBgPattNo(53, 1)
+objBgPattNo(54, 0)
+goto @555
+
+  @554
+goto_unless(intG[1008] == 4) @555
+objBgPattNo(50, 0)
+objBgPattNo(51, 0)
+objBgPattNo(52, 0)
+objBgPattNo(53, 0)
+objBgPattNo(54, 1)
+
+  @555
+objBgPattNo(60, 0)
+objBgPattNo(70, 0)
+objBgPattNo(79, 0)
+objBgShow(0, intA[100])
+objBgShow(1, intA[101])
+objBgShow(2, intA[102])
+objBgShow(3, intA[103])
+objBgShow(4, intA[104])
+objBgShow(5, intA[105])
+objBgShow(6, intA[106])
+objBgShow(7, intA[107])
+objBgShow(8, intA[108])
+objBgShow(9, intA[109])
+objBgShow(10, intA[110])
+objBgShow(11, intA[111])
+objBgShow(12, intA[112])
+objBgShow(13, intA[113])
+objBgShow(14, intA[114])
+objBgShow(15, intA[115])
+objBgShow(20, intA[100])
+objBgShow(21, intA[101])
+objBgShow(22, intA[102])
+objBgShow(23, intA[103])
+objBgShow(24, intA[104])
+objBgShow(25, intA[105])
+objBgShow(26, intA[106])
+objBgShow(27, intA[107])
+objBgShow(28, intA[108])
+objBgShow(29, intA[109])
+objBgShow(30, intA[110])
+objBgShow(31, intA[111])
+objBgShow(32, intA[112])
+objBgShow(33, intA[113])
+objBgShow(34, intA[114])
+objBgShow(35, intA[115])
+goto_unless(intA[400] < 10) @556
+objBgShow(40, 0)
+objBgShow(41, 0)
+objBgShow(42, 1)
+goto @558
+
+  @556
+goto_unless(intA[400] < 100) @557
+objBgShow(40, 0)
+objBgShow(41, 1)
+objBgShow(42, 1)
+goto @558
+
+  @557
+goto_unless(intA[400] == 100) @558
+objBgShow(40, 1)
+objBgShow(41, 1)
+objBgShow(42, 1)
+
+  @558
+objBgShow(50, 1)
+objBgShow(51, 1)
+objBgShow(52, 1)
+objBgShow(53, 1)
+objBgShow(54, 1)
+objBgShow(60, 1)
+objBgShow(70, 1)
+objBgShow(79, 1)
+grpOpenBg('?', 0)
+goto @244
+goto @568
+
+  @559
+goto_unless(intF[1211] == 16) @560
+sePlay(13)
+intG[1008] = 0
+goto @181
+goto @568
+
+  @560
+goto_unless(intF[1211] == 17) @561
+sePlay(13)
+intG[1008] = 1
+goto @181
+goto @568
+
+  @561
+goto_unless(intF[1211] == 18) @562
+sePlay(13)
+intG[1008] = 2
+goto @181
+goto @568
+
+  @562
+goto_unless(intF[1211] == 19) @563
+sePlay(13)
+intG[1008] = 3
+goto @181
+goto @568
+
+  @563
+goto_unless(intF[1211] == 20) @564
+sePlay(13)
+intG[1008] = 4
+goto @181
+goto @568
+
+  @564
+goto_unless(intF[1211] == 21) @567
+sePlay(13)
+goto_unless(intA[500] == 1 && !intA[501] && !intA[502]) @565
+goto @566
+
+  @565
+bgmFadeOut(2000)
+
+  @566
+goto @568
+
+  @567
+goto_unless(intF[1211] == 22) @568
+sePlay(13)
+goto @631
+
+  @568
+objPattNo(0, 0)
+objPattNo(1, 0)
+objPattNo(2, 0)
+objPattNo(3, 0)
+objPattNo(4, 0)
+objPattNo(5, 0)
+objPattNo(6, 0)
+objPattNo(7, 0)
+objPattNo(8, 0)
+objPattNo(9, 0)
+objPattNo(10, 0)
+objPattNo(11, 0)
+objPattNo(12, 0)
+objPattNo(13, 0)
+objPattNo(14, 0)
+objPattNo(15, 0)
+setarray(intA[0], 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78)
+objPattNo(20, intA[0 + intA[300]] + intA[200])
+objPattNo(21, intA[0 + intA[301]] + intA[201])
+objPattNo(22, intA[0 + intA[302]] + intA[202])
+objPattNo(23, intA[0 + intA[303]] + intA[203])
+objPattNo(24, intA[0 + intA[304]] + intA[204])
+objPattNo(25, intA[0 + intA[305]] + intA[205])
+objPattNo(26, intA[0 + intA[306]] + intA[206])
+objPattNo(27, intA[0 + intA[307]] + intA[207])
+objPattNo(28, intA[0 + intA[308]] + intA[208])
+objPattNo(29, intA[0 + intA[309]] + intA[209])
+objPattNo(30, intA[0 + intA[310]] + intA[210])
+objPattNo(31, intA[0 + intA[311]] + intA[211])
+objPattNo(32, intA[0 + intA[312]] + intA[212])
+objPattNo(33, intA[0 + intA[313]] + intA[213])
+objPattNo(34, intA[0 + intA[314]] + intA[214])
+objPattNo(35, intA[0 + intA[315]] + intA[215])
+goto_unless(intA[400] < 10) @569
+objPattNo(40, 0)
+objPattNo(41, 0)
+objPattNo(42, intA[400] % 10)
+goto @571
+
+  @569
+goto_unless(intA[400] < 100) @570
+objPattNo(40, 0)
+objPattNo(41, intA[400] / 10)
+objPattNo(42, intA[400] % 10)
+goto @571
+
+  @570
+goto_unless(intA[400] == 100) @571
+objPattNo(40, 1)
+objPattNo(41, 0)
+objPattNo(42, 0)
+
+  @571
+goto_unless(!intG[1008]) @572
+objPattNo(50, 1)
+objPattNo(51, 0)
+objPattNo(52, 0)
+objPattNo(53, 0)
+objPattNo(54, 0)
+goto @576
+
+  @572
+goto_unless(intG[1008] == 1) @573
+objPattNo(50, 0)
+objPattNo(51, 1)
+objPattNo(52, 0)
+objPattNo(53, 0)
+objPattNo(54, 0)
+goto @576
+
+  @573
+goto_unless(intG[1008] == 2) @574
+objPattNo(50, 0)
+objPattNo(51, 0)
+objPattNo(52, 1)
+objPattNo(53, 0)
+objPattNo(54, 0)
+goto @576
+
+  @574
+goto_unless(intG[1008] == 3) @575
+objPattNo(50, 0)
+objPattNo(51, 0)
+objPattNo(52, 0)
+objPattNo(53, 1)
+objPattNo(54, 0)
+goto @576
+
+  @575
+goto_unless(intG[1008] == 4) @576
+objPattNo(50, 0)
+objPattNo(51, 0)
+objPattNo(52, 0)
+objPattNo(53, 0)
+objPattNo(54, 1)
+
+  @576
+objPattNo(60, 0)
+objPattNo(70, 0)
+objPattNo(79, 0)
+FlushClick
+intC[0] = 1000
+InitExFrames({0, 0, 255, intC[0]})
+
+  @577
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @578
+intF[1212] = 1
+FlushClick
+goto @579
+
+  @578
+intF[1212] = 0
+
+  @579
+goto_unless(intF[1212] == 1) @580
+intC[0] = 0
+intC[1] = 255
+
+  @580
+objAlpha(79, intC[1])
+refresh
+goto_unless(!intC[0]) @581
+goto @582
+
+  @581
+goto @577
+
+  @582
+recFill(0, 0, 1280, 960, 0, 255, 255, 255)
+objShow(0, 0)
+objShow(1, 0)
+objShow(2, 0)
+objShow(3, 0)
+objShow(4, 0)
+objShow(5, 0)
+objShow(6, 0)
+objShow(7, 0)
+objShow(8, 0)
+objShow(9, 0)
+objShow(10, 0)
+objShow(11, 0)
+objShow(12, 0)
+objShow(13, 0)
+objShow(14, 0)
+objShow(15, 0)
+objShow(20, 0)
+objShow(21, 0)
+objShow(22, 0)
+objShow(23, 0)
+objShow(24, 0)
+objShow(25, 0)
+objShow(26, 0)
+objShow(27, 0)
+objShow(28, 0)
+objShow(29, 0)
+objShow(30, 0)
+objShow(31, 0)
+objShow(32, 0)
+objShow(33, 0)
+objShow(34, 0)
+objShow(35, 0)
+objShow(40, 0)
+objShow(41, 0)
+objShow(42, 0)
+objShow(50, 0)
+objShow(51, 0)
+objShow(52, 0)
+objShow(53, 0)
+objShow(54, 0)
+objShow(60, 0)
+objShow(70, 0)
+objShow(79, 0)
+objDelete(0, 0)
+objDelete(1, 0)
+objDelete(2, 0)
+objDelete(3, 0)
+objDelete(4, 0)
+objDelete(5, 0)
+objDelete(6, 0)
+objDelete(7, 0)
+objDelete(8, 0)
+objDelete(9, 0)
+objDelete(10, 0)
+objDelete(11, 0)
+objDelete(12, 0)
+objDelete(13, 0)
+objDelete(14, 0)
+objDelete(15, 0)
+objDelete(20, 0)
+objDelete(21, 0)
+objDelete(22, 0)
+objDelete(23, 0)
+objDelete(24, 0)
+objDelete(25, 0)
+objDelete(26, 0)
+objDelete(27, 0)
+objDelete(28, 0)
+objDelete(29, 0)
+objDelete(30, 0)
+objDelete(31, 0)
+objDelete(32, 0)
+objDelete(33, 0)
+objDelete(34, 0)
+objDelete(35, 0)
+objDelete(40, 0)
+objDelete(41, 0)
+objDelete(42, 0)
+objDelete(50, 0)
+objDelete(51, 0)
+objDelete(52, 0)
+objDelete(53, 0)
+objDelete(54, 0)
+objDelete(60, 0)
+objDelete(70, 0)
+objDelete(79, 0)
+intG[1004] = 0
+intG[1005] = 0
+intG[1006] = 2
+DrawAuto
+EnableSyscom
+jump(9032)
+
+  @583
+setrng(intA[100], intA[123], 0)
+goto_unless(!intG[1009]) @608
+goto_unless(intZ[300] == 1) @584
+intA[100] = 1
+
+  @584
+goto_unless(intZ[301] == 1) @585
+intA[101] = 1
+
+  @585
+goto_unless(intZ[302] == 1) @586
+intA[102] = 1
+
+  @586
+goto_unless(intZ[303] == 1) @587
+intA[103] = 1
+
+  @587
+goto_unless(intZ[304] == 1) @588
+intA[104] = 1
+
+  @588
+goto_unless(intZ[305] == 1) @589
+intA[105] = 1
+
+  @589
+goto_unless(intZ[306] == 1) @590
+intA[106] = 1
+
+  @590
+goto_unless(intZ[307] == 1) @591
+intA[107] = 1
+
+  @591
+goto_unless(intZ[308] == 1) @592
+intA[108] = 1
+
+  @592
+goto_unless(intZ[309] == 1) @593
+intA[109] = 1
+
+  @593
+goto_unless(intZ[310] == 1) @594
+intA[110] = 1
+
+  @594
+goto_unless(intZ[311] == 1) @595
+intA[111] = 1
+
+  @595
+goto_unless(intZ[312] == 1) @596
+intA[112] = 1
+
+  @596
+goto_unless(intZ[313] == 1) @597
+intA[113] = 1
+
+  @597
+goto_unless(intZ[314] == 1) @598
+intA[114] = 1
+
+  @598
+goto_unless(intZ[315] == 1) @599
+intA[115] = 1
+
+  @599
+goto_unless(intZ[316] == 1) @600
+intA[116] = 1
+
+  @600
+goto_unless(intZ[317] == 1) @601
+intA[117] = 1
+
+  @601
+goto_unless(intZ[318] == 1) @602
+intA[118] = 1
+
+  @602
+goto_unless(intZ[319] == 1) @603
+intA[119] = 1
+
+  @603
+goto_unless(intZ[320] == 1) @604
+intA[120] = 1
+
+  @604
+goto_unless(intZ[321] == 1) @605
+intA[121] = 1
+
+  @605
+goto_unless(intZ[322] == 1) @606
+intA[122] = 1
+
+  @606
+goto_unless(intZ[323] == 1) @607
+intA[123] = 1
+
+  @607
+goto @630
+
+  @608
+goto_unless(intG[1009] == 1) @630
+goto_unless(intZ[324] == 1) @609
+intA[100] = 1
+
+  @609
+goto_unless(intZ[325] == 1) @610
+intA[101] = 1
+
+  @610
+goto_unless(intZ[326] == 1) @611
+intA[102] = 1
+
+  @611
+goto_unless(intZ[327] == 1) @612
+intA[103] = 1
+
+  @612
+goto_unless(intZ[328] == 1) @613
+intA[104] = 1
+
+  @613
+goto_unless(intZ[329] == 1) @614
+intA[105] = 1
+
+  @614
+goto_unless(intZ[330] == 1) @615
+intA[106] = 1
+
+  @615
+goto_unless(intZ[331] == 1) @616
+intA[107] = 1
+
+  @616
+goto_unless(intZ[332] == 1) @617
+intA[108] = 1
+
+  @617
+goto_unless(intZ[333] == 1) @618
+intA[109] = 1
+
+  @618
+goto_unless(intZ[334] == 1) @619
+intA[110] = 1
+
+  @619
+goto_unless(intZ[335] == 1) @620
+intA[111] = 1
+
+  @620
+goto_unless(intZ[336] == 1) @621
+intA[112] = 1
+
+  @621
+goto_unless(intZ[337] == 1) @622
+intA[113] = 1
+
+  @622
+goto_unless(intZ[338] == 1) @623
+intA[114] = 1
+
+  @623
+goto_unless(intZ[339] == 1) @624
+intA[115] = 1
+
+  @624
+goto_unless(intZ[340] == 1) @625
+intA[116] = 1
+
+  @625
+intA[117] = 0
+intA[118] = 0
+goto_unless(intZ[341] == 1 || intZ[342] == 1 || intZ[343] == 1 || intZ[344] == 1 || intZ[345] == 1) @626
+intA[119] = 1
+
+  @626
+goto_unless(intZ[341] == 1) @627
+intA[120] = 1
+
+  @627
+goto_unless(intZ[342] == 1) @628
+intA[121] = 1
+
+  @628
+goto_unless(intZ[343] == 1 || intZ[344] == 1) @629
+intA[122] = 1
+
+  @629
+goto_unless(intZ[345] == 1) @630
+intA[123] = 1
+
+  @630
+ret
+
+#entrypoint 001 // Z01
+
+intA[500] = 1
+intA[501] = 0
+intA[502] = 0
+intF[1139] = 1
+goto @631
+
+  @631
+HideSyscom
+DrawManual
+title(#res<0001>)
+gosub @583
+goto_unless(intF[1139] == 1) @632
+intF[1139] = 0
+goto @633
+goto @633
+
+  @632
+goto_unless(!intF[1139]) @633
+goto @647
+
+  @633
+goto_unless(!intG[1009]) @634
+grpBuffer('SMUM00', 0)
+goto @635
+
+  @634
+goto_unless(intG[1009] == 1) @635
+grpBuffer('SMUM01', 0)
+
+  @635
+objClear(0)
+objClear(1)
+objClear(2)
+objClear(3)
+objClear(4)
+objClear(5)
+objClear(6)
+objClear(7)
+objClear(8)
+objClear(9)
+objClear(10)
+objClear(11)
+objClear(12)
+objClear(13)
+objClear(14)
+objClear(15)
+objClear(16)
+objClear(17)
+objClear(18)
+objClear(19)
+objClear(20)
+objClear(21)
+objClear(22)
+objClear(23)
+objClear(30)
+objClear(31)
+objClear(40)
+objClear(50)
+objClear(60)
+objClear(70)
+goto_unless(!intG[1009]) @636
+objOfFile(0, 'SMUMA00')
+objOfFile(1, 'SMUMA01')
+objOfFile(2, 'SMUMA02')
+objOfFile(3, 'SMUMA03')
+objOfFile(4, 'SMUMA04')
+objOfFile(5, 'SMUMA05')
+objOfFile(6, 'SMUMA06')
+objOfFile(7, 'SMUMA07')
+objOfFile(8, 'SMUMA08')
+objOfFile(9, 'SMUMA09')
+objOfFile(10, 'SMUMA10')
+objOfFile(11, 'SMUMA11')
+objOfFile(12, 'SMUMA12')
+objOfFile(13, 'SMUMA13')
+objOfFile(14, 'SMUMA14')
+objOfFile(15, 'SMUMA15')
+objOfFile(16, 'SMUMA16')
+objOfFile(17, 'SMUMA17')
+objOfFile(18, 'SMUMA18')
+objOfFile(19, 'SMUMA19')
+objOfFile(20, 'SMUMA20')
+objOfFile(21, 'SMUMA21')
+objOfFile(22, 'SMUMA22')
+objOfFile(23, 'SMUMA23')
+goto @637
+
+  @636
+goto_unless(intG[1009] == 1) @637
+objOfFile(0, 'SMUMB00')
+objOfFile(1, 'SMUMB01')
+objOfFile(2, 'SMUMB02')
+objOfFile(3, 'SMUMB03')
+objOfFile(4, 'SMUMB04')
+objOfFile(5, 'SMUMB05')
+objOfFile(6, 'SMUMB06')
+objOfFile(7, 'SMUMB07')
+objOfFile(8, 'SMUMB08')
+objOfFile(9, 'SMUMB09')
+objOfFile(10, 'SMUMB10')
+objOfFile(11, 'SMUMB11')
+objOfFile(12, 'SMUMB12')
+objOfFile(13, 'SMUMB13')
+objOfFile(14, 'SMUMB14')
+objOfFile(15, 'SMUMB15')
+objOfFile(16, 'SMUMB16')
+objOfFile(19, 'SMUMB19')
+objOfFile(20, 'SMUMB20')
+objOfFile(21, 'SMUMB21')
+objOfFile(22, 'SMUMB22')
+objOfFile(23, 'SMUMB23')
+
+  @637
+objOfFile(30, 'SMUM10')
+objOfFile(31, 'SMUM11')
+objOfFile(40, 'SMUM20')
+objOfFile(50, 'SMUM30')
+objOfFile(60, 'SMUM40')
+objOfFile(70, 'SIRO')
+objMove(0, 114, 116)
+objMove(1, 114, 178)
+objMove(2, 114, 240)
+objMove(3, 114, 302)
+objMove(4, 114, 364)
+objMove(5, 114, 426)
+objMove(6, 114, 488)
+objMove(7, 114, 550)
+objMove(8, 114, 612)
+objMove(9, 114, 674)
+objMove(10, 114, 736)
+objMove(11, 114, 798)
+objMove(12, 668, 116)
+objMove(13, 668, 178)
+objMove(14, 668, 240)
+objMove(15, 668, 302)
+objMove(16, 668, 364)
+objMove(17, 668, 426)
+objMove(18, 668, 488)
+objMove(19, 668, 550)
+objMove(20, 668, 612)
+objMove(21, 668, 674)
+objMove(22, 668, 736)
+objMove(23, 668, 798)
+objMove(30, 850, 908)
+objMove(31, 898, 908)
+objMove(40, 972, 908)
+objMove(50, 1062, 908)
+objMove(60, 1152, 908)
+objMove(70, 0, 0)
+objPattNo(0, 0)
+objPattNo(1, 0)
+objPattNo(2, 0)
+objPattNo(3, 0)
+objPattNo(4, 0)
+objPattNo(5, 0)
+objPattNo(6, 0)
+objPattNo(7, 0)
+objPattNo(8, 0)
+objPattNo(9, 0)
+objPattNo(10, 0)
+objPattNo(11, 0)
+objPattNo(12, 0)
+objPattNo(13, 0)
+objPattNo(14, 0)
+objPattNo(15, 0)
+objPattNo(16, 0)
+objPattNo(17, 0)
+objPattNo(18, 0)
+objPattNo(19, 0)
+objPattNo(20, 0)
+objPattNo(21, 0)
+objPattNo(22, 0)
+objPattNo(23, 0)
+goto_unless(intA[500] == 1) @638
+goto_unless(intA[501] == intG[1009]) @638
+objPattNo(0 + intA[502], 1)
+
+  @638
+goto_unless(!intG[1009]) @639
+objPattNo(30, 1)
+objPattNo(31, 0)
+goto @640
+
+  @639
+goto_unless(intG[1009] == 1) @640
+objPattNo(30, 0)
+objPattNo(31, 1)
+
+  @640
+objPattNo(40, 0)
+objPattNo(50, 0)
+objPattNo(60, 0)
+objPattNo(70, 0)
+objShow(0, intA[100])
+objShow(1, intA[101])
+objShow(2, intA[102])
+objShow(3, intA[103])
+objShow(4, intA[104])
+objShow(5, intA[105])
+objShow(6, intA[106])
+objShow(7, intA[107])
+objShow(8, intA[108])
+objShow(9, intA[109])
+objShow(10, intA[110])
+objShow(11, intA[111])
+objShow(12, intA[112])
+objShow(13, intA[113])
+objShow(14, intA[114])
+objShow(15, intA[115])
+objShow(16, intA[116])
+objShow(17, intA[117])
+objShow(18, intA[118])
+objShow(19, intA[119])
+objShow(20, intA[120])
+objShow(21, intA[121])
+objShow(22, intA[122])
+objShow(23, intA[123])
+objShow(30, 1)
+objShow(31, 1)
+objShow(40, 1)
+objShow(50, 1)
+objShow(60, 1)
+objShow(70, 1)
+FlushClick
+intC[0] = 1000
+InitExFrames({0, 255, 0, intC[0]})
+
+  @641
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @642
+intF[1212] = 1
+FlushClick
+goto @643
+
+  @642
+intF[1212] = 0
+
+  @643
+goto_unless(intF[1212] == 1) @644
+intC[0] = 0
+intC[1] = 0
+
+  @644
+objAlpha(70, intC[1])
+refresh
+goto_unless(!intC[0]) @645
+goto @646
+
+  @645
+goto @641
+
+  @646
+goto @665
+
+  @647
+goto_unless(!intG[1009]) @648
+grpBuffer('SMUM00', 1)
+goto @649
+
+  @648
+goto_unless(intG[1009] == 1) @649
+grpBuffer('SMUM01', 1)
+
+  @649
+objBgClear(0)
+objBgClear(1)
+objBgClear(2)
+objBgClear(3)
+objBgClear(4)
+objBgClear(5)
+objBgClear(6)
+objBgClear(7)
+objBgClear(8)
+objBgClear(9)
+objBgClear(10)
+objBgClear(11)
+objBgClear(12)
+objBgClear(13)
+objBgClear(14)
+objBgClear(15)
+objBgClear(16)
+objBgClear(17)
+objBgClear(18)
+objBgClear(19)
+objBgClear(20)
+objBgClear(21)
+objBgClear(22)
+objBgClear(23)
+objBgClear(30)
+objBgClear(31)
+objBgClear(40)
+objBgClear(50)
+objBgClear(60)
+objBgClear(70)
+goto_unless(!intG[1009]) @650
+objBgOfFile(0, 'SMUMA00')
+objBgOfFile(1, 'SMUMA01')
+objBgOfFile(2, 'SMUMA02')
+objBgOfFile(3, 'SMUMA03')
+objBgOfFile(4, 'SMUMA04')
+objBgOfFile(5, 'SMUMA05')
+objBgOfFile(6, 'SMUMA06')
+objBgOfFile(7, 'SMUMA07')
+objBgOfFile(8, 'SMUMA08')
+objBgOfFile(9, 'SMUMA09')
+objBgOfFile(10, 'SMUMA10')
+objBgOfFile(11, 'SMUMA11')
+objBgOfFile(12, 'SMUMA12')
+objBgOfFile(13, 'SMUMA13')
+objBgOfFile(14, 'SMUMA14')
+objBgOfFile(15, 'SMUMA15')
+objBgOfFile(16, 'SMUMA16')
+objBgOfFile(17, 'SMUMA17')
+objBgOfFile(18, 'SMUMA18')
+objBgOfFile(19, 'SMUMA19')
+objBgOfFile(20, 'SMUMA20')
+objBgOfFile(21, 'SMUMA21')
+objBgOfFile(22, 'SMUMA22')
+objBgOfFile(23, 'SMUMA23')
+goto @651
+
+  @650
+goto_unless(intG[1009] == 1) @651
+objBgOfFile(0, 'SMUMB00')
+objBgOfFile(1, 'SMUMB01')
+objBgOfFile(2, 'SMUMB02')
+objBgOfFile(3, 'SMUMB03')
+objBgOfFile(4, 'SMUMB04')
+objBgOfFile(5, 'SMUMB05')
+objBgOfFile(6, 'SMUMB06')
+objBgOfFile(7, 'SMUMB07')
+objBgOfFile(8, 'SMUMB08')
+objBgOfFile(9, 'SMUMB09')
+objBgOfFile(10, 'SMUMB10')
+objBgOfFile(11, 'SMUMB11')
+objBgOfFile(12, 'SMUMB12')
+objBgOfFile(13, 'SMUMB13')
+objBgOfFile(14, 'SMUMB14')
+objBgOfFile(15, 'SMUMB15')
+objBgOfFile(16, 'SMUMB16')
+objBgOfFile(19, 'SMUMB19')
+objBgOfFile(20, 'SMUMB20')
+objBgOfFile(21, 'SMUMB21')
+objBgOfFile(22, 'SMUMB22')
+objBgOfFile(23, 'SMUMB23')
+
+  @651
+objBgOfFile(30, 'SMUM10')
+objBgOfFile(31, 'SMUM11')
+objBgOfFile(40, 'SMUM20')
+objBgOfFile(50, 'SMUM30')
+objBgOfFile(60, 'SMUM40')
+objBgOfFile(70, 'SIRO')
+objBgMove(0, 114, 116)
+objBgMove(1, 114, 178)
+objBgMove(2, 114, 240)
+objBgMove(3, 114, 302)
+objBgMove(4, 114, 364)
+objBgMove(5, 114, 426)
+objBgMove(6, 114, 488)
+objBgMove(7, 114, 550)
+objBgMove(8, 114, 612)
+objBgMove(9, 114, 674)
+objBgMove(10, 114, 736)
+objBgMove(11, 114, 798)
+objBgMove(12, 668, 116)
+objBgMove(13, 668, 178)
+objBgMove(14, 668, 240)
+objBgMove(15, 668, 302)
+objBgMove(16, 668, 364)
+objBgMove(17, 668, 426)
+objBgMove(18, 668, 488)
+objBgMove(19, 668, 550)
+objBgMove(20, 668, 612)
+objBgMove(21, 668, 674)
+objBgMove(22, 668, 736)
+objBgMove(23, 668, 798)
+objBgMove(30, 850, 908)
+objBgMove(31, 898, 908)
+objBgMove(40, 972, 908)
+objBgMove(50, 1062, 908)
+objBgMove(60, 1152, 908)
+objBgMove(70, 0, 0)
+objBgPattNo(0, 0)
+objBgPattNo(1, 0)
+objBgPattNo(2, 0)
+objBgPattNo(3, 0)
+objBgPattNo(4, 0)
+objBgPattNo(5, 0)
+objBgPattNo(6, 0)
+objBgPattNo(7, 0)
+objBgPattNo(8, 0)
+objBgPattNo(9, 0)
+objBgPattNo(10, 0)
+objBgPattNo(11, 0)
+objBgPattNo(12, 0)
+objBgPattNo(13, 0)
+objBgPattNo(14, 0)
+objBgPattNo(15, 0)
+objBgPattNo(16, 0)
+objBgPattNo(17, 0)
+objBgPattNo(18, 0)
+objBgPattNo(19, 0)
+objBgPattNo(20, 0)
+objBgPattNo(21, 0)
+objBgPattNo(22, 0)
+objBgPattNo(23, 0)
+goto_unless(intA[500] == 1) @652
+goto_unless(intA[501] == intG[1009]) @652
+objBgPattNo(0 + intA[502], 1)
+
+  @652
+goto_unless(!intG[1009]) @653
+objBgPattNo(30, 1)
+objBgPattNo(31, 0)
+goto @654
+
+  @653
+goto_unless(intG[1009] == 1) @654
+objBgPattNo(30, 0)
+objBgPattNo(31, 1)
+
+  @654
+objBgPattNo(40, 0)
+objBgPattNo(50, 0)
+objBgPattNo(60, 0)
+objBgPattNo(70, 0)
+objBgShow(0, intA[100])
+objBgShow(1, intA[101])
+objBgShow(2, intA[102])
+objBgShow(3, intA[103])
+objBgShow(4, intA[104])
+objBgShow(5, intA[105])
+objBgShow(6, intA[106])
+objBgShow(7, intA[107])
+objBgShow(8, intA[108])
+objBgShow(9, intA[109])
+objBgShow(10, intA[110])
+objBgShow(11, intA[111])
+objBgShow(12, intA[112])
+objBgShow(13, intA[113])
+objBgShow(14, intA[114])
+objBgShow(15, intA[115])
+objBgShow(16, intA[116])
+objBgShow(17, intA[117])
+objBgShow(18, intA[118])
+objBgShow(19, intA[119])
+objBgShow(20, intA[120])
+objBgShow(21, intA[121])
+objBgShow(22, intA[122])
+objBgShow(23, intA[123])
+objBgShow(30, 1)
+objBgShow(31, 1)
+objBgShow(40, 1)
+objBgShow(50, 1)
+objBgShow(60, 1)
+objBgShow(70, 1)
+objBgAlpha(70, 0)
+intA[1000] = ScreenMode
+goto_unless(!intA[1000]) @655
+intF[1235] = 1
+goto @656
+
+  @655
+goto_unless(intA[1000] == 1) @656
+intF[1235] = 0
+
+  @656
+intA[1000] = ShowObject1
+goto_unless(!intA[1000]) @657
+intF[1236] = 0
+goto @658
+
+  @657
+goto_unless(intA[1000] == 1) @658
+intF[1236] = 1
+
+  @658
+intA[1000] = SkipAnimations
+goto_unless(!intA[1000]) @659
+intF[1237] = 1
+goto @660
+
+  @659
+goto_unless(intA[1000] == 1) @660
+intF[1237] = 0
+
+  @660
+goto_unless(1 == 1) @661
+SetSkipAnimations(0)
+goto @662
+
+  @661
+goto_unless(!1) @662
+SetSkipAnimations(1)
+
+  @662
+grpOpenBg('?', 0)
+goto_unless(intF[1237] == 1) @663
+SetSkipAnimations(0)
+goto @664
+
+  @663
+goto_unless(!intF[1237]) @664
+SetSkipAnimations(1)
+
+  @664
+goto @665
+
+  @665
+intF[1204] = 999
+intF[1205] = intF[1204]
+intF[1206] = -1
+intF[1207] = 0
+intF[1208] = 0
+intF[1209] = 0
+intF[1210] = 0
+intF[1211] = 0
+setrng_stepped(intE[0], 1, 30, 0)
+FlushClick
+
+  @666
+GetCursorPos(intF[1200], intF[1201], intF[1202], intF[1203])
+intF[1205] = intF[1204]
+intF[1204] = 999
+goto_unless(intF[1204] == 999) @667
+objGetPos(0, intA[1000], intA[1001])
+objGetDims(0, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @667
+goto_unless(intA[100] == 1) @667
+intF[1204] = 0
+
+  @667
+goto_unless(intF[1204] == 999) @668
+objGetPos(1, intA[1000], intA[1001])
+objGetDims(1, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @668
+goto_unless(intA[101] == 1) @668
+intF[1204] = 1
+
+  @668
+goto_unless(intF[1204] == 999) @669
+objGetPos(2, intA[1000], intA[1001])
+objGetDims(2, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @669
+goto_unless(intA[102] == 1) @669
+intF[1204] = 2
+
+  @669
+goto_unless(intF[1204] == 999) @670
+objGetPos(3, intA[1000], intA[1001])
+objGetDims(3, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @670
+goto_unless(intA[103] == 1) @670
+intF[1204] = 3
+
+  @670
+goto_unless(intF[1204] == 999) @671
+objGetPos(4, intA[1000], intA[1001])
+objGetDims(4, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @671
+goto_unless(intA[104] == 1) @671
+intF[1204] = 4
+
+  @671
+goto_unless(intF[1204] == 999) @672
+objGetPos(5, intA[1000], intA[1001])
+objGetDims(5, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @672
+goto_unless(intA[105] == 1) @672
+intF[1204] = 5
+
+  @672
+goto_unless(intF[1204] == 999) @673
+objGetPos(6, intA[1000], intA[1001])
+objGetDims(6, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @673
+goto_unless(intA[106] == 1) @673
+intF[1204] = 6
+
+  @673
+goto_unless(intF[1204] == 999) @674
+objGetPos(7, intA[1000], intA[1001])
+objGetDims(7, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @674
+goto_unless(intA[107] == 1) @674
+intF[1204] = 7
+
+  @674
+goto_unless(intF[1204] == 999) @675
+objGetPos(8, intA[1000], intA[1001])
+objGetDims(8, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @675
+goto_unless(intA[108] == 1) @675
+intF[1204] = 8
+
+  @675
+goto_unless(intF[1204] == 999) @676
+objGetPos(9, intA[1000], intA[1001])
+objGetDims(9, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @676
+goto_unless(intA[109] == 1) @676
+intF[1204] = 9
+
+  @676
+goto_unless(intF[1204] == 999) @677
+objGetPos(10, intA[1000], intA[1001])
+objGetDims(10, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @677
+goto_unless(intA[110] == 1) @677
+intF[1204] = 10
+
+  @677
+goto_unless(intF[1204] == 999) @678
+objGetPos(11, intA[1000], intA[1001])
+objGetDims(11, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @678
+goto_unless(intA[111] == 1) @678
+intF[1204] = 11
+
+  @678
+goto_unless(intF[1204] == 999) @679
+objGetPos(12, intA[1000], intA[1001])
+objGetDims(12, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @679
+goto_unless(intA[112] == 1) @679
+intF[1204] = 12
+
+  @679
+goto_unless(intF[1204] == 999) @680
+objGetPos(13, intA[1000], intA[1001])
+objGetDims(13, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @680
+goto_unless(intA[113] == 1) @680
+intF[1204] = 13
+
+  @680
+goto_unless(intF[1204] == 999) @681
+objGetPos(14, intA[1000], intA[1001])
+objGetDims(14, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @681
+goto_unless(intA[114] == 1) @681
+intF[1204] = 14
+
+  @681
+goto_unless(intF[1204] == 999) @682
+objGetPos(15, intA[1000], intA[1001])
+objGetDims(15, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @682
+goto_unless(intA[115] == 1) @682
+intF[1204] = 15
+
+  @682
+goto_unless(intF[1204] == 999) @683
+objGetPos(16, intA[1000], intA[1001])
+objGetDims(16, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @683
+goto_unless(intA[116] == 1) @683
+intF[1204] = 16
+
+  @683
+goto_unless(intF[1204] == 999) @684
+objGetPos(17, intA[1000], intA[1001])
+objGetDims(17, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @684
+goto_unless(intA[117] == 1) @684
+intF[1204] = 17
+
+  @684
+goto_unless(intF[1204] == 999) @685
+objGetPos(18, intA[1000], intA[1001])
+objGetDims(18, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @685
+goto_unless(intA[118] == 1) @685
+intF[1204] = 18
+
+  @685
+goto_unless(intF[1204] == 999) @686
+objGetPos(19, intA[1000], intA[1001])
+objGetDims(19, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @686
+goto_unless(intA[119] == 1) @686
+goto_unless(!intG[1009]) @686
+intF[1204] = 19
+
+  @686
+goto_unless(intF[1204] == 999) @687
+objGetPos(20, intA[1000], intA[1001])
+objGetDims(20, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @687
+goto_unless(intA[120] == 1) @687
+intF[1204] = 20
+
+  @687
+goto_unless(intF[1204] == 999) @688
+objGetPos(21, intA[1000], intA[1001])
+objGetDims(21, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @688
+goto_unless(intA[121] == 1) @688
+intF[1204] = 21
+
+  @688
+goto_unless(intF[1204] == 999) @689
+objGetPos(22, intA[1000], intA[1001])
+objGetDims(22, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @689
+goto_unless(intA[122] == 1) @689
+intF[1204] = 22
+
+  @689
+goto_unless(intF[1204] == 999) @690
+objGetPos(23, intA[1000], intA[1001])
+objGetDims(23, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @690
+goto_unless(intA[123] == 1) @690
+intF[1204] = 23
+
+  @690
+goto_unless(intF[1204] == 999) @691
+objGetPos(30, intA[1000], intA[1001])
+objGetDims(30, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @691
+goto_unless(intG[1009]) @691
+intF[1204] = 24
+
+  @691
+goto_unless(intF[1204] == 999) @692
+objGetPos(31, intA[1000], intA[1001])
+objGetDims(31, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @692
+goto_unless(intG[1009] != 1) @692
+intF[1204] = 25
+
+  @692
+goto_unless(intF[1204] == 999) @693
+objGetPos(40, intA[1000], intA[1001])
+objGetDims(40, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @693
+intF[1204] = 26
+
+  @693
+goto_unless(intF[1204] == 999) @694
+objGetPos(50, intA[1000], intA[1001])
+objGetDims(50, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @694
+intF[1204] = 27
+
+  @694
+goto_unless(intF[1204] == 999) @695
+objGetPos(60, intA[1000], intA[1001])
+objGetDims(60, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @695
+intF[1204] = 28
+
+  @695
+goto_unless(!intF[1202]) @699
+goto_unless(intF[1204] != 999) @697
+goto_unless(intF[1207] != 2 || intF[1204] != intF[1205]) @696
+sePlay(10)
+
+  @696
+intF[1207] = 2
+goto @698
+
+  @697
+intF[1207] = 0
+
+  @698
+goto @709
+
+  @699
+goto_unless(intF[1202] == 1) @705
+goto_unless(intF[1206] != -1) @703
+goto_unless(intF[1204] == intF[1206] && intF[1204] != 999) @701
+goto_unless(intF[1207] != 3) @700
+sePlay(10)
+
+  @700
+intF[1207] = 3
+goto @702
+
+  @701
+intF[1207] = 0
+
+  @702
+goto @704
+
+  @703
+intF[1207] = 3
+intF[1206] = intF[1204]
+
+  @704
+goto @709
+
+  @705
+goto_unless(intF[1202] == 2) @709
+goto_unless(intF[1206] != -1) @708
+goto_unless(intF[1204] == intF[1206] && intF[1204] != 999) @706
+intF[1207] = 2
+intF[1210] = 1
+goto @707
+
+  @706
+intF[1207] = 0
+
+  @707
+intF[1206] = -1
+
+  @708
+FlushClick
+
+  @709
+setrng_stepped(intE[0], 1, 30, 0)
+goto_unless(intF[1204] != 999) @710
+intE[0 + intF[1204]] = intF[1207]
+
+  @710
+objPattNo(0, intE[0])
+objPattNo(1, intE[1])
+objPattNo(2, intE[2])
+objPattNo(3, intE[3])
+objPattNo(4, intE[4])
+objPattNo(5, intE[5])
+objPattNo(6, intE[6])
+objPattNo(7, intE[7])
+objPattNo(8, intE[8])
+objPattNo(9, intE[9])
+objPattNo(10, intE[10])
+objPattNo(11, intE[11])
+objPattNo(12, intE[12])
+objPattNo(13, intE[13])
+objPattNo(14, intE[14])
+objPattNo(15, intE[15])
+objPattNo(16, intE[16])
+objPattNo(17, intE[17])
+objPattNo(18, intE[18])
+objPattNo(19, intE[19])
+objPattNo(20, intE[20])
+objPattNo(21, intE[21])
+objPattNo(22, intE[22])
+objPattNo(23, intE[23])
+objPattNo(30, intE[24])
+objPattNo(31, intE[25])
+objPattNo(40, intE[26])
+objPattNo(50, intE[27])
+objPattNo(60, intE[28])
+goto_unless(!intG[1009]) @711
+objPattNo(30, 1)
+goto @712
+
+  @711
+goto_unless(intG[1009] == 1) @712
+objPattNo(31, 1)
+
+  @712
+goto_unless(intA[500] == 1) @713
+goto_unless(intA[501] == intG[1009]) @713
+objPattNo(0 + intA[502], 1)
+
+  @713
+refresh
+goto_unless(intF[1210] == 1) @768
+intF[1210] = 0
+intF[1211] = intF[1204]
+goto_unless(0 <= intF[1211] && intF[1211] < 24) @765
+bgmStop
+goto_unless(!intG[1009]) @739
+goto_case(intF[1211]){ 0: @714; 1: @715; 2: @716; 3: @717; 4: @718; 5: @719; 6: @720; 7: @721; 8: @722; 9: @723; 10: @724; 11: @725; 12: @726; 13: @727; 14: @728; 15: @729; 16: @730; 17: @731; 18: @732; 19: @733; 20: @734; 21: @735; 22: @736; 23: @737; _: @738 }
+
+  @714
+bgmLoop('BGM30')
+intZ[300] = 1
+goto @738
+
+  @715
+bgmLoop('BGM26A')
+intZ[301] = 1
+goto @738
+
+  @716
+bgmLoop('BGM26B')
+intZ[302] = 1
+goto @738
+
+  @717
+bgmLoop('BGM01')
+intZ[303] = 1
+goto @738
+
+  @718
+bgmLoop('BGM02A')
+intZ[304] = 1
+goto @738
+
+  @719
+bgmLoop('BGM02C')
+goto @738
+
+  @720
+bgmLoop('BGM03A')
+intZ[306] = 1
+goto @738
+
+  @721
+bgmLoop('BGM05A')
+intZ[307] = 1
+goto @738
+
+  @722
+bgmLoop('BGM05D')
+intZ[308] = 1
+goto @738
+
+  @723
+bgmLoop('BGM04A')
+intZ[309] = 1
+goto @738
+
+  @724
+bgmLoop('BGM06')
+intZ[310] = 1
+goto @738
+
+  @725
+bgmLoop('BGM07B')
+intZ[311] = 1
+goto @738
+
+  @726
+bgmLoop('BGM08C')
+intZ[312] = 1
+goto @738
+
+  @727
+bgmLoop('BGM08B')
+intZ[313] = 1
+goto @738
+
+  @728
+bgmLoop('BGM08A')
+intZ[314] = 1
+goto @738
+
+  @729
+bgmLoop('BGM08D')
+intZ[315] = 1
+goto @738
+
+  @730
+bgmLoop('BGM14')
+intZ[316] = 1
+goto @738
+
+  @731
+bgmLoop('BGM09A')
+intZ[317] = 1
+goto @738
+
+  @732
+bgmLoop('BGM09B')
+intZ[318] = 1
+goto @738
+
+  @733
+bgmLoop('BGM09C')
+intZ[319] = 1
+goto @738
+
+  @734
+bgmLoop('BGM15')
+intZ[320] = 1
+goto @738
+
+  @735
+bgmLoop('BGM10B')
+intZ[321] = 1
+goto @738
+
+  @736
+bgmLoop('BGM10')
+intZ[322] = 1
+goto @738
+
+  @737
+bgmLoop('BGM11')
+intZ[323] = 1
+goto @738
+
+  @738
+goto @764
+
+  @739
+goto_unless(intG[1009] == 1) @764
+goto_case(intF[1211]){ 0: @740; 1: @741; 2: @742; 3: @743; 4: @744; 5: @745; 6: @746; 7: @747; 8: @748; 9: @749; 10: @750; 11: @751; 12: @752; 13: @753; 14: @754; 15: @755; 16: @756; 20: @757; 21: @758; 22: @759; 23: @762; _: @763 }
+
+  @740
+bgmLoop('BGM16A')
+intZ[324] = 1
+goto @763
+
+  @741
+bgmLoop('BGM16C')
+intZ[325] = 1
+goto @763
+
+  @742
+bgmLoop('BGM16B')
+intZ[326] = 1
+goto @763
+
+  @743
+bgmLoop('BGM28')
+intZ[327] = 1
+goto @763
+
+  @744
+bgmLoop('BGM29')
+intZ[328] = 1
+goto @763
+
+  @745
+bgmLoop('BGM18A')
+intZ[329] = 1
+goto @763
+
+  @746
+bgmLoop('BGM18B')
+intZ[330] = 1
+goto @763
+
+  @747
+bgmLoop('BGM13')
+intZ[331] = 1
+goto @763
+
+  @748
+bgmLoop('BGM17A')
+intZ[332] = 1
+goto @763
+
+  @749
+bgmLoop('BGM25B')
+intZ[333] = 1
+goto @763
+
+  @750
+bgmLoop('BGM25A')
+intZ[334] = 1
+goto @763
+
+  @751
+bgmLoop('BGM19')
+intZ[335] = 1
+goto @763
+
+  @752
+bgmLoop('BGM20A')
+intZ[336] = 1
+goto @763
+
+  @753
+bgmLoop('BGM20B')
+intZ[337] = 1
+goto @763
+
+  @754
+bgmLoop('BGM21')
+intZ[338] = 1
+goto @763
+
+  @755
+bgmLoop('BGM23')
+intZ[339] = 1
+goto @763
+
+  @756
+bgmLoop('BGM24')
+intZ[340] = 1
+goto @763
+
+  @757
+bgmLoop('BGM31')
+intZ[341] = 1
+goto @763
+
+  @758
+bgmLoop('BGM33')
+intZ[342] = 1
+goto @763
+
+  @759
+goto_unless(intZ[344] == 1) @760
+bgmLoop('BGM32B')
+intZ[344] = 1
+
+  @760
+goto_unless(!intZ[344]) @761
+bgmLoop('BGM32A')
+intZ[343] = 1
+
+  @761
+goto @763
+
+  @762
+bgmLoop('BGM34')
+intZ[345] = 1
+goto @763
+
+  @763
+
+  @764
+intA[500] = 1
+intA[501] = intG[1009]
+intA[502] = intF[1211]
+FlushClick
+goto @767
+
+  @765
+goto_unless(intF[1211] == 26) @766
+sePlay(13)
+bgmFadeOut(1000)
+intA[500] = 0
+intA[501] = 0
+intA[502] = 0
+FlushClick
+goto @767
+
+  @766
+goto @770
+
+  @767
+goto @769
+
+  @768
+goto_unless(intF[1203] == 2) @769
+intF[1211] = 27
+goto @770
+
+  @769
+goto @666
+
+  @770
+goto_unless(intF[1211] == 24) @771
+sePlay(13)
+intG[1009] = 0
+goto @631
+goto @776
+
+  @771
+goto_unless(intF[1211] == 25) @772
+sePlay(13)
+intG[1009] = 1
+goto @631
+goto @776
+
+  @772
+goto_unless(intF[1211] == 27) @775
+sePlay(13)
+goto_unless(intA[500] == 1 && !intA[501] && !intA[502]) @773
+goto @774
+
+  @773
+bgmFadeOut(2000)
+
+  @774
+goto @776
+
+  @775
+goto_unless(intF[1211] == 28) @776
+sePlay(13)
+goto @181
+
+  @776
+objPattNo(0, 0)
+objPattNo(1, 0)
+objPattNo(2, 0)
+objPattNo(3, 0)
+objPattNo(4, 0)
+objPattNo(5, 0)
+objPattNo(6, 0)
+objPattNo(7, 0)
+objPattNo(8, 0)
+objPattNo(9, 0)
+objPattNo(10, 0)
+objPattNo(11, 0)
+objPattNo(12, 0)
+objPattNo(13, 0)
+objPattNo(14, 0)
+objPattNo(15, 0)
+objPattNo(16, 0)
+objPattNo(17, 0)
+objPattNo(18, 0)
+objPattNo(19, 0)
+objPattNo(20, 0)
+objPattNo(21, 0)
+objPattNo(22, 0)
+objPattNo(23, 0)
+goto_unless(intA[500] == 1) @777
+goto_unless(intA[501] == intG[1009]) @777
+objPattNo(0 + intA[502], 1)
+
+  @777
+goto_unless(!intG[1009]) @778
+objPattNo(30, 1)
+objPattNo(31, 0)
+goto @779
+
+  @778
+goto_unless(intG[1009] == 1) @779
+objPattNo(30, 0)
+objPattNo(31, 1)
+
+  @779
+objPattNo(40, 0)
+objPattNo(50, 0)
+objPattNo(60, 0)
+objPattNo(70, 0)
+FlushClick
+intC[0] = 1000
+InitExFrames({0, 0, 255, intC[0]})
+
+  @780
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @781
+intF[1212] = 1
+FlushClick
+goto @782
+
+  @781
+intF[1212] = 0
+
+  @782
+goto_unless(intF[1212] == 1) @783
+intC[0] = 0
+intC[1] = 255
+
+  @783
+objAlpha(70, intC[1])
+refresh
+goto_unless(!intC[0]) @784
+goto @785
+
+  @784
+goto @780
+
+  @785
+recFill(0, 0, 1280, 960, 0, 255, 255, 255)
+objShow(0, 0)
+objShow(1, 0)
+objShow(2, 0)
+objShow(3, 0)
+objShow(4, 0)
+objShow(5, 0)
+objShow(6, 0)
+objShow(7, 0)
+objShow(8, 0)
+objShow(9, 0)
+objShow(10, 0)
+objShow(11, 0)
+objShow(12, 0)
+objShow(13, 0)
+objShow(14, 0)
+objShow(15, 0)
+objShow(16, 0)
+objShow(17, 0)
+objShow(18, 0)
+objShow(19, 0)
+objShow(20, 0)
+objShow(21, 0)
+objShow(22, 0)
+objShow(23, 0)
+objShow(30, 0)
+objShow(31, 0)
+objShow(40, 0)
+objShow(50, 0)
+objShow(60, 0)
+objShow(70, 0)
+objDelete(0)
+objDelete(1)
+objDelete(2)
+objDelete(3)
+objDelete(4)
+objDelete(5)
+objDelete(6)
+objDelete(7)
+objDelete(8)
+objDelete(9)
+objDelete(10)
+objDelete(11)
+objDelete(12)
+objDelete(13)
+objDelete(14)
+objDelete(15)
+objDelete(16)
+objDelete(17)
+objDelete(18)
+objDelete(19)
+objDelete(20)
+objDelete(21)
+objDelete(22)
+objDelete(23)
+objDelete(30)
+objDelete(31)
+objDelete(40)
+objDelete(50)
+objDelete(60)
+objDelete(70)
+intG[1004] = 0
+intG[1005] = 0
+intG[1006] = 2
+DrawAuto
+EnableSyscom
+jump(9032)
+eof
+halt

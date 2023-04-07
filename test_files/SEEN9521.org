@@ -1,0 +1,413 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9521.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+intL[10] = intL[0]
+objClear(201)
+OBJFRONTCHILD(201, 19, '?', '?')
+objMove(201, 0, 0)
+objPattNo(201, 0)
+objShow(201, 1)
+OBJFRONTCHILDINITPARAM(201, 0)
+OBJFRONTCHILDLOAD(201, 0, 'MN_AT_BG00')
+OBJFRONTCHILDSET_POS(201, 0, 785, 196)
+OBJFRONTCHILDSET_PATNO(201, 0, 0)
+OBJFRONTCHILDSET_DISP(201, 0, 1)
+OBJFRONTCHILDINITPARAM(201, 1)
+OBJFRONTCHILDNUMBER(201, 1, 'MN_AT_NUM00')
+OBJFRONTCHILDSET_POS(201, 1, 863, 392)
+OBJFRONTCHILDSET_PATNO(201, 1, 0)
+OBJFRONTCHILDSET_NUMBERPARAM(201, 1, 1, 0, 0, 0, 11)
+OBJFRONTCHILDSET_NUMBER(201, 1, 0)
+OBJFRONTCHILDSET_DISP(201, 1, 1)
+OBJFRONTCHILDINITPARAM(201, 2)
+OBJFRONTCHILDNUMBER(201, 2, 'MN_AT_NUM00')
+OBJFRONTCHILDSET_POS(201, 2, 883, 392)
+OBJFRONTCHILDSET_PATNO(201, 2, 0)
+OBJFRONTCHILDSET_NUMBERPARAM(201, 2, 2, 1, 0, 0, 11)
+OBJFRONTCHILDSET_NUMBER(201, 2, 0)
+OBJFRONTCHILDSET_DISP(201, 2, 1)
+OBJFRONTCHILDINITPARAM(201, 3)
+OBJFRONTCHILDNUMBER(201, 3, 'MN_AT_NUM00')
+OBJFRONTCHILDSET_POS(201, 3, 863, 467)
+OBJFRONTCHILDSET_PATNO(201, 3, 0)
+OBJFRONTCHILDSET_NUMBERPARAM(201, 3, 2, 0, 0, 0, 11)
+OBJFRONTCHILDSET_NUMBER(201, 3, 0)
+OBJFRONTCHILDSET_DISP(201, 3, 1)
+OBJFRONTCHILDINITPARAM(201, 4)
+OBJFRONTCHILDNUMBER(201, 4, 'MN_AT_NUM00')
+OBJFRONTCHILDSET_POS(201, 4, 898, 467)
+OBJFRONTCHILDSET_PATNO(201, 4, 0)
+OBJFRONTCHILDSET_NUMBERPARAM(201, 4, 1, 0, 0, 0, 11)
+OBJFRONTCHILDSET_NUMBER(201, 4, 0)
+OBJFRONTCHILDSET_DISP(201, 4, 1)
+OBJFRONTCHILDINITPARAM(201, 5)
+OBJFRONTCHILDNUMBER(201, 5, 'MN_AT_NUM00')
+OBJFRONTCHILDSET_POS(201, 5, 1061, 514)
+OBJFRONTCHILDSET_PATNO(201, 5, 0)
+OBJFRONTCHILDSET_NUMBERPARAM(201, 5, 2, 0, 0, 0, 11)
+OBJFRONTCHILDSET_NUMBER(201, 5, 0)
+OBJFRONTCHILDSET_DISP(201, 5, 1)
+OBJFRONTCHILDINITPARAM(201, 6)
+OBJFRONTCHILDNUMBER(201, 6, 'MN_AT_NUM00')
+OBJFRONTCHILDSET_POS(201, 6, 1096, 514)
+OBJFRONTCHILDSET_PATNO(201, 6, 0)
+OBJFRONTCHILDSET_NUMBERPARAM(201, 6, 2, 1, 0, 0, 11)
+OBJFRONTCHILDSET_NUMBER(201, 6, 0)
+OBJFRONTCHILDSET_DISP(201, 6, 1)
+OBJFRONTCHILDSET_NUMBER(201, 1, 0)
+OBJFRONTCHILDSET_NUMBER(201, 2, intF[1228] / 10)
+OBJFRONTCHILDSET_NUMBER(201, 3, intF[1229] / 1000)
+OBJFRONTCHILDSET_NUMBER(201, 4, intF[1229] % 1000 / 100)
+intL[0] = 10 * intF[1228] + intF[1229]
+intL[0] /= 100
+intL[0] *= 100
+OBJFRONTCHILDSET_NUMBER(201, 5, intL[0] / 1000)
+OBJFRONTCHILDSET_NUMBER(201, 6, intL[0] % 1000 / 10)
+OBJFRONTCHILDINITPARAM(201, 7)
+OBJFRONTCHILDLOAD(201, 7, 'MN_AT_SB00')
+OBJFRONTCHILDSET_POS(201, 7, 956, 391)
+OBJFRONTCHILDSET_PATNO(201, 7, 0)
+OBJFRONTCHILDSET_DISP(201, 7, 1)
+OBJFRONTCHILDINITPARAM(201, 8)
+OBJFRONTCHILDLOAD(201, 8, 'MN_AT_SB01')
+OBJFRONTCHILDSET_POS(201, 8, 1096, 391)
+OBJFRONTCHILDSET_PATNO(201, 8, 0)
+OBJFRONTCHILDSET_DISP(201, 8, 1)
+OBJFRONTCHILDINITPARAM(201, 9)
+OBJFRONTCHILDLOAD(201, 9, 'MN_AT_SB03')
+OBJFRONTCHILDSET_POS(201, 9, 976, 391)
+OBJFRONTCHILDSET_PATNO(201, 9, 0)
+OBJFRONTCHILDSET_DISP(201, 9, 1)
+OBJFRONTCHILDINITPARAM(201, 10)
+OBJFRONTCHILDLOAD(201, 10, 'MN_AT_SB03')
+OBJFRONTCHILDSET_POS(201, 10, 976, 391)
+OBJFRONTCHILDSET_PATNO(201, 10, 0)
+OBJFRONTCHILDSET_DISP(201, 10, 1)
+OBJFRONTCHILDINITPARAM(201, 11)
+OBJFRONTCHILDLOAD(201, 11, 'MN_AT_SB02')
+OBJFRONTCHILDSET_POS(201, 11, 976, 391)
+OBJFRONTCHILDSET_PATNO(201, 11, 0)
+OBJFRONTCHILDSET_DISP(201, 11, 1)
+intF[1301] = 400
+intF[1302] = 400 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 200
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 201
+intZ[intF[1301] + 76] = 7
+intZ[intF[1301] + 77] = 8
+intZ[intF[1301] + 78] = 9
+intZ[intF[1301] + 79] = 10
+intZ[intF[1301] + 80] = 11
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 2
+intZ[intF[1301] + 82] = 10
+intZ[intF[1301] + 83] = intF[1228] / 10 * 2
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+OBJFRONTCHILDINITPARAM(201, 12)
+OBJFRONTCHILDLOAD(201, 12, 'MN_AT_SB00')
+OBJFRONTCHILDSET_POS(201, 12, 956, 466)
+OBJFRONTCHILDSET_PATNO(201, 12, 0)
+OBJFRONTCHILDSET_DISP(201, 12, 1)
+OBJFRONTCHILDINITPARAM(201, 13)
+OBJFRONTCHILDLOAD(201, 13, 'MN_AT_SB01')
+OBJFRONTCHILDSET_POS(201, 13, 1096, 466)
+OBJFRONTCHILDSET_PATNO(201, 13, 0)
+OBJFRONTCHILDSET_DISP(201, 13, 1)
+OBJFRONTCHILDINITPARAM(201, 14)
+OBJFRONTCHILDLOAD(201, 14, 'MN_AT_SB03')
+OBJFRONTCHILDSET_POS(201, 14, 976, 466)
+OBJFRONTCHILDSET_PATNO(201, 14, 0)
+OBJFRONTCHILDSET_DISP(201, 14, 1)
+OBJFRONTCHILDINITPARAM(201, 15)
+OBJFRONTCHILDLOAD(201, 15, 'MN_AT_SB03')
+OBJFRONTCHILDSET_POS(201, 15, 976, 466)
+OBJFRONTCHILDSET_PATNO(201, 15, 0)
+OBJFRONTCHILDSET_DISP(201, 15, 1)
+OBJFRONTCHILDINITPARAM(201, 16)
+OBJFRONTCHILDLOAD(201, 16, 'MN_AT_SB02')
+OBJFRONTCHILDSET_POS(201, 16, 976, 466)
+OBJFRONTCHILDSET_PATNO(201, 16, 0)
+OBJFRONTCHILDSET_DISP(201, 16, 1)
+intF[1301] = 500
+intF[1302] = 500 + 0
+farcall(9501, 0)
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 201
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 8
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 800
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 75] = 201
+intZ[intF[1301] + 76] = 12
+intZ[intF[1301] + 77] = 13
+intZ[intF[1301] + 78] = 14
+intZ[intF[1301] + 79] = 15
+intZ[intF[1301] + 80] = 16
+farcall(9501, 2)
+intZ[intF[1301] + 81] = 1
+intZ[intF[1301] + 82] = 10
+intZ[intF[1301] + 83] = intF[1229] / 100
+farcall(9501, 3)
+farcall(9501, 11)
+farcall(9501, 14)
+OBJFRONTCHILDINITPARAM(201, 17)
+OBJFRONTCHILDLOAD(201, 17, 'MN_AT_BTN00')
+OBJFRONTCHILDSET_POS(201, 17, 833, 554)
+OBJFRONTCHILDSET_PATNO(201, 17, 0)
+OBJFRONTCHILDSET_DISP(201, 17, 1)
+OBJFRONTCHILDINITPARAM(201, 18)
+OBJFRONTCHILDLOAD(201, 18, 'MN_AT_BTN01')
+OBJFRONTCHILDSET_POS(201, 18, 1016, 554)
+OBJFRONTCHILDSET_PATNO(201, 18, 0)
+OBJFRONTCHILDSET_DISP(201, 18, 1)
+goto_unless(intL[10] == 1) @8
+goto_unless(intG[1210] == 1) @1
+goto @8
+
+  @1
+goto_unless(!intG[1210]) @8
+FlushClick
+intC[0] = 100
+InitExFrames({0, 0, 10000, intC[0]})
+
+  @2
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @3
+intF[1212] = 1
+FlushClick
+goto @4
+
+  @3
+intF[1212] = 0
+
+  @4
+goto_unless(intF[1212] == 1) @5
+intC[0] = 0
+intC[1] = 10000
+
+  @5
+intL[0] = index_series(intC[1], 0, 0, {0, 10000, 255, 0})
+objAlpha(201, intL[0])
+refresh
+goto_unless(!intC[0]) @6
+goto @7
+
+  @6
+goto @2
+
+  @7
+
+  @8
+rtl_with
+
+#entrypoint 001 // Z01
+
+intL[10] = intL[0]
+goto_unless(intL[10] == 1) @16
+goto_unless(intG[1210] == 1) @9
+goto @16
+
+  @9
+goto_unless(!intG[1210]) @16
+FlushClick
+intC[0] = 100
+InitExFrames({0, 0, 10000, intC[0]})
+
+  @10
+intC[0] = ReadExFrames({0, intC[1]})
+GetCursorPos(intA[1000], intA[1001], intA[1002], intA[1003])
+goto_unless(intA[1002] == 2) @11
+intF[1212] = 1
+FlushClick
+goto @12
+
+  @11
+intF[1212] = 0
+
+  @12
+goto_unless(intF[1212] == 1) @13
+intC[0] = 0
+intC[1] = 10000
+
+  @13
+intL[0] = index_series(intC[1], 0, 255, {0, 10000, 0, 0})
+objAlpha(201, intL[0])
+refresh
+goto_unless(!intC[0]) @14
+goto @15
+
+  @14
+goto @10
+
+  @15
+objAlpha(201, 255)
+
+  @16
+objShow(201, 0)
+objDelete(201)
+rtl_with
+
+#entrypoint 002 // Z02
+
+goto_unless(intF[1204] == 999) @17
+OBJFRONTCHILDGET_POS(201, 17, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(201, 17, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @17
+intF[1204] = 20
+
+  @17
+goto_unless(intF[1204] == 999) @18
+OBJFRONTCHILDGET_POS(201, 18, intA[1000], intA[1001])
+OBJFRONTCHILDGET_SELSIZE(201, 18, intA[1002], intA[1003], 4)
+goto_unless(intA[1000] <= intF[1200] && intF[1200] < intA[1000] + intA[1002] && (intA[1001] <= intF[1201] && intF[1201] < intA[1001] + intA[1003])) @18
+intF[1204] = 21
+
+  @18
+rtl
+
+#entrypoint 003 // Z03
+
+OBJFRONTCHILDSET_PATNO(201, 17, intE[20])
+OBJFRONTCHILDSET_PATNO(201, 18, intE[21])
+OBJFRONTCHILDSET_NUMBER(201, 1, 0)
+OBJFRONTCHILDSET_NUMBER(201, 2, intF[1228] / 10)
+OBJFRONTCHILDSET_NUMBER(201, 3, intF[1229] / 1000)
+OBJFRONTCHILDSET_NUMBER(201, 4, intF[1229] % 1000 / 100)
+intL[0] = 10 * intF[1228] + intF[1229]
+intL[0] /= 100
+intL[0] *= 100
+OBJFRONTCHILDSET_NUMBER(201, 5, intL[0] / 1000)
+OBJFRONTCHILDSET_NUMBER(201, 6, intL[0] % 1000 / 10)
+intF[1301] = 400
+intF[1302] = 400 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1230] = intZ[intF[1301] + 84]
+intF[1301] = 500
+intF[1302] = 500 + 0
+intZ[intF[1301] + 86] = intF[1200]
+intZ[intF[1301] + 87] = intF[1201]
+intZ[intF[1301] + 88] = intF[1202]
+farcall(9501, 12)
+farcall(9501, 14)
+farcall(9501, 4)
+intF[1231] = intZ[intF[1301] + 84]
+intL[0] = intF[1230] * 10 / 2
+goto_unless(intL[0] != intF[1228]) @19
+intF[1228] = intL[0]
+SetAutoCharTime(intF[1228])
+
+  @19
+intL[0] = intF[1231] * 100
+goto_unless(intL[0] != intF[1229]) @20
+intF[1229] = intL[0]
+SetAutoBaseTime(intF[1229])
+
+  @20
+rtl
+
+#entrypoint 004 // Z04
+
+intL[10] = 0
+goto_unless(intF[1211] == 20) @21
+intL[10] = 1
+goto @22
+
+  @21
+goto_unless(intF[1211] == 21) @22
+intL[10] = 1
+
+  @22
+rtl_with(intL[10])
+
+#entrypoint 005 // Z05
+
+intL[10] = 0
+intF[1211] = 22
+intL[10] = 1
+rtl_with(intL[10])
+
+#entrypoint 006 // Z06
+
+intL[10] = 0
+goto_unless(intF[1211] == 20) @25
+sePlay(13)
+intA[1000] = DefAutoMode
+goto_unless(!intA[1000]) @23
+intL[0] = 0
+goto @24
+
+  @23
+goto_unless(intA[1000] == 1) @24
+intL[0] = 1
+
+  @24
+intF[1228] = DefAutoCharTime
+intF[1229] = DefAutoBaseTime
+SetAutoCharTime(intF[1228])
+SetAutoBaseTime(intF[1229])
+FlushClick
+intF[1301] = 400
+intF[1302] = 400 + 0
+intZ[intF[1301] + 85] = intF[1228] / 10 * 2
+farcall(9501, 10)
+intF[1301] = 500
+intF[1302] = 500 + 0
+intZ[intF[1301] + 85] = intF[1229] / 100
+farcall(9501, 10)
+intF[1400] = 1
+intL[10] = 1
+goto @27
+
+  @25
+goto_unless(intF[1211] == 21) @26
+sePlay(13)
+intL[10] = 1
+goto @27
+
+  @26
+goto_unless(intF[1211] == 22) @27
+sePlay(13)
+intL[10] = 1
+
+  @27
+rtl_with(intL[10])
+eof
+halt

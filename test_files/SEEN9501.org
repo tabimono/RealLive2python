@@ -1,0 +1,646 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN9501.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+intF[1300] = intF[1302]
+farcall(9500, 0)
+intZ[intF[1300] + 12] = 0
+farcall(9500, 1)
+intZ[intF[1300] + 13] = 3
+intZ[intF[1300] + 14] = 0
+intZ[intF[1300] + 15] = 0
+intZ[intF[1300] + 16] = 0
+intZ[intF[1300] + 17] = 10
+intZ[intF[1300] + 18] = 0
+intZ[intF[1300] + 19] = 2
+intZ[intF[1300] + 20] = 0
+intZ[intF[1300] + 21] = 1000
+intZ[intF[1300] + 22] = 0
+intZ[intF[1300] + 23] = 200
+farcall(9500, 2)
+intZ[intF[1301] + 26] = 0
+intZ[intF[1301] + 27] = 0
+intZ[intF[1301] + 28] = 0
+intZ[intF[1301] + 29] = 0
+intZ[intF[1301] + 30] = 0
+intZ[intF[1301] + 31] = 0
+intZ[intF[1301] + 32] = 0
+intZ[intF[1301] + 33] = 0
+intZ[intF[1301] + 34] = 0
+intZ[intF[1301] + 35] = 0
+intZ[intF[1301] + 36] = 0
+intZ[intF[1301] + 37] = 0
+intZ[intF[1301] + 38] = 0
+intZ[intF[1301] + 39] = 0
+intZ[intF[1301] + 40] = 0
+intZ[intF[1301] + 41] = 0
+intZ[intF[1301] + 42] = 0
+intZ[intF[1301] + 43] = 0
+intZ[intF[1301] + 44] = 0
+intZ[intF[1301] + 45] = 0
+intZ[intF[1301] + 46] = 0
+intZ[intF[1301] + 47] = 0
+intZ[intF[1301] + 48] = 0
+intZ[intF[1301] + 49] = 0
+intZ[intF[1301] + 50] = 0
+intZ[intF[1301] + 51] = 0
+intZ[intF[1301] + 52] = 0
+intZ[intF[1301] + 53] = 0
+intZ[intF[1301] + 54] = 0
+intZ[intF[1301] + 55] = 0
+intZ[intF[1301] + 56] = 0
+intZ[intF[1301] + 57] = 0
+intZ[intF[1301] + 58] = 0
+intZ[intF[1301] + 59] = 0
+intZ[intF[1301] + 60] = 0
+intZ[intF[1301] + 61] = 0
+intZ[intF[1301] + 62] = 0
+intZ[intF[1301] + 63] = 0
+intZ[intF[1301] + 64] = 0
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = -1
+intZ[intF[1301] + 71] = 0
+intZ[intF[1301] + 72] = 0
+intZ[intF[1301] + 73] = 0
+rtl
+
+#entrypoint 001 // Z01
+
+intZ[intF[1301] + 27] = intZ[intF[1301] + 76]
+intZ[intF[1301] + 28] = intZ[intF[1301] + 77]
+intZ[intF[1301] + 29] = intZ[intF[1301] + 78]
+intZ[intF[1301] + 30] = intZ[intF[1301] + 79]
+intZ[intF[1301] + 31] = intZ[intF[1301] + 80]
+objGetPos(intZ[intF[1301] + 27], intA[0], intA[1])
+objGetDims(intZ[intF[1301] + 27], intA[2], intA[3], 4)
+objGetPos(intZ[intF[1301] + 28], intA[10], intA[11])
+objGetDims(intZ[intF[1301] + 28], intA[12], intA[13], 4)
+objGetPos(intZ[intF[1301] + 29], intA[20], intA[21])
+objGetDims(intZ[intF[1301] + 29], intA[22], intA[23], 4)
+objGetPos(intZ[intF[1301] + 30], intA[30], intA[31])
+objGetDims(intZ[intF[1301] + 30], intA[32], intA[33], 4)
+objGetPos(intZ[intF[1301] + 31], intA[40], intA[41])
+objGetDims(intZ[intF[1301] + 31], intA[42], intA[43], 4)
+intZ[intF[1301] + 32] = 0
+intZ[intF[1301] + 33] = intA[22] - intA[42]
+intZ[intF[1301] + 37] = intA[0]
+intZ[intF[1301] + 38] = intA[1]
+intZ[intF[1301] + 39] = intA[2] + intA[12] + intA[22]
+intZ[intF[1301] + 40] = intA[3]
+intZ[intF[1301] + 41] = intA[0]
+intZ[intF[1301] + 42] = intA[1]
+intZ[intF[1301] + 43] = intA[2]
+intZ[intF[1301] + 44] = intA[3]
+intZ[intF[1301] + 45] = intA[10]
+intZ[intF[1301] + 46] = intA[11]
+intZ[intF[1301] + 47] = intA[12]
+intZ[intF[1301] + 48] = intA[13]
+intZ[intF[1301] + 49] = intA[20]
+intZ[intF[1301] + 50] = intA[21]
+intZ[intF[1301] + 51] = intA[22]
+intZ[intF[1301] + 52] = intA[23]
+intZ[intF[1301] + 53] = intA[20]
+intZ[intF[1301] + 54] = intA[21]
+intZ[intF[1301] + 55] = intA[22]
+intZ[intF[1301] + 56] = intA[23]
+intZ[intF[1301] + 57] = intA[20]
+intZ[intF[1301] + 58] = intA[21]
+intZ[intF[1301] + 59] = intA[22]
+intZ[intF[1301] + 60] = intA[23]
+intZ[intF[1301] + 61] = intA[40]
+intZ[intF[1301] + 62] = intA[41]
+intZ[intF[1301] + 63] = intA[42]
+intZ[intF[1301] + 64] = intA[43]
+farcall(9501, 5)
+rtl
+
+#entrypoint 002 // Z02
+
+intZ[intF[1301] + 26] = intZ[intF[1301] + 75]
+intZ[intF[1301] + 27] = intZ[intF[1301] + 76]
+intZ[intF[1301] + 28] = intZ[intF[1301] + 77]
+intZ[intF[1301] + 29] = intZ[intF[1301] + 78]
+intZ[intF[1301] + 30] = intZ[intF[1301] + 79]
+intZ[intF[1301] + 31] = intZ[intF[1301] + 80]
+OBJFRONTCHILDGET_POS(intZ[intF[1301] + 26], intZ[intF[1301] + 27], intA[0], intA[1])
+OBJFRONTCHILDGET_SELSIZE(intZ[intF[1301] + 26], intZ[intF[1301] + 27], intA[2], intA[3], 4)
+OBJFRONTCHILDGET_POS(intZ[intF[1301] + 26], intZ[intF[1301] + 28], intA[10], intA[11])
+OBJFRONTCHILDGET_SELSIZE(intZ[intF[1301] + 26], intZ[intF[1301] + 28], intA[12], intA[13], 4)
+OBJFRONTCHILDGET_POS(intZ[intF[1301] + 26], intZ[intF[1301] + 29], intA[20], intA[21])
+OBJFRONTCHILDGET_SELSIZE(intZ[intF[1301] + 26], intZ[intF[1301] + 29], intA[22], intA[23], 4)
+OBJFRONTCHILDGET_POS(intZ[intF[1301] + 26], intZ[intF[1301] + 30], intA[30], intA[31])
+OBJFRONTCHILDGET_SELSIZE(intZ[intF[1301] + 26], intZ[intF[1301] + 30], intA[32], intA[33], 4)
+OBJFRONTCHILDGET_POS(intZ[intF[1301] + 26], intZ[intF[1301] + 31], intA[40], intA[41])
+OBJFRONTCHILDGET_SELSIZE(intZ[intF[1301] + 26], intZ[intF[1301] + 31], intA[42], intA[43], 4)
+intZ[intF[1301] + 32] = 0
+intZ[intF[1301] + 33] = intA[22] - intA[42]
+intZ[intF[1301] + 37] = intA[0]
+intZ[intF[1301] + 38] = intA[1]
+intZ[intF[1301] + 39] = intA[2] + intA[12] + intA[22]
+intZ[intF[1301] + 40] = intA[3]
+intZ[intF[1301] + 41] = intA[0]
+intZ[intF[1301] + 42] = intA[1]
+intZ[intF[1301] + 43] = intA[2]
+intZ[intF[1301] + 44] = intA[3]
+intZ[intF[1301] + 45] = intA[10]
+intZ[intF[1301] + 46] = intA[11]
+intZ[intF[1301] + 47] = intA[12]
+intZ[intF[1301] + 48] = intA[13]
+intZ[intF[1301] + 49] = intA[20]
+intZ[intF[1301] + 50] = intA[21]
+intZ[intF[1301] + 51] = intA[22]
+intZ[intF[1301] + 52] = intA[23]
+intZ[intF[1301] + 53] = intA[20]
+intZ[intF[1301] + 54] = intA[21]
+intZ[intF[1301] + 55] = intA[22]
+intZ[intF[1301] + 56] = intA[23]
+intZ[intF[1301] + 57] = intA[20]
+intZ[intF[1301] + 58] = intA[21]
+intZ[intF[1301] + 59] = intA[22]
+intZ[intF[1301] + 60] = intA[23]
+intZ[intF[1301] + 61] = intA[40]
+intZ[intF[1301] + 62] = intA[41]
+intZ[intF[1301] + 63] = intA[42]
+intZ[intF[1301] + 64] = intA[43]
+farcall(9501, 5)
+rtl
+
+#entrypoint 003 // Z03
+
+intZ[intF[1301] + 34] = intZ[intF[1301] + 81]
+intZ[intF[1301] + 35] = intZ[intF[1301] + 82]
+intZ[intF[1301] + 36] = intZ[intF[1301] + 83]
+farcall(9501, 5)
+rtl
+
+#entrypoint 004 // Z04
+
+intZ[intF[1301] + 84] = intZ[intF[1301] + 36]
+rtl
+
+#entrypoint 005 // Z05
+
+intZ[intF[1301] + 61] = intZ[intF[1301] + 49] + intZ[intF[1301] + 36]
+intZ[intF[1301] + 53] = intZ[intF[1301] + 49]
+intZ[intF[1301] + 55] = intZ[intF[1301] + 61] - intZ[intF[1301] + 49]
+intZ[intF[1301] + 57] = intZ[intF[1301] + 61] + intZ[intF[1301] + 63]
+intZ[intF[1301] + 59] = intZ[intF[1301] + 49] + intZ[intF[1301] + 51] - intZ[intF[1301] + 57]
+rtl
+
+#entrypoint 006 // Z06
+
+intZ[intF[1301] + 36] -= intZ[intF[1301] + 34]
+goto_unless(intZ[intF[1301] + 36] < intZ[intF[1301] + 32]) @1
+intZ[intF[1301] + 36] = intZ[intF[1301] + 32]
+
+  @1
+farcall(9501, 5)
+rtl
+
+#entrypoint 007 // Z07
+
+intZ[intF[1301] + 36] += intZ[intF[1301] + 34]
+goto_unless(intZ[intF[1301] + 33] < intZ[intF[1301] + 36]) @2
+intZ[intF[1301] + 36] = intZ[intF[1301] + 33]
+
+  @2
+farcall(9501, 5)
+rtl
+
+#entrypoint 008 // Z08
+
+intZ[intF[1301] + 36] -= intZ[intF[1301] + 35]
+goto_unless(intZ[intF[1301] + 36] < intZ[intF[1301] + 32]) @3
+intZ[intF[1301] + 36] = intZ[intF[1301] + 32]
+
+  @3
+farcall(9501, 5)
+rtl
+
+#entrypoint 009 // Z09
+
+intZ[intF[1301] + 36] += intZ[intF[1301] + 35]
+goto_unless(intZ[intF[1301] + 33] < intZ[intF[1301] + 36]) @4
+intZ[intF[1301] + 36] = intZ[intF[1301] + 33]
+
+  @4
+farcall(9501, 5)
+rtl
+
+#entrypoint 010 // Z10
+
+intZ[intF[1301] + 36] = intZ[intF[1301] + 85]
+goto_unless(intZ[intF[1301] + 36] < intZ[intF[1301] + 32]) @5
+intZ[intF[1301] + 36] = intZ[intF[1301] + 32]
+goto @6
+
+  @5
+goto_unless(intZ[intF[1301] + 33] < intZ[intF[1301] + 36]) @6
+intZ[intF[1301] + 36] = intZ[intF[1301] + 33]
+
+  @6
+farcall(9501, 5)
+rtl
+
+#entrypoint 011 // Z11
+
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = -1
+rtl
+
+#entrypoint 012 // Z12
+
+goto_unless(intZ[intF[1301] + 88] == 2) @7
+intZ[intF[1301] + 88] = 0
+
+  @7
+goto_unless(intZ[intF[1301] + 70] != -1) @49
+goto_unless(intZ[intF[1301] + 88] == 1) @32
+intF[1300] = intF[1302]
+intZ[intF[1300] + 24] = 1
+farcall(9500, 4)
+intZ[intF[1301] + 74] = intZ[intF[1300] + 25]
+goto_unless(intZ[intF[1301] + 70] == 5) @8
+goto @31
+
+  @8
+goto_unless(!intZ[intF[1301] + 70]) @13
+goto_unless(intZ[intF[1301] + 41] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 41] + intZ[intF[1301] + 43] && (intZ[intF[1301] + 42] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 42] + intZ[intF[1301] + 44])) @11
+goto_unless(intZ[intF[1301] + 74] == 1) @9
+farcall(9501, 6)
+
+  @9
+goto_unless(intZ[intF[1301] + 65] != 3) @10
+sePlay(10)
+
+  @10
+intZ[intF[1301] + 65] = 3
+goto @12
+
+  @11
+intZ[intF[1301] + 65] = 0
+
+  @12
+goto @31
+
+  @13
+goto_unless(intZ[intF[1301] + 70] == 1) @18
+goto_unless(intZ[intF[1301] + 45] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 45] + intZ[intF[1301] + 47] && (intZ[intF[1301] + 46] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 46] + intZ[intF[1301] + 48])) @16
+goto_unless(intZ[intF[1301] + 74] == 1) @14
+farcall(9501, 7)
+
+  @14
+goto_unless(intZ[intF[1301] + 66] != 3) @15
+sePlay(10)
+
+  @15
+intZ[intF[1301] + 66] = 3
+goto @17
+
+  @16
+intZ[intF[1301] + 66] = 0
+
+  @17
+goto @31
+
+  @18
+goto_unless(intZ[intF[1301] + 70] == 2) @23
+goto_unless(intZ[intF[1301] + 53] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 53] + intZ[intF[1301] + 55] && (intZ[intF[1301] + 54] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 54] + intZ[intF[1301] + 56])) @21
+goto_unless(intZ[intF[1301] + 74] == 1) @19
+farcall(9501, 8)
+
+  @19
+goto_unless(intZ[intF[1301] + 67] != 3) @20
+sePlay(10)
+
+  @20
+intZ[intF[1301] + 67] = 3
+goto @22
+
+  @21
+intZ[intF[1301] + 67] = 0
+
+  @22
+goto @31
+
+  @23
+goto_unless(intZ[intF[1301] + 70] == 3) @28
+goto_unless(intZ[intF[1301] + 57] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 57] + intZ[intF[1301] + 59] && (intZ[intF[1301] + 58] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 58] + intZ[intF[1301] + 60])) @26
+goto_unless(intZ[intF[1301] + 74] == 1) @24
+farcall(9501, 9)
+
+  @24
+goto_unless(intZ[intF[1301] + 68] != 3) @25
+sePlay(10)
+
+  @25
+intZ[intF[1301] + 68] = 3
+goto @27
+
+  @26
+intZ[intF[1301] + 68] = 0
+
+  @27
+goto @31
+
+  @28
+goto_unless(intZ[intF[1301] + 70] == 4) @31
+goto_unless(intZ[intF[1301] + 37] - intZ[intF[1301] + 40] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 37] - intZ[intF[1301] + 40] + (intZ[intF[1301] + 39] + intZ[intF[1301] + 40] * 2) && (intZ[intF[1301] + 38] - intZ[intF[1301] + 40] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 38] - intZ[intF[1301] + 40] + (intZ[intF[1301] + 40] + intZ[intF[1301] + 40] * 2))) @30
+intZ[intF[1301] + 36] = intZ[intF[1301] + 73] + (intZ[intF[1301] + 86] - intZ[intF[1301] + 71])
+intZ[intF[1301] + 85] = intZ[intF[1301] + 36]
+farcall(9501, 10)
+goto_unless(intZ[intF[1301] + 69] != 3) @29
+sePlay(10)
+
+  @29
+intZ[intF[1301] + 69] = 3
+goto @31
+
+  @30
+intZ[intF[1301] + 36] = intZ[intF[1301] + 73]
+intZ[intF[1301] + 85] = intZ[intF[1301] + 36]
+farcall(9501, 10)
+intZ[intF[1301] + 69] = 0
+
+  @31
+goto @48
+
+  @32
+goto_unless(!intZ[intF[1301] + 88]) @48
+goto_unless(intZ[intF[1301] + 70] == 5) @33
+goto @47
+
+  @33
+goto_unless(!intZ[intF[1301] + 70]) @36
+goto_unless(intZ[intF[1301] + 41] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 41] + intZ[intF[1301] + 43] && (intZ[intF[1301] + 42] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 42] + intZ[intF[1301] + 44])) @34
+intZ[intF[1301] + 65] = 2
+goto @35
+
+  @34
+intZ[intF[1301] + 65] = 0
+
+  @35
+goto @47
+
+  @36
+goto_unless(intZ[intF[1301] + 70] == 1) @39
+goto_unless(intZ[intF[1301] + 45] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 45] + intZ[intF[1301] + 47] && (intZ[intF[1301] + 46] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 46] + intZ[intF[1301] + 48])) @37
+intZ[intF[1301] + 66] = 2
+goto @38
+
+  @37
+intZ[intF[1301] + 66] = 0
+
+  @38
+goto @47
+
+  @39
+goto_unless(intZ[intF[1301] + 70] == 2) @42
+goto_unless(intZ[intF[1301] + 53] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 53] + intZ[intF[1301] + 55] && (intZ[intF[1301] + 54] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 54] + intZ[intF[1301] + 56])) @40
+intZ[intF[1301] + 67] = 2
+goto @41
+
+  @40
+intZ[intF[1301] + 67] = 0
+
+  @41
+goto @47
+
+  @42
+goto_unless(intZ[intF[1301] + 70] == 3) @45
+goto_unless(intZ[intF[1301] + 57] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 57] + intZ[intF[1301] + 59] && (intZ[intF[1301] + 58] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 58] + intZ[intF[1301] + 60])) @43
+intZ[intF[1301] + 68] = 2
+goto @44
+
+  @43
+intZ[intF[1301] + 68] = 0
+
+  @44
+goto @47
+
+  @45
+goto_unless(intZ[intF[1301] + 70] == 4) @47
+goto_unless(intZ[intF[1301] + 61] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 61] + intZ[intF[1301] + 63] && (intZ[intF[1301] + 62] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 62] + intZ[intF[1301] + 64])) @46
+intZ[intF[1301] + 69] = 2
+goto @47
+
+  @46
+intZ[intF[1301] + 69] = 0
+
+  @47
+intZ[intF[1301] + 70] = -1
+
+  @48
+goto @71
+
+  @49
+goto_unless(intZ[intF[1301] + 70] == -1) @71
+goto_unless(intZ[intF[1301] + 88] == 1) @58
+intF[1300] = intF[1302]
+farcall(9500, 3)
+intZ[intF[1300] + 24] = 1
+farcall(9500, 4)
+intZ[intF[1301] + 74] = intZ[intF[1300] + 25]
+goto_unless(intZ[intF[1301] + 37] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 37] + intZ[intF[1301] + 39] && (intZ[intF[1301] + 38] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 38] + intZ[intF[1301] + 40])) @56
+goto_unless(intZ[intF[1301] + 41] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 41] + intZ[intF[1301] + 43] && (intZ[intF[1301] + 42] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 42] + intZ[intF[1301] + 44])) @50
+farcall(9501, 6)
+intZ[intF[1301] + 65] = 3
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = 0
+goto @55
+
+  @50
+goto_unless(intZ[intF[1301] + 45] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 45] + intZ[intF[1301] + 47] && (intZ[intF[1301] + 46] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 46] + intZ[intF[1301] + 48])) @51
+farcall(9501, 7)
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 3
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = 1
+goto @55
+
+  @51
+goto_unless(intZ[intF[1301] + 53] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 53] + intZ[intF[1301] + 55] && (intZ[intF[1301] + 54] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 54] + intZ[intF[1301] + 56])) @52
+farcall(9501, 8)
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 3
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = 2
+goto @55
+
+  @52
+goto_unless(intZ[intF[1301] + 57] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 57] + intZ[intF[1301] + 59] && (intZ[intF[1301] + 58] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 58] + intZ[intF[1301] + 60])) @53
+farcall(9501, 9)
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 3
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = 3
+goto @55
+
+  @53
+goto_unless(intZ[intF[1301] + 61] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 61] + intZ[intF[1301] + 63] && (intZ[intF[1301] + 62] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 62] + intZ[intF[1301] + 64])) @54
+intZ[intF[1301] + 71] = intZ[intF[1301] + 86]
+intZ[intF[1301] + 72] = intZ[intF[1301] + 87]
+intZ[intF[1301] + 73] = intZ[intF[1301] + 36]
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 3
+intZ[intF[1301] + 70] = 4
+goto @55
+
+  @54
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = 5
+
+  @55
+goto @57
+
+  @56
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+intZ[intF[1301] + 70] = 5
+
+  @57
+goto @71
+
+  @58
+goto_unless(!intZ[intF[1301] + 88]) @71
+goto_unless(intZ[intF[1301] + 37] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 37] + intZ[intF[1301] + 39] && (intZ[intF[1301] + 38] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 38] + intZ[intF[1301] + 40])) @70
+goto_unless(intZ[intF[1301] + 41] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 41] + intZ[intF[1301] + 43] && (intZ[intF[1301] + 42] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 42] + intZ[intF[1301] + 44])) @60
+goto_unless(intZ[intF[1301] + 65] != 2) @59
+sePlay(10)
+
+  @59
+intZ[intF[1301] + 65] = 2
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+goto @69
+
+  @60
+goto_unless(intZ[intF[1301] + 45] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 45] + intZ[intF[1301] + 47] && (intZ[intF[1301] + 46] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 46] + intZ[intF[1301] + 48])) @62
+goto_unless(intZ[intF[1301] + 66] != 2) @61
+sePlay(10)
+
+  @61
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 2
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+goto @69
+
+  @62
+goto_unless(intZ[intF[1301] + 53] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 53] + intZ[intF[1301] + 55] && (intZ[intF[1301] + 54] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 54] + intZ[intF[1301] + 56])) @64
+goto_unless(intZ[intF[1301] + 67] != 2) @63
+sePlay(10)
+
+  @63
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 2
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+goto @69
+
+  @64
+goto_unless(intZ[intF[1301] + 57] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 57] + intZ[intF[1301] + 59] && (intZ[intF[1301] + 58] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 58] + intZ[intF[1301] + 60])) @66
+goto_unless(intZ[intF[1301] + 68] != 2) @65
+sePlay(10)
+
+  @65
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 2
+intZ[intF[1301] + 69] = 0
+goto @69
+
+  @66
+goto_unless(intZ[intF[1301] + 61] <= intZ[intF[1301] + 86] && intZ[intF[1301] + 86] < intZ[intF[1301] + 61] + intZ[intF[1301] + 63] && (intZ[intF[1301] + 62] <= intZ[intF[1301] + 87] && intZ[intF[1301] + 87] < intZ[intF[1301] + 62] + intZ[intF[1301] + 64])) @68
+goto_unless(intZ[intF[1301] + 69] != 2) @67
+sePlay(10)
+
+  @67
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 2
+goto @69
+
+  @68
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+
+  @69
+goto @71
+
+  @70
+intZ[intF[1301] + 65] = 0
+intZ[intF[1301] + 66] = 0
+intZ[intF[1301] + 67] = 0
+intZ[intF[1301] + 68] = 0
+intZ[intF[1301] + 69] = 0
+
+  @71
+rtl
+
+#entrypoint 013 // Z13
+
+objMove(intZ[intF[1301] + 31], intZ[intF[1301] + 61], intZ[intF[1301] + 62])
+objPattNo(intZ[intF[1301] + 27], intZ[intF[1301] + 65])
+objPattNo(intZ[intF[1301] + 28], intZ[intF[1301] + 66])
+objPattNo(intZ[intF[1301] + 29], intZ[intF[1301] + 67])
+objPattNo(intZ[intF[1301] + 30], intZ[intF[1301] + 68])
+objPattNo(intZ[intF[1301] + 31], intZ[intF[1301] + 69])
+objDispRect(intZ[intF[1301] + 29], intZ[intF[1301] + 53], intZ[intF[1301] + 54], intZ[intF[1301] + 55], intZ[intF[1301] + 56])
+objDispRect(intZ[intF[1301] + 30], intZ[intF[1301] + 57], intZ[intF[1301] + 58], intZ[intF[1301] + 59], intZ[intF[1301] + 60])
+rtl
+
+#entrypoint 014 // Z14
+
+OBJFRONTCHILDSET_POS(intZ[intF[1301] + 26], intZ[intF[1301] + 31], intZ[intF[1301] + 61], intZ[intF[1301] + 62])
+OBJFRONTCHILDSET_PATNO(intZ[intF[1301] + 26], intZ[intF[1301] + 27], intZ[intF[1301] + 65])
+OBJFRONTCHILDSET_PATNO(intZ[intF[1301] + 26], intZ[intF[1301] + 28], intZ[intF[1301] + 66])
+OBJFRONTCHILDSET_PATNO(intZ[intF[1301] + 26], intZ[intF[1301] + 29], intZ[intF[1301] + 67])
+OBJFRONTCHILDSET_PATNO(intZ[intF[1301] + 26], intZ[intF[1301] + 30], intZ[intF[1301] + 68])
+OBJFRONTCHILDSET_PATNO(intZ[intF[1301] + 26], intZ[intF[1301] + 31], intZ[intF[1301] + 69])
+OBJFRONTCHILDSET_RECTERIA(intZ[intF[1301] + 26], intZ[intF[1301] + 29], intZ[intF[1301] + 53], intZ[intF[1301] + 54], intZ[intF[1301] + 55], intZ[intF[1301] + 56])
+OBJFRONTCHILDSET_RECTERIA(intZ[intF[1301] + 26], intZ[intF[1301] + 30], intZ[intF[1301] + 57], intZ[intF[1301] + 58], intZ[intF[1301] + 59], intZ[intF[1301] + 60])
+rtl
+eof
+halt
